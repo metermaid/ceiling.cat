@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://metermaid.github.io/sitemap.xml 
+Sitemap: http://blog.ritacheng.com/sitemap.xml 
