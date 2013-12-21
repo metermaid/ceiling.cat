@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title><![CDATA[Rita Cheng's Blog]]></title>
-	<link href="http://blog.ritacheng.com/atom.xml" rel="self"/>
-	<link href="http://blog.ritacheng.com/"/>
-	<updated>2013-12-20T17:40:01-08:00</updated>
-	<id>http://blog.ritacheng.com/</id>
+	<link href="http://metermaid.github.io/atom.xml" rel="self"/>
+	<link href="http://metermaid.github.io/"/>
+	<updated>2013-12-20T17:41:40-08:00</updated>
+	<id>http://metermaid.github.io/</id>
 	<author>
 		<name><![CDATA[Rita Cheng]]></name>
 		
@@ -17,9 +17,9 @@
 		
 			<title type="html"><![CDATA[A New Start]]></title>
 		
-		<link href="http://blog.ritacheng.com/blog/2013/12/19/a-new-start/"/>
+		<link href="http://metermaid.github.io/blog/2013/12/19/a-new-start/"/>
 		<updated>2013-12-19T17:00:13-08:00</updated>
-		<id>http://blog.ritacheng.com/blog/2013/12/19/a-new-start</id>
+		<id>http://metermaid.github.io/blog/2013/12/19/a-new-start</id>
 		<content type="html">
 			<![CDATA[
 				
