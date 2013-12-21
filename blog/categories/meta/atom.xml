@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Meta | Rita Cheng's Blog]]></title>
-  <link href="http://metermaid.github.io/blog/categories/meta/atom.xml" rel="self"/>
-  <link href="http://metermaid.github.io/"/>
-  <updated>2013-12-20T16:18:15-08:00</updated>
-  <id>http://metermaid.github.io/</id>
+  <link href="http://blog.ritacheng.com/blog/categories/meta/atom.xml" rel="self"/>
+  <link href="http://blog.ritacheng.com/"/>
+  <updated>2013-12-20T17:40:01-08:00</updated>
+  <id>http://blog.ritacheng.com/</id>
   <author>
     <name><![CDATA[Rita Cheng]]></name>
     
@@ -15,12 +15,14 @@
   
   <entry>
     <title type="html"><![CDATA[A New Start]]></title>
-    <link href="http://metermaid.github.io/blog/2013/12/19/a-new-start/"/>
-    <updated>2013-12-19T07:00:13-08:00</updated>
-    <id>http://metermaid.github.io/blog/2013/12/19/a-new-start</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve decided to try again with this blog, this time with Octopress. We&rsquo;ll see how this goes.</p>
+    <link href="http://blog.ritacheng.com/blog/2013/12/19/a-new-start/"/>
+    <updated>2013-12-19T17:00:13-08:00</updated>
+    <id>http://blog.ritacheng.com/blog/2013/12/19/a-new-start</id>
+    <content type="html"><![CDATA[<p>As part of a discussion on the future of journalism, Jason Kottke, prominent blogger, recently blogged about <a href="http://www.niemanlab.org/2013/12/the-blog-is-dead/">the end of the blog</a>. The supposition is that social media forms are taking over the function of the blog, and that the stream&mdash; reverse chronological ordering at the heart of blogs&mdash; is falling out of prominence compared to algorithmically-determined importance. If this is true, it&rsquo;s a bit of an odd time for me to try and revive my blog (after numerous format changes, this attempt is using Octopress.) However, I think the article&rsquo;s premises are a bit dubious, and now is as good a time as ever (for me) to be blogging.</p>
 
-<p>For some reason, it thinks a file is missing but it&rsquo;s not!</p>
+<p>The article posits that the stream is on the wane, but I disagree: the sites he cites are generally either two-way communication tools (which were never too blog-like, like Snapchat or Facebook) or still presented in chronological order (Pinterest and the other grids, Twitter, and Buzzfeed.) In any case, chronology still plays an important part of the importance algorithms mentioned (Reddit, Facebook). What marks a new trend in blog-like media is not the daeth of the stream, but the rise of personal curation: increasingly the blogs and news we follow are personally curated by our friends (linked on Facebook; reblogged on Tumblr; retweeted or posted on Twitter) or by authorities (Medium, Longreads). Buzzfeed editors personally sort through and regurgitate content found elsewhere. And this content often comes from blogs. The blog isn&rsquo;t dying, but the blogroll and other traditional means of promoting blogs are.</p>
+
+<p>If blogs are dying, then why are there so many simple blog startups? Medium comes from one of the social networks supposedly disrupting blogs, and Ghost raised over $200,000 towards their definitely-a-blog platform. As long as you have thoughts and would like them to be published online, as I do, now is a good a time as ever to start blogging.</p>
 ]]></content>
   </entry>
   
