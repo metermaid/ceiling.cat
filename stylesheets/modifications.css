@@ -1,0 +1,6 @@
+body {
+	background: url('../images/flowers.png') top left no-repeat;
+}
+.wrap {
+	background-color: rgba(255,255,255,0.4);
+}
