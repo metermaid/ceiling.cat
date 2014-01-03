@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Personal, | Rita Cheng's Blog]]></title>
+  <link href="http://blog.ritacheng.com/blog/categories/personal/atom.xml" rel="self"/>
+  <link href="http://blog.ritacheng.com/"/>
+  <updated>2014-01-02T18:19:13-08:00</updated>
+  <id>http://blog.ritacheng.com/</id>
+  <author>
+    <name><![CDATA[Rita Cheng]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Resolutions]]></title>
+    <link href="http://blog.ritacheng.com/blog/2014/01/02/resolutions/"/>
+    <updated>2014-01-02T18:17:50-08:00</updated>
+    <id>http://blog.ritacheng.com/blog/2014/01/02/resolutions</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s that time of year when everybody is making resolutions to improve themselves: the start of a new year, the thinking goes, is auspicious for new beginnings, and plus, everybody else is doing it. I&rsquo;ve been asked a dozen times whether I had any New Year&rsquo;s resolutions, and I usually answer with a poor joke: I resolve not to make New Year&rsquo;s Resolutions. In all honesty, I&rsquo;ll probably just continue with these resolutions I made at arbitrary times of last year:
+1. Drink more water. I think a lot of people know I&rsquo;m in a state of constant dehydration; my chapped lips don&rsquo;t appreciate the snide comments, Certain Former Coworker Who Should Really Mind His Own Business. The thinking is that being properly hydrated will have a cascade of positive health benefits: I&rsquo;ll feel better, have better skin, and have more energy. I&rsquo;m not sure if it&rsquo;s true, and I know I&rsquo;ll miss the one positive benefit of not being hydrated: I never need bathroom breaks and am a champ at watching movie marathons in a single sitting.
+2. I will not go see live shows of bands with four or more members who are <em>only</em> white dudes. Over the past year, I&rsquo;ve been increasingly concerned with ideas of diversity and representation. I may not have very many options in TV and movies, (there are only so many quality shows out there),but I can at least try to encourage more diversity in my listening habits (since black people are at the root of most of the genres we listen to, this shouldn&rsquo;t be as hard.) Moreover, you would think after your third member, you could at least find one person who isn&rsquo;t male or exclusively white. It shouldn&rsquo;t be a difficult proposition.
+3. Exercise more regularly. Journal more regularly. Meditate more regularly. These are pretty usual resolutions that I began using Beeminder for last year.</p>
+
+<p>With that said, I do have one new resolution for the new year:
+4. Stop lying to Beeminder about all of the water drinking/working out/meditating you haven&rsquo;t been doing.
+We&rsquo;ll see how these resolutions work out. Since I started them at an arbitrary time, I can always start them later if I fail. With the advent of the year of the Horse (my astrological sign), if I believed in astrology, the whole year is an auspicious time to start a new resolution.</p>
+]]></content>
+  </entry>
+  
+</feed>
