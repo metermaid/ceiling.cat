@@ -4,7 +4,7 @@
 	<title><![CDATA[Rita Cheng's Blog]]></title>
 	<link href="http://blog.ritacheng.com/atom.xml" rel="self"/>
 	<link href="http://blog.ritacheng.com/"/>
-	<updated>2014-01-02T18:27:16-08:00</updated>
+	<updated>2014-01-06T16:28:36-08:00</updated>
 	<id>http://blog.ritacheng.com/</id>
 	<author>
 		<name><![CDATA[Rita Cheng]]></name>
@@ -12,6 +12,48 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[App Ideas]]></title>
+		
+		<link href="http://blog.ritacheng.com/blog/2014/01/06/app-ideas/"/>
+		<updated>2014-01-06T16:26:31-08:00</updated>
+		<id>http://blog.ritacheng.com/blog/2014/01/06/app-ideas</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>I&rsquo;m kind of a dreamer sometimes. As many people do, I come up with ideas for programs and applications that I think would be useful and wish existed&mdash; sometimes I go farther and plan them. I have the technical background to really know which ideas are viable or not. Unfortunately, there&rsquo;s only so many hours in a day. I don&rsquo;t have time to create every project that I dream up, and I usually just record them in a &ldquo;projects&rdquo; list, and forget them entirely until reviewing them later: &ldquo;I wish that existed.&rdquo; I used to joke that I&rsquo;d be afraid of someone &ldquo;Social Networking&rdquo; me (as in the Sorkin movie, not sharing on Twitter) but that&rsquo;s at all realistic or reasonable. I usually just wish these projects existed. Most of these ideas aren&rsquo;t profitable anyways!</p>
+
+<p>Instead of leaving these projects in a list to collect dust, I&rsquo;ve decided to start publishing some of them in a series of blog posts. Perhaps, in a very unlikely case, someone will make one of these apps. Perhaps they already exist, and I can be alerted to them. Perhaps they&rsquo;ll just collect dust publicly now. Either way, I think it&rsquo;d be good for my projects list to be cleared out.</p>
+
+<p>Here are some small projects that might be good for a student or a weekend:</p>
+
+<h3>Group Splitter</h3>
+
+<p>This would be a tool for teachers, TAs, or other facilitators to help them split up classes or groups into equitable smaller groups. When left to their own devices, people will likely just stick to groups of their pre-existing friends, making unfair groups (that is, higher performing students tend to stick together; as do lower performing) and potentially creating outcasts and social anxious situations. However, randomly forming groups can be a bad idea as well: groups can still be tremendously unbalanced, and gender issues may come up (if boys heavily outweigh girls in a group, the girls are far less likely to speak up or take leadership roles.) Theoretically, there should be algorithmic ways to determine fairer groups, and this tool would be an attempt at that.</p>
+
+<p>One would input a spreadsheet containing names, grades, gender or any other variable you think would be important, potentially, as well as what sizes of groups you would prefer. Then the system will sort the people into groups that either maximize diversity or aim for balance (in the case of gender) for all variables. One could do this as many times as they need (for instance, for changing groups midway a semester.)</p>
+
+<h2>Best X in the City</h2>
+
+<p>After living in Taiwan for over a month, I became addicted to eating these soup dumplings called xiao long bao. When I got back, I was determined to continue my addiction, but found that most restaurants had terrible xiao long bao: the wrapper would be too thick, the meat too little, or the soup would explode all over.</p>
+
+<p>Although Yelp, Urbanspoon, and Foursquare are great for answering the question, &ldquo;where should I eat X in this city?&rdquo; they fall short of naming champions and determining &ldquo;where is it better to have X?&rdquo; (X, in this case, standing in for, different cuisines, different dishes, or even different stores.) At best, you may have a reviewer praising a restaurant and crowning it in their review, but that may be an empty gesture: who knows whether they&rsquo;ve tried any other restaurants of this type!</p>
+
+<p>One could make an app designed to determine the answer to these questions. For each category, a person could add restaurants, select the ones they&rsquo;ve tried, and then rank them in a ballot. The app can then weigh each ballot (if you haven&rsquo;t tried as much, do you really know?) and determine, once and for all, what is the best X in the city.</p>
+
+<h2>Ex Avoiding</h2>
+
+<p>This one is a little creepier, but it assumes that the person in question has already given you permission to view this information and that you&rsquo;d want to avoid this person rather than stalk them&mdash; if you&rsquo;re stalking them, I hope they&rsquo;d remove that permission anyways!</p>
+
+<p>After a bad breakup, one might not want to see their ex for at least a little while. Painful feelings come up, or conflict may arise. It might be best to try and avoid them altogether. For this app, you would use the Facebook and Foursquare APIs and compile where they may be now (&ldquo;They checked in at the corner coffee shop! Best to avoid it.&rdquo;) or events they&rsquo;ve marked as attending. (&ldquo;I don&rsquo;t want to go to Mark&rsquo;s party if he&rsquo;ll be there.&rdquo;) It&rsquo;s not necessarily the adult thing to do, but sometimes, being an adult hurts and doesn&rsquo;t need to happen immediately. Once you&rsquo;ve healed, you may not need the app anymore.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -38,7 +80,7 @@
 <p>With that said, I do have one new resolution for the new year:</p>
 
 <ol>
-<li>Stop lying to Beeminder about all of the water drinking/working out/meditating you haven&rsquo;t been doing.</li>
+<li>Stop lying to Beeminder about all of the water drinking/working out/meditating I haven&rsquo;t been doing.</li>
 </ol>
 
 
