@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Fomo | Rita Cheng's Blog]]></title>
+  <link href="http://blog.ritacheng.com/blog/categories/fomo/atom.xml" rel="self"/>
+  <link href="http://blog.ritacheng.com/"/>
+  <updated>2014-01-18T05:30:29-08:00</updated>
+  <id>http://blog.ritacheng.com/</id>
+  <author>
+    <name><![CDATA[Rita Cheng]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Fear of Missing Out]]></title>
+    <link href="http://blog.ritacheng.com/blog/2014/01/18/fear-of-missing-out/"/>
+    <updated>2014-01-18T05:29:36-08:00</updated>
+    <id>http://blog.ritacheng.com/blog/2014/01/18/fear-of-missing-out</id>
+    <content type="html"><![CDATA[<p>After the ascendency of YOLO, selfie, and other neologisms, newspaper lifestyle sections are trumpeting the rise of FOMO, the fear of missing out. At once, these articles seek to assuage the reader&mdash; there is nothing to be afraid of&mdash; but, unconsciously, they sound the alarm: you likely hadn&rsquo;t heard of FOMO, and perhaps everyone worrying about it has just cause for concern. Most of the time, these articles have the same prescriptions for those with FOMO: recognize that the lifestyle you&rsquo;re missing is an illusion, block the distractions, and learn to let go. These sound good on paper, but I can&rsquo;t quite put these in practice for my pernicious case of FOMO.</p>
+
+<p>To clarify, I don&rsquo;t have general FOMO: I&rsquo;m indifferent to the lifestyles usually envied by FOMO sufferers, as I am reasonably well travelled and dislike many parties. I do, however, suffer from a programming specific FOMO: following Hacker News has left me with a great deal of regret over all the programming languages I don&rsquo;t know, all the frameworks I haven&rsquo;t worked with, and all of the entrepreneurial skills I have yet to put into action. My bookmarks list is crowded with tutorials that I haven&rsquo;t done; my desk covered with books I have yet to read. It&rsquo;s harder to let go with this sort of apprehension because all of it can still be done. You don&rsquo;t have to miss out.</p>
+
+<p>Perhaps becoming an extremely well-versed programmer is an illusion. I doubt many people are truly proficient in all of the latest trending programming languages (I doubt many know all of the trending javascript frameworks all that well!) I don&rsquo;t quite take this to heart though&mdash; I still believe that there must be some fraction of a percentage of programmers that does know them reasonably well, and I aspire to be one of them. So if I won&rsquo;t recognize this illusion, and since I patently refuse to stop following Hacker News (likely to my great personal detriment) I need to start learning to let go.</p>
+
+<p>I&rsquo;m starting simply this year. Instead of trying to learn all of these languages and frameworks on a surface level, I&rsquo;ll be focusing on relearning Javascript, without the overhead of frameworks. I&rsquo;ve never done this before: in the past, all of the Javascript I knew was learned on an ad-hoc basis. From here, I may try to learn a framework or two, but I know that if I don&rsquo;t, I&rsquo;m not really missing out.</p>
+]]></content>
+  </entry>
+  
+</feed>
