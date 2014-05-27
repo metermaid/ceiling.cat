@@ -53,6 +53,63 @@
 		<!-- START OF _includes/article.html -->
 <article>
 	<header>
+		<h1><a href="/blog/2014/05/27/api-planning/">API Planning</a></h1>
+		<time>27 May 2014</time>
+	</header>
+		<div class="content">
+			<p>Over the last little while, I&rsquo;ve grown increasingly disillusioned with Agile developments<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. That&rsquo;s not to say I advocate using Waterfall or even any problems I have with the core tenets of the Agile manifesto; it just seems that any company that is purportedly Agile is either using it as a cover for an ad-hoc structureless process or is steeped in so many Agile tools and processes that it is hardly Agile at all anymore.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> Moreover, there is hardly any process for useful planning activities like UX Research (if it is done at all.) It&rsquo;s no wonder so many APIs seem haphazardly planned and missing core features.</p>
+
+<p>Nowadays, I tend to advocate psuedo-Agile development with a few formal planning activities. One of these activities I&rsquo;ve been exploring these last few days is API definition. In the past, my APIs have been created in a very ad-hoc way: methods would be created as I went, with no prior thought. By the time documentation is written, it becomes clear that many decisions are made for convenience (I admit that I am often guilty of conflating my RESTful routes; GET is such a convenience sometimes. I have been getting better about this, though.)</p>
+
+<p>Over the last little while, though, API design tools have grown in increased prominence. <a href="http://www.apiary.com">Apiary</a> has raised millions in venture capital, and recently, I volunteered at <a href="http://www.polyglotconf.com">PolyglotConf</a> where a small session advocated the use of <a href="http://www.raml.com">RAML</a>. I spent the remainder of the weekend checking these tools (and Swagger as well) out, and it was an eye opening experience.</p>
+
+<p>Even if you&rsquo;re trying to be as lean and Agile as possible, here are a few good reasons to try out an API design tool:
+1. Design. What sets RAML and API Blueprint (from Apiary) apart from prior API design tools are their top-down approaches to API design&mdash; it can be so much easier to analyze and design an API when you&rsquo;re thinking about the bigger picture of your application. It makes it easy to see re-occurring patterns and plan for code reuse, but it can also be extremely lightweight. Just hashing out a sketch of an API in RAML made me realize that I could eliminate a few methods and planned functionality, saving myself future work.
+2. Collaboration. Having a common API design language helps to facilitate working with others on an API, particularly if you&rsquo;re in a distributed team. It&rsquo;s extremely useful for when your API changes: the text format makes it easy to track ownership of changes, and you can also programmatically update your clients about changes to your API.
+3. Tooling. Although Swagger is a little more oriented towards being read by machines, any of these languages can be used to standardize automated tools. Can you imagine generating an AngularJS client based on a RAML document? What a dream.
+4. Generating API documentation. This was how Apiary was originally sold to me, and why I wasn&rsquo;t interested in it at the beginning&mdash; I didn&rsquo;t see too much of a reason not to just roll your own, particularly if you have other documentation systems in place. It can be pretty handy, though. It can be generated for different audiences: besides developers, you might find it handy to communicate the API to business stakeholders and marketing as well.</p>
+
+<p>I&rsquo;m sure I&rsquo;m missing plenty of reasons to consider formal API design, but even these four reasons are enough for me to discourage on-the-fly API creation. Even an activity as simple as listing out your routes before development can have positive benefits for your application.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Even Dave Thomas, one of the original Agile signatories, proclaimed that <a href="http://www.halfarsedagilemanifesto.org/">Agile was Dead</a>. I only partially agree, and I don&rsquo;t understand why wouldn&rsquo;t you have a conference on ballet dancing? Ballet is really hard; it&rsquo;s not just an art.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>At least this is the impression I&rsquo;m getting from off the record conversations from other developers.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+  
+		
+			Tagged under
+		
+    <a class='category' href='/blog/categories/api/'>api</a>, <a class='category' href='/blog/categories/development/'>development</a>, <a class='category' href='/blog/categories/planning/'>planning</a>
+	
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+	
+		
+		<!-- START OF _includes/article.html -->
+<article>
+	<header>
 		<h1><a href="/blog/2014/04/20/password-auditing/">Password Auditing</a></h1>
 		<time>20 April 2014</time>
 	</header>
@@ -491,57 +548,6 @@
 			Tagged under
 		
     <a class='category' href='/blog/categories/apps/'>apps</a>, <a class='category' href='/blog/categories/ideas/'>ideas</a>
-	
-
-
-	
-	
-	</footer>
-	
-</article>
-<!-- END OF _includes/article.html -->
-
-	
-		
-		<!-- START OF _includes/article.html -->
-<article>
-	<header>
-		<h1><a href="/blog/2014/01/02/resolutions/">Resolutions</a></h1>
-		<time>02 January 2014</time>
-	</header>
-		<div class="content">
-			<p>It&rsquo;s that time of year when everybody is making resolutions to improve themselves: the start of a new year, the thinking goes, is auspicious for new beginnings, and plus, everybody else is doing it. I&rsquo;ve been asked a dozen times whether I had any New Year&rsquo;s resolutions, and I usually answer with a poor joke: I resolve not to make New Year&rsquo;s Resolutions. In all honesty, I&rsquo;ll probably just continue with these resolutions I made at arbitrary times of last year:</p>
-
-<ol>
-<li>Drink more water. I think a lot of people know I&rsquo;m in a state of constant dehydration; my chapped lips don&rsquo;t appreciate the snide comments, Certain Former Coworker Who Should Really Mind His Own Business. The thinking is that being properly hydrated will have a cascade of positive health benefits: I&rsquo;ll feel better, have better skin, and have more energy. I&rsquo;m not sure if it&rsquo;s true, and I know I&rsquo;ll miss the one positive benefit of not being hydrated: I never need bathroom breaks and am a champ at watching movie marathons in a single sitting.</li>
-<li>I will not go see live shows of bands with four or more members who are <em>only</em> white dudes. Over the past year, I&rsquo;ve been increasingly concerned with ideas of diversity and representation. I may not have very many options in TV and movies, (there are only so many quality shows out there),but I can at least try to encourage more diversity in my listening habits (since black people are at the root of most of the genres we listen to, this shouldn&rsquo;t be as hard.) Moreover, you would think after your third member, you could at least find one person who isn&rsquo;t male or exclusively white. It shouldn&rsquo;t be a difficult proposition.</li>
-<li>Exercise more regularly. Journal more regularly. Meditate more regularly. These are pretty usual resolutions that I began using Beeminder for last year.</li>
-</ol>
-
-
-<p>With that said, I do have one new resolution for the new year:</p>
-
-<ol>
-<li>Stop lying to Beeminder about all of the water drinking/working out/meditating I haven&rsquo;t been doing.</li>
-</ol>
-
-
-<p>We&rsquo;ll see how these resolutions work out. Since I started them at an arbitrary time, I can always start them later if I fail. With the advent of the year of the Horse (my astrological sign), if I believed in astrology, the whole year is an auspicious time to start a new resolution.</p>
-
-		</div>
-	<footer>
-		
-
-
-		
-
-
-
-  
-		
-			Tagged under
-		
-    <a class='category' href='/blog/categories/goals/'>goals</a>, <a class='category' href='/blog/categories/personal/'>personal</a>
 	
 
 
