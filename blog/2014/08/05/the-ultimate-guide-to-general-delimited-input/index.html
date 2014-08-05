@@ -1,0 +1,238 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="Writing goes here!" name="description">
+		<meta content="Rita Cheng's Blog" name="author">
+		
+		<title>The Ultimate Guide to General Delimited Input &mdash; Rita Cheng's Blog</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		<link href="/stylesheets/modifications.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Rita Cheng's Blog" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Rita Cheng's Blog</div>
+				
+				<div class="navi">
+					<ul>
+						<li><a href="/">Blog</a></li>
+						<li><a href="/blog/archives">Archives</a></li>
+						<li><a href="/about">About</a></li>
+					</ul>
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/blog/2014/08/05/the-ultimate-guide-to-general-delimited-input/">The Ultimate Guide to General Delimited Input</a></h1>
+		<time>05 August 2014</time>
+	</header>
+		<div class="content">
+			<p>Although my heart belongs to ruby, lately, I haven&rsquo;t been using it at all&mdash; I&rsquo;ve been working on coding tumblr the game in entirely client side JavaScript. To keep my ruby skills fresh though, I&rsquo;ve been doing a reading about Ruby on the side. One topic, which I hardly gave any thought to before, has captured my attention: Ruby&rsquo;s general delimited input, otherwise known as &ldquo;percent literals&rdquo; or &ldquo;percent notation&rdquo;.</p>
+
+<p>The provenance of these macros is unknown to me. Originally, I ran across to these as &ldquo;shorthand&rdquo; which seemed like an odd moniker to me&mdash; they&rsquo;re not at all shorter than the regular syntax. Suggestions online include that these are another of Ruby&rsquo;s inscrutable Perlisms, like those weird Perl-style global variables, but the only references to them are in the context of Ruby! I can only conclude that they&rsquo;ve nothing to do with Perl, and that&rsquo;s a myth perpetuated by Rubyists.</p>
+
+<p>General delimited input notation is defined directly in MRI&rsquo;s parse.y, and it&rsquo;s present as far back as version 1.0 from 1996, so it&rsquo;s likely just sprung from the head of Matz and not a feature cribbed from another language as some people suggest. Whatever its origins, GDI has its uses.</p>
+
+<p>All forms of GDI come in the same basic syntax: <code>%(some modifier) (some delimiter) (your content) (that delimiter)</code> There are six modifiers for GDI, and some of those have both interpolated and non-interpolated versions. For delimiters, you can use any non-alphanumeric symbol (in the past, you could use alphanumeric ones too, but that&rsquo;s a terrible practice.) Most commonly, you&rsquo;ll see people use <code>%Q{curly brackets}</code>, <code>%Q(parentheses)</code>, <code>%Q&lt;these pointy things&gt;</code>, and <code>%Q[square brackets]</code>, but you can use tildes and even quotation marks, for extra confusion. I&rsquo;d advise against it, though.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>%W"wait can you even do this?"
+</span><span class='line'>=&gt; ["wait", "can", "you", "even", "do", "this?"]</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Ruby style guides usually advocate the use of parentheses, except in the case of regular expressions, where they advocate curly brackets (since parentheses are very common in RE.)</p>
+
+<p>Contrary to popular belief, one can use your same delimiters unescaped within the GDI, so long as you balance them. So this is fine: <code>%Q{I like braces like these:{} }</code></p>
+
+<p>But this is not <code>%Q{I only prefer a single brace:{ }</code></p>
+
+<p>At that point, you should escape that poor brace.</p>
+
+<h3>%q / %Q</h3>
+
+<p>%q is a macro for a single quote non-intepreted string, and %Q is a macro for a double quote interpreted string. Consequentially, in the former you don&rsquo;t need to really escape any characters&mdash; it&rsquo;s good for strings with both quotation marks. In the latter, you can use string interpolation, so it&rsquo;s good for strings with both interpolation and double quotes.
+If you don&rsquo;t use a modifier, for example, <code>%(hello)</code>, it&rsquo;s a shorthand for %Q.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>%Q( Daria said, "Can you do this math?: #{1+2}" )
+</span><span class='line'>=&gt; " Daria said, \"Can you do this math?: 3\" "
+</span><span class='line'>
+</span><span class='line'>%q( Quinn said, "I cannot do this math: #{1+2}" )
+</span><span class='line'>=&gt; " Quinn said, \"I cannot do this math: \#{1+2}\" "
+</span><span class='line'>
+</span><span class='line'>%( Jane said, "I can do this math: #{1+2}" )
+</span><span class='line'>=&gt; " Jane said, \"I can do this math: 3\" "</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>%x</h3>
+
+<p>%x uses the <code>method and runs its contents as a command in a subshell. Use</code> unless your command contains that symbol.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>%x(ruby --copyright)
+</span><span class='line'>=&gt; "ruby - Copyright (C) 1993-2014 Yukihiro Matsumoto\n"</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>%r</h3>
+
+<p>%r creates an interpolated regex, but the usual syntax of <code>/regex/</code> does as well. Use it if your regex has more than one /.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>%r(^Adventure\s?Time$)
+</span><span class='line'>=&gt; /^Adventure\s?Time$/</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>%w / %W</h3>
+
+<p>Ruby 1.1 added %w and %W, which are likely the most common form of GDI you&rsquo;ll find in the wild. It&rsquo;s easiest to think of them as a &ldquo;word array&rdquo; or a &ldquo;whitespace-delimited array&rdquo;, if you&rsquo;re pedantic. It creates an array of strings as separated by the whitespace.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>%W( 1 2 3 4 5 #{1+5} )
+</span><span class='line'>=&gt; ["1", "2", "3", "4", "5", "6"]
+</span><span class='line'>   
+</span><span class='line'>%w( 1 2 3 4 5 #{1+5} )
+</span><span class='line'>=&gt; ["1", "2", "3", "4", "5", "\#{1+5}"]</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>%s</h3>
+
+<p>Introduced in Ruby 1.8, lord knows why this exists&mdash; nobody really uses it. %s creates a single symbol, with whitespace in tact. One might be tempted to use it for symbols with whitespace in it, but the preferred method is by using quotes after <code>:</code>, like so: <code>:"this works"</code>.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>%s(this is useless)
+</span><span class='line'>=&gt; :"this is useless"</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>%i / %I</h3>
+
+<p>The latest modifier for GDI, introduced only in Ruby 2.0, this is the cousin to %w and %W, but instead of an array of strings, these create arrays of symbols. As usual, %i is non-interpolated and %I is interpolated.
+Be warned, that the interpolated form creates an extra string on the heap for each symbol. How often do you really want an interpolated symbol, anyways?</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>fruit = "apple"
+</span><span class='line'>%I(banana orange carrot #{fruit})
+</span><span class='line'>=&gt; [:banana, :orange, :carrot, :apple]
+</span><span class='line'>
+</span><span class='line'>%i(banana orange carrot #{fruit})
+</span><span class='line'>=&gt; [:banana, :orange, :carrot, :"\#{fruit}"]</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Conclusions</h3>
+
+<p>In general, GDI has its pros and cons: on the one hand, you can use GDI to avoid escaping literals&mdash; if you use a lot of quotation marks and other symbols, it can be significantly less confusion to read.</p>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+  
+		
+			Tagged under
+		
+    <a class='category' href='/blog/categories/general-delimited-input/'>general-delimited-input</a>, <a class='category' href='/blog/categories/percent-literals/'>percent-literals</a>, <a class='category' href='/blog/categories/percent-notation/'>percent-notation</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>, <a class='category' href='/blog/categories/syntax/'>syntax</a>
+	
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2014
+
+	Rita Cheng
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

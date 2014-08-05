@@ -53,6 +53,153 @@
 		<!-- START OF _includes/article.html -->
 <article>
 	<header>
+		<h1><a href="/blog/2014/08/05/the-ultimate-guide-to-general-delimited-input/">The Ultimate Guide to General Delimited Input</a></h1>
+		<time>05 August 2014</time>
+	</header>
+		<div class="content">
+			<p>Although my heart belongs to ruby, lately, I haven&rsquo;t been using it at all&mdash; I&rsquo;ve been working on coding tumblr the game in entirely client side JavaScript. To keep my ruby skills fresh though, I&rsquo;ve been doing a reading about Ruby on the side. One topic, which I hardly gave any thought to before, has captured my attention: Ruby&rsquo;s general delimited input, otherwise known as &ldquo;percent literals&rdquo; or &ldquo;percent notation&rdquo;.</p>
+
+<p>The provenance of these macros is unknown to me. Originally, I ran across to these as &ldquo;shorthand&rdquo; which seemed like an odd moniker to me&mdash; they&rsquo;re not at all shorter than the regular syntax. Suggestions online include that these are another of Ruby&rsquo;s inscrutable Perlisms, like those weird Perl-style global variables, but the only references to them are in the context of Ruby! I can only conclude that they&rsquo;ve nothing to do with Perl, and that&rsquo;s a myth perpetuated by Rubyists.</p>
+
+<p>General delimited input notation is defined directly in MRI&rsquo;s parse.y, and it&rsquo;s present as far back as version 1.0 from 1996, so it&rsquo;s likely just sprung from the head of Matz and not a feature cribbed from another language as some people suggest. Whatever its origins, GDI has its uses.</p>
+
+<p>All forms of GDI come in the same basic syntax: <code>%(some modifier) (some delimiter) (your content) (that delimiter)</code> There are six modifiers for GDI, and some of those have both interpolated and non-interpolated versions. For delimiters, you can use any non-alphanumeric symbol (in the past, you could use alphanumeric ones too, but that&rsquo;s a terrible practice.) Most commonly, you&rsquo;ll see people use <code>%Q{curly brackets}</code>, <code>%Q(parentheses)</code>, <code>%Q&lt;these pointy things&gt;</code>, and <code>%Q[square brackets]</code>, but you can use tildes and even quotation marks, for extra confusion. I&rsquo;d advise against it, though.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>%W"wait can you even do this?"
+</span><span class='line'>=&gt; ["wait", "can", "you", "even", "do", "this?"]</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Ruby style guides usually advocate the use of parentheses, except in the case of regular expressions, where they advocate curly brackets (since parentheses are very common in RE.)</p>
+
+<p>Contrary to popular belief, one can use your same delimiters unescaped within the GDI, so long as you balance them. So this is fine: <code>%Q{I like braces like these:{} }</code></p>
+
+<p>But this is not <code>%Q{I only prefer a single brace:{ }</code></p>
+
+<p>At that point, you should escape that poor brace.</p>
+
+<h3>%q / %Q</h3>
+
+<p>%q is a macro for a single quote non-intepreted string, and %Q is a macro for a double quote interpreted string. Consequentially, in the former you don&rsquo;t need to really escape any characters&mdash; it&rsquo;s good for strings with both quotation marks. In the latter, you can use string interpolation, so it&rsquo;s good for strings with both interpolation and double quotes.
+If you don&rsquo;t use a modifier, for example, <code>%(hello)</code>, it&rsquo;s a shorthand for %Q.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>%Q( Daria said, "Can you do this math?: #{1+2}" )
+</span><span class='line'>=&gt; " Daria said, \"Can you do this math?: 3\" "
+</span><span class='line'>
+</span><span class='line'>%q( Quinn said, "I cannot do this math: #{1+2}" )
+</span><span class='line'>=&gt; " Quinn said, \"I cannot do this math: \#{1+2}\" "
+</span><span class='line'>
+</span><span class='line'>%( Jane said, "I can do this math: #{1+2}" )
+</span><span class='line'>=&gt; " Jane said, \"I can do this math: 3\" "</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>%x</h3>
+
+<p>%x uses the <code>method and runs its contents as a command in a subshell. Use</code> unless your command contains that symbol.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>%x(ruby --copyright)
+</span><span class='line'>=&gt; "ruby - Copyright (C) 1993-2014 Yukihiro Matsumoto\n"</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>%r</h3>
+
+<p>%r creates an interpolated regex, but the usual syntax of <code>/regex/</code> does as well. Use it if your regex has more than one /.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>%r(^Adventure\s?Time$)
+</span><span class='line'>=&gt; /^Adventure\s?Time$/</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>%w / %W</h3>
+
+<p>Ruby 1.1 added %w and %W, which are likely the most common form of GDI you&rsquo;ll find in the wild. It&rsquo;s easiest to think of them as a &ldquo;word array&rdquo; or a &ldquo;whitespace-delimited array&rdquo;, if you&rsquo;re pedantic. It creates an array of strings as separated by the whitespace.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>%W( 1 2 3 4 5 #{1+5} )
+</span><span class='line'>=&gt; ["1", "2", "3", "4", "5", "6"]
+</span><span class='line'>   
+</span><span class='line'>%w( 1 2 3 4 5 #{1+5} )
+</span><span class='line'>=&gt; ["1", "2", "3", "4", "5", "\#{1+5}"]</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>%s</h3>
+
+<p>Introduced in Ruby 1.8, lord knows why this exists&mdash; nobody really uses it. %s creates a single symbol, with whitespace in tact. One might be tempted to use it for symbols with whitespace in it, but the preferred method is by using quotes after <code>:</code>, like so: <code>:"this works"</code>.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>%s(this is useless)
+</span><span class='line'>=&gt; :"this is useless"</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>%i / %I</h3>
+
+<p>The latest modifier for GDI, introduced only in Ruby 2.0, this is the cousin to %w and %W, but instead of an array of strings, these create arrays of symbols. As usual, %i is non-interpolated and %I is interpolated.
+Be warned, that the interpolated form creates an extra string on the heap for each symbol. How often do you really want an interpolated symbol, anyways?</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>fruit = "apple"
+</span><span class='line'>%I(banana orange carrot #{fruit})
+</span><span class='line'>=&gt; [:banana, :orange, :carrot, :apple]
+</span><span class='line'>
+</span><span class='line'>%i(banana orange carrot #{fruit})
+</span><span class='line'>=&gt; [:banana, :orange, :carrot, :"\#{fruit}"]</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Conclusions</h3>
+
+<p>In general, GDI has its pros and cons: on the one hand, you can use GDI to avoid escaping literals&mdash; if you use a lot of quotation marks and other symbols, it can be significantly less confusion to read.</p>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+  
+		
+			Tagged under
+		
+    <a class='category' href='/blog/categories/general-delimited-input/'>general-delimited-input</a>, <a class='category' href='/blog/categories/percent-literals/'>percent-literals</a>, <a class='category' href='/blog/categories/percent-notation/'>percent-notation</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>, <a class='category' href='/blog/categories/syntax/'>syntax</a>
+	
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+	
+		
+		<!-- START OF _includes/article.html -->
+<article>
+	<header>
 		<h1><a href="/blog/2014/05/27/api-planning/">API Planning</a></h1>
 		<time>27 May 2014</time>
 	</header>
@@ -493,65 +640,6 @@
 			Tagged under
 		
     <a class='category' href='/blog/categories/media/'>media</a>, <a class='category' href='/blog/categories/musings/'>musings</a>
-	
-
-
-	
-	
-	</footer>
-	
-</article>
-<!-- END OF _includes/article.html -->
-
-	
-		
-		<!-- START OF _includes/article.html -->
-<article>
-	<header>
-		<h1><a href="/blog/2014/01/06/app-ideas/">App Ideas</a></h1>
-		<time>06 January 2014</time>
-	</header>
-		<div class="content">
-			<p>I&rsquo;m kind of a dreamer sometimes. As many people do, I come up with ideas for programs and applications that I think would be useful and wish existed&mdash; sometimes I go farther and plan them. I have the technical background to really know which ideas are viable or not. Unfortunately, there&rsquo;s only so many hours in a day. I don&rsquo;t have time to create every project that I dream up, and I usually just record them in a &ldquo;projects&rdquo; list, and forget them entirely until reviewing them later: &ldquo;I wish that existed.&rdquo; I used to joke that I&rsquo;d be afraid of someone &ldquo;Social Networking&rdquo; me (as in the Sorkin movie, not sharing on Twitter) but that&rsquo;s at all realistic or reasonable. I usually just wish these projects existed. Most of these ideas aren&rsquo;t profitable anyways!</p>
-
-<p>Instead of leaving these projects in a list to collect dust, I&rsquo;ve decided to start publishing some of them in a series of blog posts. Perhaps, in a very unlikely case, someone will make one of these apps. Perhaps they already exist, and I can be alerted to them. Perhaps they&rsquo;ll just collect dust publicly now. Either way, I think it&rsquo;d be good for my projects list to be cleared out.</p>
-
-<p>Here are some small projects that might be good for a student or a weekend:</p>
-
-<h3>Group Splitter</h3>
-
-<p>This would be a tool for teachers, TAs, or other facilitators to help them split up classes or groups into equitable smaller groups. When left to their own devices, people will likely just stick to groups of their pre-existing friends, making unfair groups (that is, higher performing students tend to stick together; as do lower performing) and potentially creating outcasts and social anxious situations. However, randomly forming groups can be a bad idea as well: groups can still be tremendously unbalanced, and gender issues may come up (if boys heavily outweigh girls in a group, the girls are far less likely to speak up or take leadership roles.) Theoretically, there should be algorithmic ways to determine fairer groups, and this tool would be an attempt at that.</p>
-
-<p>One would input a spreadsheet containing names, grades, gender or any other variable you think would be important, potentially, as well as what sizes of groups you would prefer. Then the system will sort the people into groups that either maximize diversity or aim for balance (in the case of gender) for all variables. One could do this as many times as they need (for instance, for changing groups midway a semester.)</p>
-
-<h2>Best X in the City</h2>
-
-<p>After living in Taiwan for over a month, I became addicted to eating these soup dumplings called xiao long bao. When I got back, I was determined to continue my addiction, but found that most restaurants had terrible xiao long bao: the wrapper would be too thick, the meat too little, or the soup would explode all over.</p>
-
-<p>Although Yelp, Urbanspoon, and Foursquare are great for answering the question, &ldquo;where should I eat X in this city?&rdquo; they fall short of naming champions and determining &ldquo;where is it better to have X?&rdquo; (X, in this case, standing in for, different cuisines, different dishes, or even different stores.) At best, you may have a reviewer praising a restaurant and crowning it in their review, but that may be an empty gesture: who knows whether they&rsquo;ve tried any other restaurants of this type!</p>
-
-<p>One could make an app designed to determine the answer to these questions. For each category, a person could add restaurants, select the ones they&rsquo;ve tried, and then rank them in a ballot. The app can then weigh each ballot (if you haven&rsquo;t tried as much, do you really know?) and determine, once and for all, what is the best X in the city.</p>
-
-<h2>Ex Avoiding</h2>
-
-<p>This one is a little creepier, but it assumes that the person in question has already given you permission to view this information and that you&rsquo;d want to avoid this person rather than stalk them&mdash; if you&rsquo;re stalking them, I hope they&rsquo;d remove that permission anyways!</p>
-
-<p>After a bad breakup, one might not want to see their ex for at least a little while. Painful feelings come up, or conflict may arise. It might be best to try and avoid them altogether. For this app, you would use the Facebook and Foursquare APIs and compile where they may be now (&ldquo;They checked in at the corner coffee shop! Best to avoid it.&rdquo;) or events they&rsquo;ve marked as attending. (&ldquo;I don&rsquo;t want to go to Mark&rsquo;s party if he&rsquo;ll be there.&rdquo;) It&rsquo;s not necessarily the adult thing to do, but sometimes, being an adult hurts and doesn&rsquo;t need to happen immediately. Once you&rsquo;ve healed, you may not need the app anymore.</p>
-
-		</div>
-	<footer>
-		
-
-
-		
-
-
-
-  
-		
-			Tagged under
-		
-    <a class='category' href='/blog/categories/apps/'>apps</a>, <a class='category' href='/blog/categories/ideas/'>ideas</a>
 	
 
 
