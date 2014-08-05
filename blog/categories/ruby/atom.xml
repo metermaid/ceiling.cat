@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ruby | Rita Cheng's Blog]]></title>
   <link href="http://blog.ritacheng.com/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://blog.ritacheng.com/"/>
-  <updated>2014-08-05T13:10:01-07:00</updated>
+  <updated>2014-08-05T13:12:45-07:00</updated>
   <id>http://blog.ritacheng.com/</id>
   <author>
     <name><![CDATA[Rita Cheng]]></name>
@@ -56,7 +56,7 @@ If you don&rsquo;t use a modifier, for example, <code>%(hello)</code>, it&rsquo;
 
 <h3>%x</h3>
 
-<p>%x uses the <code>method and runs its contents as a command in a subshell. Use</code> unless your command contains that symbol.
+<p>%x uses the ` method and runs its contents as a command in a subshell. Use ` unless your command contains that symbol.
 <code>
 %x(ruby --copyright)
 =&gt; "ruby - Copyright (C) 1993-2014 Yukihiro Matsumoto\n"
