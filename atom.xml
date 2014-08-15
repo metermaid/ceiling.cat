@@ -4,7 +4,7 @@
 	<title><![CDATA[Rita Cheng's Blog]]></title>
 	<link href="http://blog.ritacheng.com/atom.xml" rel="self"/>
 	<link href="http://blog.ritacheng.com/"/>
-	<updated>2014-08-05T13:12:45-07:00</updated>
+	<updated>2014-08-15T13:16:52-07:00</updated>
 	<id>http://blog.ritacheng.com/</id>
 	<author>
 		<name><![CDATA[Rita Cheng]]></name>
@@ -12,6 +12,104 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[I Was a Teenage Web Developer]]></title>
+		
+		<link href="http://blog.ritacheng.com/blog/2014/08/15/i-was-a-teenage-web-developer/"/>
+		<updated>2014-08-15T13:02:40-07:00</updated>
+		<id>http://blog.ritacheng.com/blog/2014/08/15/i-was-a-teenage-web-developer</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>(*This post was originally posted to <a href="https://medium.com/@repleats/i-was-a-teenage-web-designer-9b3f65d30d58">Medium</a>.)</p>
+
+<p>When I was in high school, the other web designers I knew were other teenage girls. When I was 14, I attended a seminar to encourage young women to consider computer science. When I went to university, about a third of my first year CS classes were female.</p>
+
+<p>Any of these women could have become computer scientists. Some of them did. Many of them didn’t. So why did I?</p>
+
+<h3>Tumblr before Tumblr</h3>
+
+<p>I was in the fifth grade when I made my first web page. It’s a typical nerd origin story: I wanted a truly unique pet page for my Neopet, and to do that, I needed to go beyond the provided templates and edit the HTML directly. I borrowed HTML books from the library, and created a webpage with a blinking black background, haphazardly placed tables, and glowing blue headers to match my electric kau.</p>
+
+<p><img class="left" src="http://blog.ritacheng.com/images/mookie.gif" title="'RIP, Mookie3001.'" ></p>
+
+<p><em>RIP, Mookie3001.</em></p>
+
+<p>It was beautiful. It was an eyesore. I was hooked.</p>
+
+<p>I went on to create many more web pages. In the fifth grade alone, I also created a Neopets fan site, a personal website, and a website for my “writing”<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. I even volunteered to do my older brother’s Information Technology project, a Simpsons page complete with a “Who Needs the Kwik-E-Mart?” MIDI playing in the background.</p>
+
+<p><img class="left" src="http://blog.ritacheng.com/images/webpages.jpeg" title="'I was 13 for the first of these images. These aren’t even half of the websites I made. I was a weirdly productive little teenager.'" ></p>
+
+<p><em>I was 13 for the first of these images. These aren’t even half of the websites I made. I was a weirdly productive little teenager.</em></p>
+
+<p>By high school, I was creating so many websites I can scarcely remember them all now. I begged my mother to use her credit card so I can buy my own domain name. I honed my skills in HTML, CSS, and PHP. Most importantly, I discovered communities of like-minded teenage web designers— a few in person, but mostly online.</p>
+
+<p>I can find hardly any trace of these communities left on the modern internet. Trips to the Internet Archive are my primary reassurance that they weren’t a figment of my imagination. The modern equivalent of these communities would be Tumblr: they both connect like-minded, introverted teenagers with blogs, tutorial websites, and maybe a website for screen captures of favourite TV Shows. As part of those communities, we learned HTML, CSS, graphic design skills, and maybe some PHP.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> We linked each other in blog rolls and talked to each other on phpBB/XMB forums. I was a member of the pixel-art-filled Dodo’s Message Board.<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup> Being a part of DMB helped me learn some new skills, get aid when I needed it, and made me feel a little less alone in the world.</p>
+
+<p>Because I was making these websites, I decided to take the Information Technology class in high school and even asked to be bumped to the next grade’s offering of it. I was isolated as the only girl in a room full of older boys. I coded rudimentary C++, made my web pages, and retreated into my blogs and message boards.</p>
+
+<h3>The Imperial Oil Seminar in Computer Science for Young Women</h3>
+
+<p>In the ninth grade, my InfoTech teacher suggested that I apply to attend the University of Waterloo’s Seminar in CS for Young Women. I filled in my application, and a few months later, I took a week off school to fly to exotic Waterloo, Ontario. It would be the first and only time I’d be in a computer lab with only other women.<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup></p>
+
+<p>I learned a few things from this seminar. How to take apart a computer. How to program a rudimentary GUI in Tcl/Tk. What career paths you can choose with a CS degree. At this point, websites were my weird hobby, but in the future I saw in that seminar, it could be a career.</p>
+
+<p>As it turns out, I was one of the few girls referred by their InfoTech teachers— generally, they were referred by their math teachers or their guidance counsellors. It would be the first time the other girls had ever programmed, and some of these young women would go on to earn Computer Science degrees.</p>
+
+<p>I didn’t realize the impact it had on me at the time, but in retrospect, made a huge impression. Three years later, I started a degree in Computer Science at the University of Waterloo.</p>
+
+<h3>My Waterloo</h3>
+
+<p>University was a series of firsts for me: the first time I ever lived away from home. The first time I truly loved programming, and not just web design. The first time I ever thought about quitting computer science.</p>
+
+<p>My first year at Waterloo was lonely. Unlike most freshmen, I both lived off-campus and away from home. The university mishandled my application and, by the time they sorted it out, there wasn’t room in the dormitories for me. Nobody I knew went to Waterloo— if they headed east, it was either to Toronto or Montreal. Furthermore, in my second semester, Dodo’s Message Board shut down. I had never been so isolated in my life.</p>
+
+<p>The problems you face while being in a visibly marginalized group aren’t necessarily different from those of the majority,<sup id="fnref:5"><a href="#fn:5" rel="footnote">5</a></sup> but being marginalized can often make those same problems worse. Feeling lonely is bad for any college student. Being a minority compounds that loneliness. Getting poor grades is terrible. But when you’re the only girl and you’re getting terrible grades? You feel like that’s a sign to cut your losses and leave. Or maybe you feel extra pressure to stay: you’re the sole representative for your gender.</p>
+
+<p>Later on, my Operating Systems professor kicked out every student who failed the first assignment. The idea was to save students from paying the course fees: if you couldn’t understand pointers, you would probably fail the course. It would be best to wait until you did understand pointers. A friend of mine failed this assignment. The removal was intended to be a mercy, but it felt like a rejection: “You’re not smart enough for this. Get out.”</p>
+
+<p>Instead of leaving Computer Science, I left Waterloo and headed back to the West Coast. I went to the University of Victoria where my best friend was going to school. I wasn’t quite so alone anymore. I’ve stayed in the West Coast since, and earned my degree in Computer Science with honours.</p>
+
+<h3>Lessons</h3>
+
+<p>I’m eliding a lot of details in this origin story. I’ve retconned<sup id="fnref:6"><a href="#fn:6" rel="footnote">6</a></sup> away employment, alienation and abuses— I’m choosing which stories define me. Here’s what helped along the way:</p>
+
+<ol>
+<li>Availability. I’m grateful for having a computer and information technology classes. Furthermore, I’m grateful that my household had enough money that I didn’t need to work as a teenager and that I didn’t have to take care of any siblings. Around 20% of households do not have a computer at home, and some schools do not have information technology classes. There are many households where would-be computer scientists wouldn’t have time for the programming lessons advocated by Code.org. You can’t begin an outreach program with the baseline assumption that people can just make time to take part in them. We need to provide hardware and economic assistance to those who need it.</li>
+<li>Motivation. I’m looking at the quotes page of Code.org, and most of the reasons to start programming suggested by these leaders and celebrities are either about economic or personal development. These may not be motivating for everybody, so we can expand this list by encouraging coding as a creative outlet, mental stimulation, or just a fun activity. It’s especially useful to have intrinsic motivations when you’re marginalized. It helps keep you going when you’re burnt out and you think that you’re not good enough. When it comes down to it, I like making websites and have fun doing it.</li>
+<li>Outreach Programs. I was already making websites by the time I attended the CS Seminar, but it helped me envision a future with Computer Science. Outreach programs are often the first time someone tries programming. They can dispel programming myths and misconceptions: I’ve known a lot of people who were discouraged from computing because they didn’t enjoy math. Programming is a different skill though, and finding calculus dull doesn’t mean a CS degree is not for you. Outreach programs can clear that up.</li>
+<li>A Support Network. Being supported by my family and having a network of other teenagers with websites were both critical to me entering this field. They were also important for discouraging me from leaving. Even introverted nerds hate feeling lonely. It helps to have someone willing to help you when you need it, and to listen carefully even when you don’t want explicit help. Sometimes, it’s nice just to talk about your problems without being questioned about them.</li>
+</ol>
+
+
+<p>I’m extremely grateful for all the advantages I’ve had in life. I began as a teenage designer, and end here as a full-stack web developer. Truth be told, I hadn’t looked at this history in years. I suffer Impostor Syndrome and forget my past. It should be clear to me: I belong here, and women who weren’t teenage web designers belong here too. You don’t need to have a typical nerd origin story to be a programmer.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Bad poetry? Oh no-etry!<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>Even if it was just enough to wrangle your installation of B2.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p>I was too intimidated to join VortexMB or fu.CK.<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<li id="fn:4">
+<p>Being in a lab by myself or with a singular female friend doesn’t count. On the other hand, I can’t count the times when the rest of the lab is only men. I notice every time.<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
+<li id="fn:5">
+<p>Sometimes they are though. There are abuses only marginalized people face. But that’s not what my life was like at this point.<a href="#fnref:5" rev="footnote">&#8617;</a></p></li>
+<li id="fn:6">
+<p>Retroactive continuity, like in the comics, when you alter previously established history.<a href="#fnref:6" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
