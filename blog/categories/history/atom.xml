@@ -4,7 +4,7 @@
   <title><![CDATA[Category: History | Rita Cheng's Blog]]></title>
   <link href="http://blog.ritacheng.com/blog/categories/history/atom.xml" rel="self"/>
   <link href="http://blog.ritacheng.com/"/>
-  <updated>2014-08-15T13:16:52-07:00</updated>
+  <updated>2014-08-15T13:19:24-07:00</updated>
   <id>http://blog.ritacheng.com/</id>
   <author>
     <name><![CDATA[Rita Cheng]]></name>
@@ -30,15 +30,11 @@
 
 <p><img class="left" src="/images/mookie.gif" title="&lsquo;RIP, Mookie3001.&rsquo;" ></p>
 
-<p><em>RIP, Mookie3001.</em></p>
-
 <p>It was beautiful. It was an eyesore. I was hooked.</p>
 
 <p>I went on to create many more web pages. In the fifth grade alone, I also created a Neopets fan site, a personal website, and a website for my “writing”<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. I even volunteered to do my older brother’s Information Technology project, a Simpsons page complete with a “Who Needs the Kwik-E-Mart?” MIDI playing in the background.</p>
 
 <p><img class="left" src="/images/webpages.jpeg" title="&lsquo;I was 13 for the first of these images. These aren’t even half of the websites I made. I was a weirdly productive little teenager.&rsquo;" ></p>
-
-<p><em>I was 13 for the first of these images. These aren’t even half of the websites I made. I was a weirdly productive little teenager.</em></p>
 
 <p>By high school, I was creating so many websites I can scarcely remember them all now. I begged my mother to use her credit card so I can buy my own domain name. I honed my skills in HTML, CSS, and PHP. Most importantly, I discovered communities of like-minded teenage web designers— a few in person, but mostly online.</p>
 
@@ -73,9 +69,9 @@
 <p>I’m eliding a lot of details in this origin story. I’ve retconned<sup id="fnref:6"><a href="#fn:6" rel="footnote">6</a></sup> away employment, alienation and abuses— I’m choosing which stories define me. Here’s what helped along the way:</p>
 
 <ol>
-<li>Availability. I’m grateful for having a computer and information technology classes. Furthermore, I’m grateful that my household had enough money that I didn’t need to work as a teenager and that I didn’t have to take care of any siblings. Around 20% of households do not have a computer at home, and some schools do not have information technology classes. There are many households where would-be computer scientists wouldn’t have time for the programming lessons advocated by Code.org. You can’t begin an outreach program with the baseline assumption that people can just make time to take part in them. We need to provide hardware and economic assistance to those who need it.</li>
+<li>Availability. I’m grateful for having a computer and information technology classes. Furthermore, I’m grateful that my household had enough money that I didn’t need to work as a teenager and that I didn’t have to take care of any siblings. Around 20% of households do not have a computer at home, and some schools do not have information technology classes. There are many households where would-be computer scientists wouldn’t have time for the programming lessons advocated by Code.org. You can’t begin an outreach program with the baseline assumption that people can just make time to take part in them. We need to provide hardware and economic assistance to those who need it.<sup id="fnref:7"><a href="#fn:7" rel="footnote">7</a></sup></li>
 <li>Motivation. I’m looking at the quotes page of Code.org, and most of the reasons to start programming suggested by these leaders and celebrities are either about economic or personal development. These may not be motivating for everybody, so we can expand this list by encouraging coding as a creative outlet, mental stimulation, or just a fun activity. It’s especially useful to have intrinsic motivations when you’re marginalized. It helps keep you going when you’re burnt out and you think that you’re not good enough. When it comes down to it, I like making websites and have fun doing it.</li>
-<li>Outreach Programs. I was already making websites by the time I attended the CS Seminar, but it helped me envision a future with Computer Science. Outreach programs are often the first time someone tries programming. They can dispel programming myths and misconceptions: I’ve known a lot of people who were discouraged from computing because they didn’t enjoy math. Programming is a different skill though, and finding calculus dull doesn’t mean a CS degree is not for you. Outreach programs can clear that up.</li>
+<li>Outreach Programs. I was already making websites by the time I attended the CS Seminar, but it helped me envision a future with Computer Science. Outreach programs are often the first time someone tries programming. They can dispel programming myths and misconceptions: I’ve known a lot of people who were discouraged from computing because they didn’t enjoy math.<sup id="fnref:8"><a href="#fn:8" rel="footnote">8</a></sup> Programming is a different skill though, and finding calculus dull doesn’t mean a CS degree is not for you. Outreach programs can clear that up.</li>
 <li>A Support Network. Being supported by my family and having a network of other teenagers with websites were both critical to me entering this field. They were also important for discouraging me from leaving. Even introverted nerds hate feeling lonely. It helps to have someone willing to help you when you need it, and to listen carefully even when you don’t want explicit help. Sometimes, it’s nice just to talk about your problems without being questioned about them.</li>
 </ol>
 
@@ -96,6 +92,10 @@
 <p>Sometimes they are though. There are abuses only marginalized people face. But that’s not what my life was like at this point.<a href="#fnref:5" rev="footnote">&#8617;</a></p></li>
 <li id="fn:6">
 <p>Retroactive continuity, like in the comics, when you alter previously established history.<a href="#fnref:6" rev="footnote">&#8617;</a></p></li>
+<li id="fn:7">
+<p>There are services like Free Geek for hardware, but having to pay or volunteer is still a barrier.<a href="#fnref:7" rev="footnote">&#8617;</a></p></li>
+<li id="fn:8">
+<p>For the record, half my AP Calculus class were women in high school.<a href="#fnref:8" rev="footnote">&#8617;</a></p></li>
 </ol>
 </div>
 
