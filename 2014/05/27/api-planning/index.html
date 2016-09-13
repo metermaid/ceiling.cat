@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>API Planning</title>
+  <meta name="description" content="Over the last little while, I’ve grown increasingly disillusioned with Agile developments1. That’s not to say I advocate using Waterfall or even any problems...">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/monokai_sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="Over the last little while, I’ve grown increasingly disillusioned with Agile developments1. That’s not to say I advocate using Waterfall or even any problems..." />
+  <meta property="og:url" content="http://www.ceiling.cat" />
+  <meta property="og:site_name" content="Ceiling.cat" />
+  <meta property="og:title" content="API Planning" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://www.ceiling.cat/assets/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="API Planning">
+  <meta name="twitter:description" content="Over the last little while, I’ve grown increasingly disillusioned with Agile developments1. That’s not to say I advocate using Waterfall or even any problems...">
+  <meta name="twitter:image" content="http://www.ceiling.cat/assets/logo.png">
+  <meta name="twitter:url" content="http://www.ceiling.cat">
+  
+
+  
+
+  <!-- Site styles -->
+  <link type="text/css" rel="stylesheet" href="/assets/main.css">
+  
+  <link rel="canonical" href="http://www.ceiling.cat/2014/05/27/api-planning/">
+  <link rel="alternate" type="application/rss+xml" title="Ceiling.cat" href="http://www.ceiling.cat/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      <img src="/assets/logo.png" alt="site.title" width="75" height="75">
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+        
+          
+          <li class="nav-link"><a href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">API Planning</h1>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">May 27, 2014</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/api">Api</a>, 
+    
+  
+    
+    <a href="/category/development">Development</a>, 
+    
+  
+    
+    <a href="/category/planning">Planning</a>
+    
+  
+  </div>
+</section>  
+
+<article class="post-content">
+  <p>Over the last little while, I’ve grown increasingly disillusioned with Agile developments[^1]. That’s not to say I advocate using Waterfall or even any problems I have with the core tenets of the Agile manifesto; it just seems that any company that is purportedly Agile is either using it as a cover for an ad-hoc structureless process or is steeped in so many Agile tools and processes that it is hardly Agile at all anymore.[^2] Moreover, there is hardly any process for useful planning activities like UX Research (if it is done at all.) It’s no wonder so many APIs seem haphazardly planned and missing core features.</p>
+
+<p>Nowadays, I tend to advocate psuedo-Agile development with a few formal planning activities. One of these activities I’ve been exploring these last few days is API definition. In the past, my APIs have been created in a very ad-hoc way: methods would be created as I went, with no prior thought. By the time documentation is written, it becomes clear that many decisions are made for convenience (I admit that I am often guilty of conflating my RESTful routes; GET is such a convenience sometimes. I have been getting better about this, though.)</p>
+
+<p>Over the last little while, though, API design tools have grown in increased prominence. <a href="http://www.apiary.io">Apiary</a> has raised millions in venture capital, and recently, I volunteered at <a href="http://www.polyglotconf.com">PolyglotConf</a> where a small session advocated the use of <a href="http://www.raml.org">RAML</a>. I spent the remainder of the weekend checking these tools (and Swagger as well) out, and it was an eye opening experience.</p>
+
+<p>Even if you’re trying to be as lean and Agile as possible, here are a few good reasons to try out an API design tool:</p>
+
+<ol>
+  <li>Design. What sets RAML and API Blueprint (from Apiary) apart from prior API design tools are their top-down approaches to API design– it can be so much easier to analyze and design an API when you’re thinking about the bigger picture of your application. It makes it easy to see re-occurring patterns and plan for code reuse, but it can also be extremely lightweight. Just hashing out a sketch of an API in RAML made me realize that I could eliminate a few methods and planned functionality, saving myself future work.</li>
+  <li>Collaboration. Having a common API design language helps to facilitate working with others on an API, particularly if you’re in a distributed team. It’s extremely useful for when your API changes: the text format makes it easy to track ownership of changes, and you can also programmatically update your clients about changes to your API.</li>
+  <li>Tooling. Although Swagger is a little more oriented towards being read by machines, any of these languages can be used to standardize automated tools. Can you imagine generating an AngularJS client based on a RAML document? What a dream.</li>
+  <li>Generating API documentation. This was how Apiary was originally sold to me, and why I wasn’t interested in it at the beginning– I didn’t see too much of a reason not to just roll your own, particularly if you have other documentation systems in place. It can be pretty handy, though. It can be generated for different audiences: besides developers, you might find it handy to communicate the API to business stakeholders and marketing as well.</li>
+</ol>
+
+<p>I’m sure I’m missing plenty of reasons to consider formal API design, but even these four reasons are enough for me to discourage on-the-fly API creation. Even an activity as simple as listing out your routes before development can have positive benefits for your application.
+[^1]: Even Dave Thomas, one of the original Agile signatories, proclaimed that <a href="http://www.halfarsedagilemanifesto.org/">Agile was Dead</a>. I only partially agree, and I don’t understand why wouldn’t you have a conference on ballet dancing? Ballet is really hard; it’s not just an art.
+[^2]: At least this is the impression I’m getting from off the record conversations from other developers.</p>
+
+</article>
+
+
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+      <a href="//twitter.com/share?text=API+Planning&url=http://www.ceiling.cat/2014/05/27/api-planning/&via=rtchng"
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+        <i class="fa fa-twitter-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+
+
+
+<section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'jynx';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">Ceiling.cat</h3>
+
+    <div class="site-navigation">
+      
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+        
+        
+          <li class="nav-link"><a href="/about/">About</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">rita@ritacheng.com</span>
+          </a>
+        </li>
+
+        
+          
+          <li>
+            <a href="https://twitter.com/rtchng" title="Follow me on Twitter">
+              <i class="fa fa-twitter"></i>
+              <span class="username">rtchng</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://github.com/metermaid" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">metermaid</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="http://www.instagram.com/risky" title="Follow me on Instagram">
+              <i class="fa fa-instagram"></i>
+              <span class="username">risky</span>
+            </a>
+          </li>
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text"></p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+<script>
+
+$(document).ready(function() {
+
+  // Syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+
+});
+
+</script>
+
+
+
+
+  </body>
+
+</html>

@@ -1,777 +1,382 @@
+<!DOCTYPE html>
+<html>
 
-<!doctype html>
-<!-- START OF _layouts/default.html -->
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
-		<meta content="width=device-width,initial-scale=1" name="viewport">
-		<meta content="Writing goes here!" name="description">
-		<meta content="Rita Cheng's Blog" name="author">
-		
-		<title>Rita Cheng's Blog</title>
-		
-		<!-- Styles -->
-		<link href="/stylesheets/main.css" rel="stylesheet">
-		<link href="/stylesheets/modifications.css" rel="stylesheet">
-		
-		<!-- Google webfonts -->
-		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
-		
-		<!-- jQuery and plugins -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script src="/js/jquery.zclip.min.js"></script>
-		
-		<!-- Syntax highlighter -->
-		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
-		<script type="text/javascript" src="/js/prettify.js"></script>
-		
-		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Rita Cheng's Blog" type="application/rss+xml" />-->
-		
-	</head>
-	<body onload="prettyPrint()">
-	
-		<div class="wrap">
-	
-			<header>
-				<div class="title">Rita Cheng's Blog</div>
-				
-				<div class="navi">
-					<ul>
-						<li><a href="/">Blog</a></li>
-						<li><a href="/blog/archives">Archives</a></li>
-						<li><a href="/about">About</a></li>
-					</ul>
-				</div> <!-- // .navi -->
-			</header>
-		
-				<!-- START OF index.html -->
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	
-		
-		<!-- START OF _includes/article.html -->
-<article>
-	<header>
-		<h1><a href="/blog/2015/02/06/duck-sized-horses/">Duck-Sized Horses</a></h1>
-		<time>06 February 2015</time>
-	</header>
-		<div class="content">
-			<p>Recently, I filled in a job questionnaire that included the infamous Reddit question, &ldquo;Would you rather fight 100 duck sized horses or 1 horse sized duck?&rdquo; I promptly chose the horses, but I didn&rsquo;t get an interview. Perhaps they were duck people? My reasoning is below:</p>
+  <title>Ceiling.cat</title>
+  <meta name="description" content="">
+  
 
-<p>I&rsquo;d fight the 100 duck-sized horses. In first year, I attended the University of Waterloo, where geese were well-known to follow and attack students&mdash; I learned a healthy amount of respect and fear for waterfowl. While the horses have the advantage of number and greater intelligence than the duck [they can gang up and will take longer than one hit to kill], they are also easily spooked and it should be fairly easy to break them up into smaller groups (and capture with nets or pillow cases if available). All of their muscle is in the upper legs, so shattering their miniaturized and spindly lower limbs should not take too much effort. The two primary weapons of horses, kicks and bites, are mitigated by the miniaturization&mdash; and furthermore, they are herbivores, so they do not have any intrinsic motivation to bite me.</p>
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/monokai_sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
 
-<p>On the contrary, ducks are omnivores and the direct descendants of dinosaurs, so the giant duck would likely try to eat me. They have ridges on their beaks that resemble teeth, and horse-proportioned, they would easily be able to break bones, shatter skulls, and destroy any weapon I could use on it. Although it would not likely be able to fly at that size, their wings will still be powerful and likely to kill me with one hit.</p>
-
-<p>Finally, the tiny hooves of 100 duck-sized horses would make for a great back massage and tiny horses would make for excellent christmas and birthday presents for friends and family.</p>
-
-		</div>
-	<footer>
-		
-
-
-		
-
-
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 
   
-		
-			Tagged under
-		
-    <a class='category' href='/blog/categories/fun/'>fun</a>, <a class='category' href='/blog/categories/random/'>random</a>
-	
-
-
-	
-	
-	</footer>
-	
-</article>
-<!-- END OF _includes/article.html -->
-
-	
-		
-		<!-- START OF _includes/article.html -->
-<article>
-	<header>
-		<h1><a href="/blog/2014/08/15/i-was-a-teenage-web-developer/">I Was a Teenage Web Developer</a></h1>
-		<time>15 August 2014</time>
-	</header>
-		<div class="content">
-			<p>(*This post was originally posted to <a href="https://medium.com/@repleats/i-was-a-teenage-web-designer-9b3f65d30d58">Medium</a>.)</p>
-
-<p>When I was in high school, the other web designers I knew were other teenage girls. When I was 14, I attended a seminar to encourage young women to consider computer science. When I went to university, about a third of my first year CS classes were female.</p>
-
-<p>Any of these women could have become computer scientists. Some of them did. Many of them didn’t. So why did I?</p>
-
-<h3>Tumblr before Tumblr</h3>
-
-<p>I was in the fifth grade when I made my first web page. It’s a typical nerd origin story: I wanted a truly unique pet page for my Neopet, and to do that, I needed to go beyond the provided templates and edit the HTML directly. I borrowed HTML books from the library, and created a webpage with a blinking black background, haphazardly placed tables, and glowing blue headers to match my electric kau.</p>
-
-<p><img class="left" src="/images/mookie.gif" title="'RIP, Mookie3001.'" ></p>
-
-<p>It was beautiful. It was an eyesore. I was hooked.</p>
-
-<p>I went on to create many more web pages. In the fifth grade alone, I also created a Neopets fan site, a personal website, and a website for my “writing”<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. I even volunteered to do my older brother’s Information Technology project, a Simpsons page complete with a “Who Needs the Kwik-E-Mart?” MIDI playing in the background.</p>
-
-<p><img class="left" src="/images/webpages.jpeg" title="'I was 13 for the first of these images. These aren’t even half of the websites I made. I was a weirdly productive little teenager.'" ></p>
-
-<p>By high school, I was creating so many websites I can scarcely remember them all now. I begged my mother to use her credit card so I can buy my own domain name. I honed my skills in HTML, CSS, and PHP. Most importantly, I discovered communities of like-minded teenage web designers— a few in person, but mostly online.</p>
-
-<p>I can find hardly any trace of these communities left on the modern internet. Trips to the Internet Archive are my primary reassurance that they weren’t a figment of my imagination. The modern equivalent of these communities would be Tumblr: they both connect like-minded, introverted teenagers with blogs, tutorial websites, and maybe a website for screen captures of favourite TV Shows. As part of those communities, we learned HTML, CSS, graphic design skills, and maybe some PHP.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> We linked each other in blog rolls and talked to each other on phpBB/XMB forums. I was a member of the pixel-art-filled Dodo’s Message Board.<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup> Being a part of DMB helped me learn some new skills, get aid when I needed it, and made me feel a little less alone in the world.</p>
-
-<p>Because I was making these websites, I decided to take the Information Technology class in high school and even asked to be bumped to the next grade’s offering of it. I was isolated as the only girl in a room full of older boys. I coded rudimentary C++, made my web pages, and retreated into my blogs and message boards.</p>
-
-<h3>The Imperial Oil Seminar in Computer Science for Young Women</h3>
-
-<p>In the ninth grade, my InfoTech teacher suggested that I apply to attend the University of Waterloo’s Seminar in CS for Young Women. I filled in my application, and a few months later, I took a week off school to fly to exotic Waterloo, Ontario. It would be the first and only time I’d be in a computer lab with only other women.<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup></p>
-
-<p>I learned a few things from this seminar. How to take apart a computer. How to program a rudimentary GUI in Tcl/Tk. What career paths you can choose with a CS degree. At this point, websites were my weird hobby, but in the future I saw in that seminar, it could be a career.</p>
-
-<p>As it turns out, I was one of the few girls referred by their InfoTech teachers— generally, they were referred by their math teachers or their guidance counsellors. It would be the first time the other girls had ever programmed, and some of these young women would go on to earn Computer Science degrees.</p>
-
-<p>I didn’t realize the impact it had on me at the time, but in retrospect, made a huge impression. Three years later, I started a degree in Computer Science at the University of Waterloo.</p>
-
-<h3>My Waterloo</h3>
-
-<p>University was a series of firsts for me: the first time I ever lived away from home. The first time I truly loved programming, and not just web design. The first time I ever thought about quitting computer science.</p>
-
-<p>My first year at Waterloo was lonely. Unlike most freshmen, I both lived off-campus and away from home. The university mishandled my application and, by the time they sorted it out, there wasn’t room in the dormitories for me. Nobody I knew went to Waterloo— if they headed east, it was either to Toronto or Montreal. Furthermore, in my second semester, Dodo’s Message Board shut down. I had never been so isolated in my life.</p>
-
-<p>The problems you face while being in a visibly marginalized group aren’t necessarily different from those of the majority,<sup id="fnref:5"><a href="#fn:5" rel="footnote">5</a></sup> but being marginalized can often make those same problems worse. Feeling lonely is bad for any college student. Being a minority compounds that loneliness. Getting poor grades is terrible. But when you’re the only girl and you’re getting terrible grades? You feel like that’s a sign to cut your losses and leave. Or maybe you feel extra pressure to stay: you’re the sole representative for your gender.</p>
-
-<p>Later on, my Operating Systems professor kicked out every student who failed the first assignment. The idea was to save students from paying the course fees: if you couldn’t understand pointers, you would probably fail the course. It would be best to wait until you did understand pointers. A friend of mine failed this assignment. The removal was intended to be a mercy, but it felt like a rejection: “You’re not smart enough for this. Get out.”</p>
-
-<p>Instead of leaving Computer Science, I left Waterloo and headed back to the West Coast. I went to the University of Victoria where my best friend was going to school. I wasn’t quite so alone anymore. I’ve stayed in the West Coast since, and earned my degree in Computer Science with honours.</p>
-
-<h3>Lessons</h3>
-
-<p>I’m eliding a lot of details in this origin story. I’ve retconned<sup id="fnref:6"><a href="#fn:6" rel="footnote">6</a></sup> away employment, alienation and abuses— I’m choosing which stories define me. Here’s what helped along the way:</p>
-
-<ol>
-<li>Availability. I’m grateful for having a computer and information technology classes. Furthermore, I’m grateful that my household had enough money that I didn’t need to work as a teenager and that I didn’t have to take care of any siblings. Around 20% of households do not have a computer at home, and some schools do not have information technology classes. There are many households where would-be computer scientists wouldn’t have time for the programming lessons advocated by Code.org. You can’t begin an outreach program with the baseline assumption that people can just make time to take part in them. We need to provide hardware and economic assistance to those who need it.<sup id="fnref:7"><a href="#fn:7" rel="footnote">7</a></sup></li>
-<li>Motivation. I’m looking at the quotes page of Code.org, and most of the reasons to start programming suggested by these leaders and celebrities are either about economic or personal development. These may not be motivating for everybody, so we can expand this list by encouraging coding as a creative outlet, mental stimulation, or just a fun activity. It’s especially useful to have intrinsic motivations when you’re marginalized. It helps keep you going when you’re burnt out and you think that you’re not good enough. When it comes down to it, I like making websites and have fun doing it.</li>
-<li>Outreach Programs. I was already making websites by the time I attended the CS Seminar, but it helped me envision a future with Computer Science. Outreach programs are often the first time someone tries programming. They can dispel programming myths and misconceptions: I’ve known a lot of people who were discouraged from computing because they didn’t enjoy math.<sup id="fnref:8"><a href="#fn:8" rel="footnote">8</a></sup> Programming is a different skill though, and finding calculus dull doesn’t mean a CS degree is not for you. Outreach programs can clear that up.</li>
-<li>A Support Network. Being supported by my family and having a network of other teenagers with websites were both critical to me entering this field. They were also important for discouraging me from leaving. Even introverted nerds hate feeling lonely. It helps to have someone willing to help you when you need it, and to listen carefully even when you don’t want explicit help. Sometimes, it’s nice just to talk about your problems without being questioned about them.</li>
-</ol>
-
-
-<p>I’m extremely grateful for all the advantages I’ve had in life. I began as a teenage designer, and end here as a full-stack web developer. Truth be told, I hadn’t looked at this history in years. I suffer Impostor Syndrome and forget my past. It should be clear to me: I belong here, and women who weren’t teenage web designers belong here too. You don’t need to have a typical nerd origin story to be a programmer.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>Bad poetry? Oh no-etry!<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-<li id="fn:2">
-<p>Even if it was just enough to wrangle your installation of B2.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
-<li id="fn:3">
-<p>I was too intimidated to join VortexMB or fu.CK.<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
-<li id="fn:4">
-<p>Being in a lab by myself or with a singular female friend doesn’t count. On the other hand, I can’t count the times when the rest of the lab is only men. I notice every time.<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
-<li id="fn:5">
-<p>Sometimes they are though. There are abuses only marginalized people face. But that’s not what my life was like at this point.<a href="#fnref:5" rev="footnote">&#8617;</a></p></li>
-<li id="fn:6">
-<p>Retroactive continuity, like in the comics, when you alter previously established history.<a href="#fnref:6" rev="footnote">&#8617;</a></p></li>
-<li id="fn:7">
-<p>There are services like Free Geek for hardware, but having to pay or volunteer is still a barrier.<a href="#fnref:7" rev="footnote">&#8617;</a></p></li>
-<li id="fn:8">
-<p>For the record, half my AP Calculus class were women in high school.<a href="#fnref:8" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
-
-		</div>
-	<footer>
-		
-
-
-		
-
-
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="http://www.ceiling.cat" />
+  <meta property="og:site_name" content="Ceiling.cat" />
+  <meta property="og:title" content="Ceiling.cat" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://www.ceiling.cat/assets/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
 
   
-		
-			Tagged under
-		
-    <a class='category' href='/blog/categories/history/'>history</a>, <a class='category' href='/blog/categories/personal/'>personal</a>
-	
-
-
-	
-	
-	</footer>
-	
-</article>
-<!-- END OF _includes/article.html -->
-
-	
-		
-		<!-- START OF _includes/article.html -->
-<article>
-	<header>
-		<h1><a href="/blog/2014/08/05/the-ultimate-guide-to-general-delimited-input/">The Ultimate Guide to General Delimited Input</a></h1>
-		<time>05 August 2014</time>
-	</header>
-		<div class="content">
-			<p>Although my heart belongs to ruby, lately, I haven&rsquo;t been using it at all&mdash; I&rsquo;ve been working on coding tumblr the game in entirely client side JavaScript. To keep my ruby skills fresh though, I&rsquo;ve been doing a reading about Ruby on the side. One topic, which I hardly gave any thought to before, has captured my attention: Ruby&rsquo;s general delimited input, otherwise known as &ldquo;percent literals&rdquo; or &ldquo;percent notation&rdquo;.</p>
-
-<p>The provenance of these macros is unknown to me. Originally, I ran across to these as &ldquo;shorthand&rdquo; which seemed like an odd moniker to me&mdash; they&rsquo;re not at all shorter than the regular syntax. Suggestions online include that these are another of Ruby&rsquo;s inscrutable Perlisms, like those weird Perl-style global variables, but the only references to them are in the context of Ruby! I can only conclude that they&rsquo;ve nothing to do with Perl, and that&rsquo;s a myth perpetuated by Rubyists.</p>
-
-<p>General delimited input notation is defined directly in MRI&rsquo;s parse.y, and it&rsquo;s present as far back as version 1.0 from 1996, so it&rsquo;s likely just sprung from the head of Matz and not a feature cribbed from another language as some people suggest. Whatever its origins, GDI has its uses.</p>
-
-<p>All forms of GDI come in the same basic syntax: <code>%(some modifier) (some delimiter) (your content) (that delimiter)</code> There are six modifiers for GDI, and some of those have both interpolated and non-interpolated versions. For delimiters, you can use any non-alphanumeric symbol (in the past, you could use alphanumeric ones too, but that&rsquo;s a terrible practice.) Most commonly, you&rsquo;ll see people use <code>%Q{curly brackets}</code>, <code>%Q(parentheses)</code>, <code>%Q&lt;these pointy things&gt;</code>, and <code>%Q[square brackets]</code>, but you can use tildes and even quotation marks, for extra confusion. I&rsquo;d advise against it, though.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>%W"wait can you even do this?"
-</span><span class='line'>=&gt; ["wait", "can", "you", "even", "do", "this?"]</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Ruby style guides usually advocate the use of parentheses, except in the case of regular expressions, where they advocate curly brackets (since parentheses are very common in RE.)</p>
-
-<p>Contrary to popular belief, one can use your same delimiters unescaped within the GDI, so long as you balance them. So this is fine: <code>%Q{I like braces like these:{} }</code></p>
-
-<p>But this is not <code>%Q{I only prefer a single brace:{ }</code></p>
-
-<p>At that point, you should escape that poor brace.</p>
-
-<h3>%q / %Q</h3>
-
-<p>%q is a macro for a single quote non-intepreted string, and %Q is a macro for a double quote interpreted string. Consequentially, in the former you don&rsquo;t need to really escape any characters&mdash; it&rsquo;s good for strings with both quotation marks. In the latter, you can use string interpolation, so it&rsquo;s good for strings with both interpolation and double quotes.
-If you don&rsquo;t use a modifier, for example, <code>%(hello)</code>, it&rsquo;s a shorthand for %Q.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>%Q( Daria said, "Can you do this math?: #{1+2}" )
-</span><span class='line'>=&gt; " Daria said, \"Can you do this math?: 3\" "
-</span><span class='line'>
-</span><span class='line'>%q( Quinn said, "I cannot do this math: #{1+2}" )
-</span><span class='line'>=&gt; " Quinn said, \"I cannot do this math: \#{1+2}\" "
-</span><span class='line'>
-</span><span class='line'>%( Jane said, "I can do this math: #{1+2}" )
-</span><span class='line'>=&gt; " Jane said, \"I can do this math: 3\" "</span></code></pre></td></tr></table></div></figure>
-
-
-<h3>%x</h3>
-
-<p>%x uses the ` method and runs its contents as a command in a subshell. Use ` unless your command contains that symbol.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>%x(ruby --copyright)
-</span><span class='line'>=&gt; "ruby - Copyright (C) 1993-2014 Yukihiro Matsumoto\n"</span></code></pre></td></tr></table></div></figure>
-
-
-<h3>%r</h3>
-
-<p>%r creates an interpolated regex, but the usual syntax of <code>/regex/</code> does as well. Use it if your regex has more than one /.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>%r(^Adventure\s?Time$)
-</span><span class='line'>=&gt; /^Adventure\s?Time$/</span></code></pre></td></tr></table></div></figure>
-
-
-<h3>%w / %W</h3>
-
-<p>Ruby 1.1 added %w and %W, which are likely the most common form of GDI you&rsquo;ll find in the wild. It&rsquo;s easiest to think of them as a &ldquo;word array&rdquo; or a &ldquo;whitespace-delimited array&rdquo;, if you&rsquo;re pedantic. It creates an array of strings as separated by the whitespace.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>%W( 1 2 3 4 5 #{1+5} )
-</span><span class='line'>=&gt; ["1", "2", "3", "4", "5", "6"]
-</span><span class='line'>   
-</span><span class='line'>%w( 1 2 3 4 5 #{1+5} )
-</span><span class='line'>=&gt; ["1", "2", "3", "4", "5", "\#{1+5}"]</span></code></pre></td></tr></table></div></figure>
-
-
-<h3>%s</h3>
-
-<p>Introduced in Ruby 1.8, lord knows why this exists&mdash; nobody really uses it. %s creates a single symbol, with whitespace in tact. One might be tempted to use it for symbols with whitespace in it, but the preferred method is by using quotes after <code>:</code>, like so: <code>:"this works"</code>.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>%s(this is useless)
-</span><span class='line'>=&gt; :"this is useless"</span></code></pre></td></tr></table></div></figure>
-
-
-<h3>%i / %I</h3>
-
-<p>The latest modifier for GDI, introduced only in Ruby 2.0, this is the cousin to %w and %W, but instead of an array of strings, these create arrays of symbols. As usual, %i is non-interpolated and %I is interpolated.
-Be warned, that the interpolated form creates an extra string on the heap for each symbol. How often do you really want an interpolated symbol, anyways?</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>fruit = "apple"
-</span><span class='line'>%I(banana orange carrot #{fruit})
-</span><span class='line'>=&gt; [:banana, :orange, :carrot, :apple]
-</span><span class='line'>
-</span><span class='line'>%i(banana orange carrot #{fruit})
-</span><span class='line'>=&gt; [:banana, :orange, :carrot, :"\#{fruit}"]</span></code></pre></td></tr></table></div></figure>
-
-
-<h3>Conclusions</h3>
-
-<p>In general, GDI has its pros and cons: on the one hand, you can use GDI to avoid escaping literals&mdash; if you use a lot of quotation marks and other symbols, it can be significantly less confusion to read.</p>
-
-		</div>
-	<footer>
-		
-
-
-		
-
-
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ceiling.cat">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="http://www.ceiling.cat/assets/logo.png">
+  <meta name="twitter:url" content="http://www.ceiling.cat">
+  
 
   
-		
-			Tagged under
-		
-    <a class='category' href='/blog/categories/general-delimited-input/'>general-delimited-input</a>, <a class='category' href='/blog/categories/percent-literals/'>percent-literals</a>, <a class='category' href='/blog/categories/percent-notation/'>percent-notation</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>, <a class='category' href='/blog/categories/syntax/'>syntax</a>
-	
 
-
-	
-	
-	</footer>
-	
-</article>
-<!-- END OF _includes/article.html -->
-
-	
-		
-		<!-- START OF _includes/article.html -->
-<article>
-	<header>
-		<h1><a href="/blog/2014/05/27/api-planning/">API Planning</a></h1>
-		<time>27 May 2014</time>
-	</header>
-		<div class="content">
-			<p>Over the last little while, I&rsquo;ve grown increasingly disillusioned with Agile developments<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. That&rsquo;s not to say I advocate using Waterfall or even any problems I have with the core tenets of the Agile manifesto; it just seems that any company that is purportedly Agile is either using it as a cover for an ad-hoc structureless process or is steeped in so many Agile tools and processes that it is hardly Agile at all anymore.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> Moreover, there is hardly any process for useful planning activities like UX Research (if it is done at all.) It&rsquo;s no wonder so many APIs seem haphazardly planned and missing core features.</p>
-
-<p>Nowadays, I tend to advocate psuedo-Agile development with a few formal planning activities. One of these activities I&rsquo;ve been exploring these last few days is API definition. In the past, my APIs have been created in a very ad-hoc way: methods would be created as I went, with no prior thought. By the time documentation is written, it becomes clear that many decisions are made for convenience (I admit that I am often guilty of conflating my RESTful routes; GET is such a convenience sometimes. I have been getting better about this, though.)</p>
-
-<p>Over the last little while, though, API design tools have grown in increased prominence. <a href="http://www.apiary.io">Apiary</a> has raised millions in venture capital, and recently, I volunteered at <a href="http://www.polyglotconf.com">PolyglotConf</a> where a small session advocated the use of <a href="http://www.raml.org">RAML</a>. I spent the remainder of the weekend checking these tools (and Swagger as well) out, and it was an eye opening experience.</p>
-
-<p>Even if you&rsquo;re trying to be as lean and Agile as possible, here are a few good reasons to try out an API design tool:</p>
-
-<ol>
-<li>Design. What sets RAML and API Blueprint (from Apiary) apart from prior API design tools are their top-down approaches to API design&mdash; it can be so much easier to analyze and design an API when you&rsquo;re thinking about the bigger picture of your application. It makes it easy to see re-occurring patterns and plan for code reuse, but it can also be extremely lightweight. Just hashing out a sketch of an API in RAML made me realize that I could eliminate a few methods and planned functionality, saving myself future work.</li>
-<li>Collaboration. Having a common API design language helps to facilitate working with others on an API, particularly if you&rsquo;re in a distributed team. It&rsquo;s extremely useful for when your API changes: the text format makes it easy to track ownership of changes, and you can also programmatically update your clients about changes to your API.</li>
-<li>Tooling. Although Swagger is a little more oriented towards being read by machines, any of these languages can be used to standardize automated tools. Can you imagine generating an AngularJS client based on a RAML document? What a dream.</li>
-<li>Generating API documentation. This was how Apiary was originally sold to me, and why I wasn&rsquo;t interested in it at the beginning&mdash; I didn&rsquo;t see too much of a reason not to just roll your own, particularly if you have other documentation systems in place. It can be pretty handy, though. It can be generated for different audiences: besides developers, you might find it handy to communicate the API to business stakeholders and marketing as well.</li>
-</ol>
-
-
-<p>I&rsquo;m sure I&rsquo;m missing plenty of reasons to consider formal API design, but even these four reasons are enough for me to discourage on-the-fly API creation. Even an activity as simple as listing out your routes before development can have positive benefits for your application.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>Even Dave Thomas, one of the original Agile signatories, proclaimed that <a href="http://www.halfarsedagilemanifesto.org/">Agile was Dead</a>. I only partially agree, and I don&rsquo;t understand why wouldn&rsquo;t you have a conference on ballet dancing? Ballet is really hard; it&rsquo;s not just an art.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-<li id="fn:2">
-<p>At least this is the impression I&rsquo;m getting from off the record conversations from other developers.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
-
-		</div>
-	<footer>
-		
-
-
-		
-
-
-
+  <!-- Site styles -->
+  <link type="text/css" rel="stylesheet" href="/assets/main.css">
   
-		
-			Tagged under
-		
-    <a class='category' href='/blog/categories/api/'>api</a>, <a class='category' href='/blog/categories/development/'>development</a>, <a class='category' href='/blog/categories/planning/'>planning</a>
-	
+  <link rel="canonical" href="http://www.ceiling.cat/">
+  <link rel="alternate" type="application/rss+xml" title="Ceiling.cat" href="http://www.ceiling.cat/feed.xml" />
+</head>
 
 
-	
-	
-	</footer>
-	
-</article>
-<!-- END OF _includes/article.html -->
+  <body>
 
-	
-		
-		<!-- START OF _includes/article.html -->
-<article>
-	<header>
-		<h1><a href="/blog/2014/04/20/password-auditing/">Password Auditing</a></h1>
-		<time>20 April 2014</time>
-	</header>
-		<div class="content">
-			<p>With the recent disclosure of the Heartbleed exploit, account security is undergoing increased media scrutiny and many of my less technical friends have asked me questions about how to proceed. Although it is likely unnecessary to change every single account password, now is as good a time as any to do a security audit of yourself and your application accounts. Here is a small audit that is fairly easy to do (and indeed, I did so earlier today):</p>
-
-<h3>Collect a List of your Online Accounts</h3>
-
-<p>The first step is intuitive enough: to secure yourself, you need to know where your openings are. If you use a password manager such as <a href="https://lastpass.com/">LastPass</a>, <a href="http://www.roboform.com">Roboform</a>, or <a href="https://agilebits.com/onepassword">1Password</a>, this should be extremely straightforward and you can move on to the next step. They can also be built into your browser (Chrome has a fairly commonly used one.)</p>
-
-<p>If you do not, I recommend using one to all but the most paranoid of users, as they simplify keeping track of your accounts and passwords, and can be synced between your devices. Otherwise, make a list manually by going through your commonly used websites and look at popular websites (popular websites are at once more likely to be secure and more likely to be targeted for an attack.) Also, search your inbox for account registration or password reset emails. (Search &ldquo;account&rdquo;, &ldquo; username&rdquo;, &ldquo;password&rdquo;.) Once you have a list, you can move on.</p>
-
-<h3>Try to Delete Unused Accounts</h3>
-
-<p>I sign up for many websites on a whim and never use them again. Are there any sites like this for you as well? Or do you never really use that Instagram anyways? No opening is better than a secure one, so you should probably just close these accounts down.</p>
-
-<p>Look through your list and find any accounts you could really do without, and update your accounts with dummy information and new passwords. Even if your account is successfully deleted, it&rsquo;s hard to ensure that a website will truly honour your privacy or your request. After this, it&rsquo;s time to delete the account, which can be extremely difficult to do.</p>
-
-<p>First, you can check <a href="http://justdelete.me/">JustDelete.Me</a> if the website is listed, and follow their instructions for removing your account. Otherwise, start by looking at your account settings or their help sections&mdash; they may have information on deleting your account, or if you&rsquo;re lucky, a button to do so. Then, if you&rsquo;re out of luck, send an email to customer support asking them to delete your account (include any pertinent information, like your username.) If they tell you it is impossible, make sure you have removed your personal information and changed the password as previously instructed,  and hope that this will suffice.</p>
-
-<h3>Change These Passwords</h3>
-
-<p>For the remaining accounts, go through and change the passwords for them as necessary. Here is my order of priority of whether you should change your password or not:</p>
-
-<ol>
-<li>Exploit Affected Websites (such as by Heartbleed) Immediate change</li>
-<li>Duplicate Passwords</li>
-<li>Bad Passwords</li>
-<li>Really Old Passwords (2+ Years)</li>
-<li>Old Passwords (1+ Year)</li>
-<li>Kinda Old Passwords (4+ Months)</li>
-<li>Recent Passwords (&lt; 4 Months, lower priority)</li>
-</ol>
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      <img src="/assets/logo.png" alt="site.title" width="75" height="75">
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+        
+          
+          <li class="nav-link"><a href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
 
 
-<p>Anything at levels 4 or higher should really be changed now. Bad Passwords include most passwords that are dictionary words, and do not include very many numbers or symbols. (You can look up &ldquo;password entropy&rdquo; for thoughts on this and advice on creating new passwords.)</p>
+    <div class="page-content">
+        <div class="home">
 
-<p>For the typical end user, I just recommend using a password manager to generate and keep track of new passwords. Otherwise, there have been very many articles on password generation, including <a href="http://xkcd.com/936/">this famous XKCD comic</a>. For my money, I believe that any wildly popular advice on passwords is likely to be insecure, so you should really make up your own rules involving numbers and symbols. For instance, maybe you made up a secret language in Grade 6 that you remember to this day&mdash; make use of that. Use camel case pig Latin. Intersperse symbols and numbers throughout all of these.</p>
-
-<h3>Conclusions</h3>
-
-<p>After you are done changing your passwords, make sure that you don&rsquo;t write them down or leave access to them where a person can find them, and if you need to share access to an account with someone, change the password first. Remember, the easiest way to gain access to somebody&rsquo;s account is through social engineering.</p>
-
-<p>Finally, it is likely a good idea to also ensure that all your apps and programs are up-to-date, and to do an audit of what apps have access to your Facebook and Twitter accounts. A virus scan probably also won&rsquo;t hurt either. However, simply changing your passwords as listed above is a good first step for people who are confused and pressed on time.</p>
-
-		</div>
-	<footer>
-		
-
-
-		
-
-
-
+<div class="wrapper">
+<ul class="post-list">
   
-		
-			Tagged under
-		
-    <a class='category' href='/blog/categories/passwords/'>passwords</a>, <a class='category' href='/blog/categories/security/'>security</a>, <a class='category' href='/blog/categories/thoughts/'>thoughts</a>
-	
-
-
-	
-	
-	</footer>
-	
-</article>
-<!-- END OF _includes/article.html -->
-
-	
-		
-		<!-- START OF _includes/article.html -->
-<article>
-	<header>
-		<h1><a href="/blog/2014/04/01/kanye-west/">Kanye West and my Feminism</a></h1>
-		<time>01 April 2014</time>
-	</header>
-		<div class="content">
-			<p> The other day I was asked about how I enjoy the music of Kanye West, despite being a staunch feminist. Although there is undeniable misogynistic content in his songs, I overlook it because I love his production and enjoy his other themes&mdash; his criticisms of cultural system and capitalism (although he is extremely materialistic, he can still criticize the power structures that keep certain people in power), his mix of self deprecation and hubris, and discussions of race, family, justice and power. This doesn&rsquo;t excuse him for his lyrical treatment of most women as sexual objects, but I acknowledge these problems in the context of how American society views hip hop.</p>
-
-<p>I tolerate a lot more misogyny in hip hop than most feminists because white capitalism was what made it an inherent part of the genre. Historically, blackness has long been sold as transgressive to white kids&mdash; even when it was a white man performing it, as with Elvis and his heavy borrowing from black artists. Consequentially, more transgressive&mdash; which often manifests as misogyny&mdash; artists sell better, get more critically acclaimed and make their labels happier. I don&rsquo;t have to be happy with every woman being labelled a slut but I don&rsquo;t really blame black artists for having to play this terrible game of garnering audiences with it.</p>
-
-<p>Furthermore, misogyny is baked into literally every genre but we focus on hip hop as a misogynistic genre because of anti-blackness (if this seems contentious, one can look into how often racist slurs are used in this criticism). I don&rsquo;t think many white artists have been as scrutinized as hip hop artists are, despite being similarly problematic&mdash; the Decemberists are forgiven for being &lsquo;in character&rsquo; when they sing about the rape and murder of women; John Lennon was abusive in life and in song (see &ldquo;run for your life&rdquo;). Indie music in general depict women as dead, infantalized, or depressed&mdash; overall, we are helpless creatures. Arguably, the former is worse than the latter, but I find the discrimination and aggressions that I encounter frequently less tolerable than the ones that are infrequent for me. This is likely a fault of mine. but I tolerate Kanye and hip hop because I encounter their style of misogyny less frequently in real life. I still draw my line at sexual and physical violence against women in lyrics, but honestly, I don&rsquo;t think this content is much more common in hip hop than other artists.</p>
-
-		</div>
-	<footer>
-		
-
-
-		
-
-
-
+  <li>
+    <h2>
+      <a class="post-link" href="/2016/09/13/fandom-timeline/">A Fandom Timeline</a>
+    </h2>
+    <section class="post-excerpt" itemprop="description">
+      <p>This week for my fandom class, I created this timeline of past fan loves of my past. It took more time than I expected– what merited inclusion? What categories were too broad? Was there anything I was too embarrassed to include? (A definite “yes” on that last count, which is...</p>
+    </section>
+    <section class="post-meta">
+      <div class="post-date">September 13, 2016</div>
+      <div class="post-categories">
+      in 
+        
+        <a href="/category/fandom">Fandom</a>
+        
+      
+      </div>
+    </section>
+  </li>
   
-		
-			Tagged under
-		
-    <a class='category' href='/blog/categories/feminis/'>feminis</a>, <a class='category' href='/blog/categories/music/'>music,</a>
-	
-
-
-	
-	
-	</footer>
-	
-</article>
-<!-- END OF _includes/article.html -->
-
-	
-		
-		<!-- START OF _includes/article.html -->
-<article>
-	<header>
-		<h1><a href="/blog/2014/02/24/pokedex-design/">Pokedex Design</a></h1>
-		<time>24 February 2014</time>
-	</header>
-		<div class="content">
-			<p>I just started a new playthrough of Pokemon Leafgreen&mdash; the last Pokemon game I had played through was Ruby, so I thought I&rsquo;d ease back into playing these games with this one. It&rsquo;s both a continuation of the series and a game I&rsquo;m intimately familiar with&mdash; it is a remake of the first generation of Pokemon games.</p>
-
-<p>One thing that struck me very quickly was how poorly designed the Pokedex was in terms of user experience. Unless you&rsquo;re part of Twitch playing Pokemon, there is hardly any reason to consult the Pokedex beyond looking at your catch and seen counts. The Pokedex has improved since the first generation&mdash; there is now at a glance type information, clear thumbnails of each Pokemon, and different categories, but it is still largely unhelpful for many potential use cases. I often find myself creating spreadsheets or looking for web applications to meet my needs.</p>
-
-<p>Roughly, here is a persona for a potential Pokedex User:</p>
-
-<blockquote><p>Red is a 10 year old boy from Pallet Town, who is on a quest to become a Pokemon Master. He would like to learn more about the Pokemon he has seen or caught, and could use some help on his journey to catch &lsquo;em all. He is quite adept at using technology, regularly using his computer to store and withdraw his Pokemon and items.</p></blockquote>
-
-<p>The Pokedex is reasonably helpful for Red to discover facts about his Pokemon, but, particularly in Firered and Leafgreen, it falls short as a reference for catching Pokemon. Some features that would help include:</p>
-
-<ul>
-<li>Searching by name. This is a feature that was removed in FR/LG, for reasons unknown. Consequentially, the only way to find a Pokemon is to look through many pages, particularly if you do not know its local habitat.</li>
-<li>Filtering by Caught / Uncaught status. If I&rsquo;d like to know more about the Pokemon I own, there would be a lot less friction if I didn&rsquo;t have to scroll through entries that are incomplete, and vice versa.</li>
-<li>Viewing Pokemon by Location Found. Apparently a feature added in B2/W2 and then removed for no apparent reason, this would be a boon for completionists, allowing a trainer to view at a glance whether they&rsquo;ve caught all the Pokemon in an area.</li>
-<li>Custom lists. In attempting to complete the Kanto Pokedex, I find myself making lists of Pokemon I intend to catch in the wild, Pokemon I need to remember to trade, and Pokemon I need to remember to train. It would be handy if this was a feature facilitated in the game rather than Google Documents I&rsquo;ve created.</li>
+  <hr>
+  
+  
+  <li>
+    <h2>
+      <a class="post-link" href="/2016/09/10/itp/">New Start: Redux</a>
+    </h2>
+    <section class="post-excerpt" itemprop="description">
+      <p>I need to restart this blog again for ITP…
+</p>
+    </section>
+    <section class="post-meta">
+      <div class="post-date">September 10, 2016</div>
+      <div class="post-categories">
+      in 
+        
+        <a href="/category/personal">Personal</a>
+        
+      
+      </div>
+    </section>
+  </li>
+  
+  <hr>
+  
+  
+  <li>
+    <h2>
+      <a class="post-link" href="/2015/02/06/duck-sized-horses/">Duck-Sized Horses</a>
+    </h2>
+    <section class="post-excerpt" itemprop="description">
+      <p>Recently, I filled in a job questionnaire that included the infamous Reddit question, “Would you rather fight 100 duck sized horses or 1 horse sized duck?” I promptly chose the horses, but I didn’t get an interview. Perhaps they were duck people? My reasoning is below: I’d fight the 100...</p>
+    </section>
+    <section class="post-meta">
+      <div class="post-date">February 6, 2015</div>
+      <div class="post-categories">
+      in 
+        
+        <a href="/category/fun">Fun</a>, 
+        
+      
+        
+        <a href="/category/random">Random</a>
+        
+      
+      </div>
+    </section>
+  </li>
+  
+  <hr>
+  
+  
+  <li>
+    <h2>
+      <a class="post-link" href="/2014/08/15/i-was-a-teenage-web-developer/">I Was a Teenage Web Developer</a>
+    </h2>
+    <section class="post-excerpt" itemprop="description">
+      <p>(*This post was originally posted to Medium.) When I was in high school, the other web designers I knew were other teenage girls. When I was 14, I attended a seminar to encourage young women to consider computer science. When I went to university, about a third of my first...</p>
+    </section>
+    <section class="post-meta">
+      <div class="post-date">August 15, 2014</div>
+      <div class="post-categories">
+      in 
+        
+        <a href="/category/personal">Personal</a>
+        
+      
+      </div>
+    </section>
+  </li>
+  
+  <hr>
+  
+  
+  <li>
+    <h2>
+      <a class="post-link" href="/2014/08/05/the-ultimate-guide-to-general-delimited-input/">The Ultimate Guide to General Delimited Input</a>
+    </h2>
+    <section class="post-excerpt" itemprop="description">
+      <p>Although my heart belongs to ruby, lately, I haven’t been using it at all– I’ve been working on coding tumblr the game in entirely client side JavaScript. To keep my ruby skills fresh though, I’ve been doing a reading about Ruby on the side. One topic, which I hardly gave...</p>
+    </section>
+    <section class="post-meta">
+      <div class="post-date">August 5, 2014</div>
+      <div class="post-categories">
+      in 
+        
+        <a href="/category/ruby">Ruby</a>, 
+        
+      
+        
+        <a href="/category/general-delimited-input">General-delimited-input</a>, 
+        
+      
+        
+        <a href="/category/percent-notation">Percent-notation</a>, 
+        
+      
+        
+        <a href="/category/percent-literals">Percent-literals</a>, 
+        
+      
+        
+        <a href="/category/syntax">Syntax</a>
+        
+      
+      </div>
+    </section>
+  </li>
+  
+  
 </ul>
 
+<nav class="pagination" role="navigation">
+  <p>
+    
+    <a class="newer-posts" href="/page/2">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-square fa-stack-2x"></i>
+        <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+    
+    <span class="page-number">Page 1 of 4</span>
+    
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-square fa-stack-2x"></i>
+      <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
+    </span>
+    
+  </p>
+  <p>
+    <a href="/posts">View All Posts by Category</a>
+  </p>
+</nav>
 
-<p>If I were a Pokedex designer, I would want to conduct user studies, (If Professor Oak wanted us to test the devices, why didn&rsquo;t he ask us for our thoughts on them?) write up task analyses, and create storyboards for an improved interface. On the other hand, if I were in the Pokemon universe, I&rsquo;d probably forget about all of that, and just try to catch them all myself.</p>
-
-		</div>
-	<footer>
-		
-
-
-		
-
-
-
-  
-		
-			Tagged under
-		
-    <a class='category' href='/blog/categories/pokemon/'>pokemon,</a>, <a class='category' href='/blog/categories/thoughts/'>thoughts</a>, <a class='category' href='/blog/categories/ux/'>ux,</a>
-	
-
-
-	
-	
-	</footer>
-	
-</article>
-<!-- END OF _includes/article.html -->
-
-	
-		
-		<!-- START OF _includes/article.html -->
-<article>
-	<header>
-		<h1><a href="/blog/2014/02/02/philip-seymour-hoffman/">Philip Seymour Hoffman</a></h1>
-		<time>02 February 2014</time>
-	</header>
-		<div class="content">
-			<p>I don&rsquo;t normally care about celebrity deaths; they&rsquo;re so remote from my lifestyle that it always registers as a tragedy, but easy to move past. Today, though, Philip Seymour Hoffman passed away, and the loss is felt viscerally in me. Hoffman was likely the greatest working actor around: not only immensely talented, but also a <em>worker</em>: he was never so discriminating that he would pass down lesser roles, and never phoned it in when he took them (as so many others would.) In each and every performance, he would give it his all: this morning, my brother told me that he first noticed him in Along Came Polly, of all places. (Hoffman took literally the shittiest roles, evidentially.)</p>
-
-<p>If you would like to commemorate Hoffman by watching his films, I highly recommend his films with Paul Thomas Anderson: I chiefly recommend his turns in The Master and Boogie Nights, but his other roles are certainly worthwhile as well. Synecdoche, New York is highly recommended as well: Hoffman carries the film with his performance, rendering an emotive character that would be a mess in any other actor&rsquo;s hands. However, any of Phillip Seymour Hoffman&rsquo;s performances are worthwhile to seek out, even in Along Came Polly or the five minutes he is in Catching Fire. I cherish the films that we have, and lament the roles we will never see him in. I hope that he rests in peace.</p>
-
-		</div>
-	<footer>
-		
-
-
-		
-
-
-
-  
-		
-			Tagged under
-		
-    <a class='category' href='/blog/categories/actors/'>actors</a>, <a class='category' href='/blog/categories/film/'>film</a>, <a class='category' href='/blog/categories/memorial/'>memorial</a>
-	
-
-
-	
-	
-	</footer>
-	
-</article>
-<!-- END OF _includes/article.html -->
-
-	
-		
-		<!-- START OF _includes/article.html -->
-<article>
-	<header>
-		<h1><a href="/blog/2014/02/01/foursquare-and-kinds-of-fun/">Foursquare and Kinds of Fun</a></h1>
-		<time>01 February 2014</time>
-	</header>
-		<div class="content">
-			<p>I read a <a href="http://angrydm.com/2014/01/gaming-for-fun-part-1-eight-kinds-of-fun/">blog post</a> recently about LeBlanc&#8217; eight types of fun (as applied to being a good dungeon master for D&amp;D) and, since I don&rsquo;t DM or play D&amp;D, it got me thinking about web applications and gamification. Although Kevin Warbauch&rsquo;s Coursera class on gamification was very informative, I found that this blog post was more illuminating than the discussion on fun included in the course. It got me thinking about how Foursquare&rsquo;s gamification were so much more effective than other applications: it covers more types of fun than the usual gamified effort, and it&rsquo;s consequentially more fun.</p>
-
-<p>This is partially a consequence of Foursquare&rsquo;s core concept as well as its game elements. For instance, it largely achieves the Sensory aspect of fun because of checking into the locations, rather than any artificial game elements. What could be more sensory than going to a restaurant and trying some new food? Similarly, it achieves Discovery as part of its original mission: Foursquare helps you find new places to go. Submission isn&rsquo;t as deliberately achieved, but its a side effect of Foursquare being so easy and uninvolved: all you have to do is check in, and then enjoy yourself at the locale.</p>
-
-<p>Fellowship is likely the most important type of fun for Foursquare: the social network is designed to facilitate meeting up with your friends. Although its certainly possible to use Foursquare solitaire, much of the fun is seeing where your friends check in and getting implicit recommendations that way.</p>
-
-<p>More explicit game elements of Foursquare are directed towards gamers who like Challenge. Collecting badges, climbing leaderboards, and creating streaks are all components borrowed from games and can be extremely habit forming. Foursquare, to an extent, also includes the Expression type of fun: the places where you check in, and particularly, where you become King, make a particular statement about yourself. If you&rsquo;re king of Sun Sui Wah and you&rsquo;ve collected all the Chinese food badges, it denotes to the world: &ldquo;I&rsquo;m an expert on Chinese food.&rdquo; It&rsquo;s a much stronger assertion than just claiming it.</p>
-
-<p>The two remaining types of fun are a bit weaker on Foursquare. Becoming King may satisfy those who like Fantasy, but it&rsquo;s a weak argument. The sense of progression in steaks and points may satisfy Narrative seekers a little, but not to any great extent. Still, six out of eight is extremely good for any game, let alone a gamified platform. Developers would do well by following Foursquare&rsquo;s example on this in making their applications fun.</p>
-
-		</div>
-	<footer>
-		
-
-
-		
-
-
-
-  
-		
-			Tagged under
-		
-    <a class='category' href='/blog/categories/foursquare/'>foursquare</a>, <a class='category' href='/blog/categories/fun/'>fun</a>, <a class='category' href='/blog/categories/gamification/'>gamification</a>, <a class='category' href='/blog/categories/thoughts/'>thoughts</a>
-	
-
-
-	
-	
-	</footer>
-	
-</article>
-<!-- END OF _includes/article.html -->
-
-	
-		
-		<!-- START OF _includes/article.html -->
-<article>
-	<header>
-		<h1><a href="/blog/2014/01/21/bullet-points-from-maximize-your-potential/">Bullet Points from Maximize Your Potential</a></h1>
-		<time>21 January 2014</time>
-	</header>
-		<div class="content">
-			<p>I have an embarrassing secret: I love self-help books, whether they&rsquo;re the usual cheesy &ldquo;believe in yourself&rdquo; drivel, or coated with a veneer of business or professional material. I don&rsquo;t think this obsession is all that different from &ldquo;life hacks&rdquo; or the motivational posts that litter Hacker News from time to time, except for two points: they might contain fresh insights that the life hackers haven&rsquo;t covered yet and they usually pad out these insights with walls of text. They need to fill in an entire book somehow.</p>
-
-<p>I recently read 99U&rsquo;s &ldquo;Maximize Your Potential: Grow Your Expertise, Take Bold Risks &amp; Build an Incredible Career&rdquo;, and took down a few notes. To save you the trouble of reading the book, here are some of the big takeaways:</p>
-
-<ul>
-<li>Post long term goals by your workstation to keep them in mind.</li>
-<li>Let go of email/social media to reduce your mental list of &ldquo;things to do&rdquo;.</li>
-<li>Compulsive decisions != Conscious decisions</li>
-<li>UNPLUG.</li>
-<li>Breathe deeply while you work.</li>
-<li>Drink lots of water.</li>
-<li>Instinct > Technology</li>
-<li>Set aside specific time each week/day to work on spare projects to nurture your imagination.</li>
-<li>Always carry a spare notebook for questions / ideas.</li>
-<li>Let your mind wander when stuck.</li>
-<li>Do creative work at beginning of day, and save reactive work for afterwards.</li>
-<li>Have a routine.</li>
-<li>Establish associative triggers for work. (e.g. different hats for different activities)</li>
-<li>Consistent intervals for work (e.g. Pomodoro. 90 min bursts then take a break.)</li>
-<li>Don’t wait to be in &ldquo;the mood&rdquo; for work. Just do it!</li>
-<li>Spend time by yourself in a day.</li>
-<li>Block off periods of times with no distractions (These are meetings with yourself.) Start off w/ 1 h meetings, and add 15 mins every two weeks.</li>
-<li>Remove even the option of being distracted.</li>
-<li>Finish tasks so you stop thinking about them!</li>
-<li>Save iterations and POST MILESTONES.</li>
-<li>Alternate creative and mindful work.</li>
-</ul>
-
-
-<p>You might already do some of these things, and some of these suggestions may be overwhelming. Just take a step at a time! I&rsquo;m currently doing well with my &lsquo;drinking water&rsquo; New Years&#8217; resolution!</p>
-
-		</div>
-	<footer>
-		
-
-
-		
-
-
-
-  
-		
-			Tagged under
-		
-    <a class='category' href='/blog/categories/books/'>books</a>, <a class='category' href='/blog/categories/notes/'>notes</a>, <a class='category' href='/blog/categories/productivity/'>productivity</a>, <a class='category' href='/blog/categories/review/'>review</a>
-	
-
-
-	
-	
-	</footer>
-	
-</article>
-<!-- END OF _includes/article.html -->
-
-	
-	
-<div class="pagination">
-	
-		<a class="older" href="/blog/page/2/">Older</a>
-	
-	
-	<span class="total">1 of 2</span>
-	
-	
 </div>
-<!-- END OF index.html -->
+</div>
 
-		
-			<footer>
-				Copyright &copy; 2015
+    </div>
 
-	Rita Cheng
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">Ceiling.cat</h3>
+
+    <div class="site-navigation">
+      
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+        
+        
+          <li class="nav-link"><a href="/about/">About</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">rita@ritacheng.com</span>
+          </a>
+        </li>
+
+        
+          
+          <li>
+            <a href="https://twitter.com/rtchng" title="Follow me on Twitter">
+              <i class="fa fa-twitter"></i>
+              <span class="username">rtchng</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://github.com/metermaid" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">metermaid</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="http://www.instagram.com/risky" title="Follow me on Instagram">
+              <i class="fa fa-instagram"></i>
+              <span class="username">risky</span>
+            </a>
+          </li>
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text"></p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+<script>
+
+$(document).ready(function() {
+
+  // Syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
 
 
-			</footer>
-			
-		</div> <!-- // .wrap -->
-	</body>
-	<script>
-		$(document).ready(function() {
-			// Make images center
-			$('p:has(img)').css('text-align', 'center');
-			
-			// Add the image's title attribute as a caption
-			$('p:has(img)').append(function () {
-				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
-			});
-			
-			// Prettify code
-			$('code').addClass('prettyprint');
-			$('pre code').addClass('linenums');
-			
-			// Copy to clipboard with button
-			$('pre:has(code)').prepend(function(){
-				return '<div class="clip-btn">copy to clipboard</div>';
-			});
-			$('.clip-btn').zclip({
-				path:'/js/ZeroClipboard.swf',
-				copy: $(this).next('code').text(),
-				afterCopy: function(){
-					$(this).replaceWith('<div class="clip-btn">copied!');
-					}
-			});
-		});
-	</script>
+});
+
+</script>
+
+
+
+
+  </body>
+
 </html>
-<!-- END OF _layouts/default.html -->

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Password Auditing</title>
+  <meta name="description" content="With the recent disclosure of the Heartbleed exploit, account security is undergoing increased media scrutiny and many of my less technical friends have aske...">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/monokai_sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="With the recent disclosure of the Heartbleed exploit, account security is undergoing increased media scrutiny and many of my less technical friends have aske..." />
+  <meta property="og:url" content="http://www.ceiling.cat" />
+  <meta property="og:site_name" content="Ceiling.cat" />
+  <meta property="og:title" content="Password Auditing" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://www.ceiling.cat/assets/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Password Auditing">
+  <meta name="twitter:description" content="With the recent disclosure of the Heartbleed exploit, account security is undergoing increased media scrutiny and many of my less technical friends have aske...">
+  <meta name="twitter:image" content="http://www.ceiling.cat/assets/logo.png">
+  <meta name="twitter:url" content="http://www.ceiling.cat">
+  
+
+  
+
+  <!-- Site styles -->
+  <link type="text/css" rel="stylesheet" href="/assets/main.css">
+  
+  <link rel="canonical" href="http://www.ceiling.cat/2014/04/20/password-auditing/">
+  <link rel="alternate" type="application/rss+xml" title="Ceiling.cat" href="http://www.ceiling.cat/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      <img src="/assets/logo.png" alt="site.title" width="75" height="75">
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+        
+          
+          <li class="nav-link"><a href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">Password Auditing</h1>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">April 20, 2014</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/security">Security</a>, 
+    
+  
+    
+    <a href="/category/thoughts">Thoughts</a>, 
+    
+  
+    
+    <a href="/category/passwords">Passwords</a>
+    
+  
+  </div>
+</section>  
+
+<article class="post-content">
+  <p>With the recent disclosure of the Heartbleed exploit, account security is undergoing increased media scrutiny and many of my less technical friends have asked me questions about how to proceed. Although it is likely unnecessary to change every single account password, now is as good a time as any to do a security audit of yourself and your application accounts. Here is a small audit that is fairly easy to do (and indeed, I did so earlier today):</p>
+
+<h3 id="collect-a-list-of-your-online-accounts">Collect a List of your Online Accounts</h3>
+
+<p>The first step is intuitive enough: to secure yourself, you need to know where your openings are. If you use a password manager such as <a href="https://lastpass.com/">LastPass</a>, <a href="http://www.roboform.com">Roboform</a>, or <a href="https://agilebits.com/onepassword">1Password</a>, this should be extremely straightforward and you can move on to the next step. They can also be built into your browser (Chrome has a fairly commonly used one.)</p>
+
+<p>If you do not, I recommend using one to all but the most paranoid of users, as they simplify keeping track of your accounts and passwords, and can be synced between your devices. Otherwise, make a list manually by going through your commonly used websites and look at popular websites (popular websites are at once more likely to be secure and more likely to be targeted for an attack.) Also, search your inbox for account registration or password reset emails. (Search “account”, “ username”, “password”.) Once you have a list, you can move on.</p>
+
+<h3 id="try-to-delete-unused-accounts">Try to Delete Unused Accounts</h3>
+
+<p>I sign up for many websites on a whim and never use them again. Are there any sites like this for you as well? Or do you never really use that Instagram anyways? No opening is better than a secure one, so you should probably just close these accounts down.</p>
+
+<p>Look through your list and find any accounts you could really do without, and update your accounts with dummy information and new passwords. Even if your account is successfully deleted, it’s hard to ensure that a website will truly honour your privacy or your request. After this, it’s time to delete the account, which can be extremely difficult to do.</p>
+
+<p>First, you can check <a href="http://justdelete.me/">JustDelete.Me</a> if the website is listed, and follow their instructions for removing your account. Otherwise, start by looking at your account settings or their help sections– they may have information on deleting your account, or if you’re lucky, a button to do so. Then, if you’re out of luck, send an email to customer support asking them to delete your account (include any pertinent information, like your username.) If they tell you it is impossible, make sure you have removed your personal information and changed the password as previously instructed,  and hope that this will suffice.</p>
+
+<h3 id="change-these-passwords">Change These Passwords</h3>
+
+<p>For the remaining accounts, go through and change the passwords for them as necessary. Here is my order of priority of whether you should change your password or not:</p>
+
+<ol>
+  <li>Exploit Affected Websites (such as by Heartbleed) Immediate change</li>
+  <li>Duplicate Passwords</li>
+  <li>Bad Passwords</li>
+  <li>Really Old Passwords (2+ Years)</li>
+  <li>Old Passwords (1+ Year)</li>
+  <li>Kinda Old Passwords (4+ Months)</li>
+  <li>Recent Passwords (&lt; 4 Months, lower priority)</li>
+</ol>
+
+<p>Anything at levels 4 or higher should really be changed now. Bad Passwords include most passwords that are dictionary words, and do not include very many numbers or symbols. (You can look up “password entropy” for thoughts on this and advice on creating new passwords.)</p>
+
+<p>For the typical end user, I just recommend using a password manager to generate and keep track of new passwords. Otherwise, there have been very many articles on password generation, including <a href="http://xkcd.com/936/">this famous XKCD comic</a>. For my money, I believe that any wildly popular advice on passwords is likely to be insecure, so you should really make up your own rules involving numbers and symbols. For instance, maybe you made up a secret language in Grade 6 that you remember to this day– make use of that. Use camel case pig Latin. Intersperse symbols and numbers throughout all of these.</p>
+
+<h3 id="conclusions">Conclusions</h3>
+
+<p>After you are done changing your passwords, make sure that you don’t write them down or leave access to them where a person can find them, and if you need to share access to an account with someone, change the password first. Remember, the easiest way to gain access to somebody’s account is through social engineering.</p>
+
+<p>Finally, it is likely a good idea to also ensure that all your apps and programs are up-to-date, and to do an audit of what apps have access to your Facebook and Twitter accounts. A virus scan probably also won’t hurt either. However, simply changing your passwords as listed above is a good first step for people who are confused and pressed on time.</p>
+
+</article>
+
+
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+      <a href="//twitter.com/share?text=Password+Auditing&url=http://www.ceiling.cat/2014/04/20/password-auditing/&via=rtchng"
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+        <i class="fa fa-twitter-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+
+
+
+<section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'jynx';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">Ceiling.cat</h3>
+
+    <div class="site-navigation">
+      
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+        
+        
+          <li class="nav-link"><a href="/about/">About</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">rita@ritacheng.com</span>
+          </a>
+        </li>
+
+        
+          
+          <li>
+            <a href="https://twitter.com/rtchng" title="Follow me on Twitter">
+              <i class="fa fa-twitter"></i>
+              <span class="username">rtchng</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://github.com/metermaid" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">metermaid</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="http://www.instagram.com/risky" title="Follow me on Instagram">
+              <i class="fa fa-instagram"></i>
+              <span class="username">risky</span>
+            </a>
+          </li>
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text"></p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+<script>
+
+$(document).ready(function() {
+
+  // Syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+
+});
+
+</script>
+
+
+
+
+  </body>
+
+</html>

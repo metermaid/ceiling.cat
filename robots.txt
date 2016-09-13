@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://blog.ritacheng.com/sitemap.xml 
+Sitemap: {{ site.url }}/sitemap.xml 
