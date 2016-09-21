@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2016-09-19T21:53:32-04:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>A Star Trek Pilgrimage</title><link href="http://www.ceiling.cat/2016/09/17/startrek/" rel="alternate" type="text/html" title="A Star Trek Pilgrimage" /><published>2016-09-17T17:01:35-04:00</published><updated>2016-09-17T17:01:35-04:00</updated><id>http://www.ceiling.cat/2016/09/17/startrek</id><content type="html" xml:base="http://www.ceiling.cat/2016/09/17/startrek/">&lt;p&gt;On Saturday, I went on a fan pilgrimage with Patrick Presto– we took a trip to the Paley Center to visit their new exhibition, &lt;a href=&quot;https://www.paleycenter.org/transported-paley-center-salutes-50-years-of-star-trek&quot;&gt;“Transported: Paley Center Salutes 50 Years of Star Trek”&lt;/a&gt;. Although I have many friends who are Trekkies, I’ve never been one for the series myself. I’ve seen two of the new movies (and don’t like them very much) and a handful of episodes from the Next Generation, but to call me a fan would be a stretch. I’m reasonably capable of pretending to be a fan– Presto accused me of being one after I recognized a Tribble– but genuine fandom is beyond me.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2016-09-20T21:14:50-04:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>Switches</title><link href="http://www.ceiling.cat/2016/09/17/switches/" rel="alternate" type="text/html" title="Switches" /><published>2016-09-17T17:01:35-04:00</published><updated>2016-09-17T17:01:35-04:00</updated><id>http://www.ceiling.cat/2016/09/17/switches</id><content type="html" xml:base="http://www.ceiling.cat/2016/09/17/switches/">&lt;p&gt;I’m so tired. I did labs earlier today. Yay. I only documented the switch lab, though.
+&lt;img src=&quot;/assets/switches/switch1.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;switches/switch1.jpg&quot; /&gt;
+Here’s a video of that first one. It’s very short.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cm7eB3OsBgI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;And here are shots of the other two parts of the switch lab.
+&lt;img src=&quot;/assets/switches/switch2.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;switches/switch2.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/switches/switch3.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;switches/switch3.jpg&quot; /&gt;
+I have a video of the last one, because it was the most complicated part of the lab.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0X5cKt8o8dg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;I also did a creative switch, or something. It’s my book. I had grand designs for using graphite to do a switch drawing, but I forgot my graphite sticks at home and had to steal lead from Koji. I’m sorry Koji. The drawing wasn’t enough drawn to conduct electricity– it likely would’ve worked better with the graphite stick as they have better colour payoff. The lead stick in itself conducted pretty well.
+&lt;img src=&quot;/assets/switches/switch4.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;switches/switch4.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/switches/switch5.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;switches/switch5.jpg&quot; /&gt;&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-a_-eWLjP-4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;The readings were very lengthy this week, and honestly kind of confusing. I had to google “affect don norman” to find an abstract and figure out exactly what he meant there, because he never defined it in his piece about it. Also, I felt a bit of shame with his precise definition of affordance, since I used that word in my last pcomp blog post in the designer sense that he derides. Woops.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="itp" /><category term="pcomp" /><category term="physical computing" /><summary>I’m so tired. I did labs earlier today. Yay. I only documented the switch lab, though.
+
+Here’s a video of that first one. It’s very short.
+
+And here are shots of the other two parts of the switch lab.
+
+
+I have a video of the last one, because it was the most complicated part of the lab.
+
+I also did a creative switch, or something. It’s my book. I had grand designs for using graphite to do a switch drawing, but I forgot my graphite sticks at home and had to steal lead from Koji. I’m sorry Koji. The drawing wasn’t enough drawn to conduct electricity– it likely would’ve worked better with the graphite stick as they have better colour payoff. The lead stick in itself conducted pretty well.
+
+
+
+The readings were very lengthy this week, and honestly kind of confusing. I had to google “affect don norman” to find an abstract and figure out exactly what he meant there, because he never defined it in his piece about it. Also, I felt a bit of shame with his precise definition of affordance, since I used that word in my last pcomp blog post in the designer sense that he derides. Woops.</summary></entry><entry><title>A Star Trek Pilgrimage</title><link href="http://www.ceiling.cat/2016/09/17/startrek/" rel="alternate" type="text/html" title="A Star Trek Pilgrimage" /><published>2016-09-17T17:01:35-04:00</published><updated>2016-09-17T17:01:35-04:00</updated><id>http://www.ceiling.cat/2016/09/17/startrek</id><content type="html" xml:base="http://www.ceiling.cat/2016/09/17/startrek/">&lt;p&gt;On Saturday, I went on a fan pilgrimage with Patrick Presto– we took a trip to the Paley Center to visit their new exhibition, &lt;a href=&quot;https://www.paleycenter.org/transported-paley-center-salutes-50-years-of-star-trek&quot;&gt;“Transported: Paley Center Salutes 50 Years of Star Trek”&lt;/a&gt;. Although I have many friends who are Trekkies, I’ve never been one for the series myself. I’ve seen two of the new movies (and don’t like them very much) and a handful of episodes from the Next Generation, but to call me a fan would be a stretch. I’m reasonably capable of pretending to be a fan– Presto accused me of being one after I recognized a Tribble– but genuine fandom is beyond me.&lt;/p&gt;
 
 &lt;p&gt;With the new TV series coming out, though, I’m somewhat interested in being a fan– Bryan Fuller will be the showrunner, and I’m a big fan of his work. I thought it would be a good time to immerse myself in some Trek fandom.&lt;/p&gt;
 
@@ -311,42 +337,4 @@ fruit = “apple”
       Even Dave Thomas, one of the original Agile signatories, proclaimed that Agile was Dead. I only partially agree, and I don’t understand why wouldn’t you have a conference on ballet dancing? Ballet is really hard; it’s not just an art. &amp;#8617;
     
     
-      At least this is the impression I’m getting from off the record conversations from other developers. &amp;#8617;</summary></entry><entry><title>Password Auditing</title><link href="http://www.ceiling.cat/2014/04/20/password-auditing/" rel="alternate" type="text/html" title="Password Auditing" /><published>2014-04-20T03:35:06-04:00</published><updated>2014-04-20T03:35:06-04:00</updated><id>http://www.ceiling.cat/2014/04/20/password-auditing</id><content type="html" xml:base="http://www.ceiling.cat/2014/04/20/password-auditing/">&lt;p&gt;With the recent disclosure of the Heartbleed exploit, account security is undergoing increased media scrutiny and many of my less technical friends have asked me questions about how to proceed. Although it is likely unnecessary to change every single account password, now is as good a time as any to do a security audit of yourself and your application accounts. Here is a small audit that is fairly easy to do (and indeed, I did so earlier today):&lt;/p&gt;
-
-&lt;h3 id=&quot;collect-a-list-of-your-online-accounts&quot;&gt;Collect a List of your Online Accounts&lt;/h3&gt;
-
-&lt;p&gt;The first step is intuitive enough: to secure yourself, you need to know where your openings are. If you use a password manager such as &lt;a href=&quot;https://lastpass.com/&quot;&gt;LastPass&lt;/a&gt;, &lt;a href=&quot;http://www.roboform.com&quot;&gt;Roboform&lt;/a&gt;, or &lt;a href=&quot;https://agilebits.com/onepassword&quot;&gt;1Password&lt;/a&gt;, this should be extremely straightforward and you can move on to the next step. They can also be built into your browser (Chrome has a fairly commonly used one.)&lt;/p&gt;
-
-&lt;p&gt;If you do not, I recommend using one to all but the most paranoid of users, as they simplify keeping track of your accounts and passwords, and can be synced between your devices. Otherwise, make a list manually by going through your commonly used websites and look at popular websites (popular websites are at once more likely to be secure and more likely to be targeted for an attack.) Also, search your inbox for account registration or password reset emails. (Search “account”, “ username”, “password”.) Once you have a list, you can move on.&lt;/p&gt;
-
-&lt;h3 id=&quot;try-to-delete-unused-accounts&quot;&gt;Try to Delete Unused Accounts&lt;/h3&gt;
-
-&lt;p&gt;I sign up for many websites on a whim and never use them again. Are there any sites like this for you as well? Or do you never really use that Instagram anyways? No opening is better than a secure one, so you should probably just close these accounts down.&lt;/p&gt;
-
-&lt;p&gt;Look through your list and find any accounts you could really do without, and update your accounts with dummy information and new passwords. Even if your account is successfully deleted, it’s hard to ensure that a website will truly honour your privacy or your request. After this, it’s time to delete the account, which can be extremely difficult to do.&lt;/p&gt;
-
-&lt;p&gt;First, you can check &lt;a href=&quot;http://justdelete.me/&quot;&gt;JustDelete.Me&lt;/a&gt; if the website is listed, and follow their instructions for removing your account. Otherwise, start by looking at your account settings or their help sections– they may have information on deleting your account, or if you’re lucky, a button to do so. Then, if you’re out of luck, send an email to customer support asking them to delete your account (include any pertinent information, like your username.) If they tell you it is impossible, make sure you have removed your personal information and changed the password as previously instructed,  and hope that this will suffice.&lt;/p&gt;
-
-&lt;h3 id=&quot;change-these-passwords&quot;&gt;Change These Passwords&lt;/h3&gt;
-
-&lt;p&gt;For the remaining accounts, go through and change the passwords for them as necessary. Here is my order of priority of whether you should change your password or not:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Exploit Affected Websites (such as by Heartbleed) Immediate change&lt;/li&gt;
-  &lt;li&gt;Duplicate Passwords&lt;/li&gt;
-  &lt;li&gt;Bad Passwords&lt;/li&gt;
-  &lt;li&gt;Really Old Passwords (2+ Years)&lt;/li&gt;
-  &lt;li&gt;Old Passwords (1+ Year)&lt;/li&gt;
-  &lt;li&gt;Kinda Old Passwords (4+ Months)&lt;/li&gt;
-  &lt;li&gt;Recent Passwords (&amp;lt; 4 Months, lower priority)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Anything at levels 4 or higher should really be changed now. Bad Passwords include most passwords that are dictionary words, and do not include very many numbers or symbols. (You can look up “password entropy” for thoughts on this and advice on creating new passwords.)&lt;/p&gt;
-
-&lt;p&gt;For the typical end user, I just recommend using a password manager to generate and keep track of new passwords. Otherwise, there have been very many articles on password generation, including &lt;a href=&quot;http://xkcd.com/936/&quot;&gt;this famous XKCD comic&lt;/a&gt;. For my money, I believe that any wildly popular advice on passwords is likely to be insecure, so you should really make up your own rules involving numbers and symbols. For instance, maybe you made up a secret language in Grade 6 that you remember to this day– make use of that. Use camel case pig Latin. Intersperse symbols and numbers throughout all of these.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h3&gt;
-
-&lt;p&gt;After you are done changing your passwords, make sure that you don’t write them down or leave access to them where a person can find them, and if you need to share access to an account with someone, change the password first. Remember, the easiest way to gain access to somebody’s account is through social engineering.&lt;/p&gt;
-
-&lt;p&gt;Finally, it is likely a good idea to also ensure that all your apps and programs are up-to-date, and to do an audit of what apps have access to your Facebook and Twitter accounts. A virus scan probably also won’t hurt either. However, simply changing your passwords as listed above is a good first step for people who are confused and pressed on time.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><summary>With the recent disclosure of the Heartbleed exploit, account security is undergoing increased media scrutiny and many of my less technical friends have asked me questions about how to proceed. Although it is likely unnecessary to change every single account password, now is as good a time as any to do a security audit of yourself and your application accounts. Here is a small audit that is fairly easy to do (and indeed, I did so earlier today):</summary></entry></feed>
+      At least this is the impression I’m getting from off the record conversations from other developers. &amp;#8617;</summary></entry></feed>
