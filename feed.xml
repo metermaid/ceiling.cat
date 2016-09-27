@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2016-09-27T15:42:11-04:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>Digital In, Heartbreak Out</title><link href="http://www.ceiling.cat/2016/09/27/digital-heartbreak/" rel="alternate" type="text/html" title="Digital In, Heartbreak Out" /><published>2016-09-27T06:01:35-04:00</published><updated>2016-09-27T06:01:35-04:00</updated><id>http://www.ceiling.cat/2016/09/27/digital-heartbreak</id><content type="html" xml:base="http://www.ceiling.cat/2016/09/27/digital-heartbreak/">&lt;p&gt;I’ve learned some valuable lessons today.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2016-09-27T19:38:39-04:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>Digital In, Heartbreak Out</title><link href="http://www.ceiling.cat/2016/09/27/digital-heartbreak/" rel="alternate" type="text/html" title="Digital In, Heartbreak Out" /><published>2016-09-27T06:01:35-04:00</published><updated>2016-09-27T06:01:35-04:00</updated><id>http://www.ceiling.cat/2016/09/27/digital-heartbreak</id><content type="html" xml:base="http://www.ceiling.cat/2016/09/27/digital-heartbreak/">&lt;p&gt;I’ve learned some valuable lessons today.&lt;/p&gt;
 
 &lt;h3 id=&quot;always-save-your-work&quot;&gt;Always save your work.&lt;/h3&gt;
 
@@ -24,11 +24,11 @@
 
 &lt;p&gt;I then connected some LEDs to the same circuit as digital outputs, essentially making the same circuits we did last week, but with the Arduino as middleware in between this time around.&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lC3crzJGVus&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;//giphy.com/embed/obDJLEKVogZ6U&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Finally, I connected an actuator to serve as an analog input to turn on an LED, which makes for a bit of a dull video.&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0ekMzO-ckK0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;//giphy.com/embed/3CBoHiPOfavuw&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;h3 id=&quot;heartbreak&quot;&gt;Heartbreak&lt;/h3&gt;
 
