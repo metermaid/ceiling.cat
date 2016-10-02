@@ -118,9 +118,9 @@
 </section>  
 
 <article class="post-content">
-  <p>Since I had already worked with the piezo speaker last week, the labs this week for physical computing were a breeze. What was a little tougher was thinking of another creative application– a task that I’ve yet to do. Hopefully, I’ll update this post with an interesting project, instead of just the rote labs that follow.</p>
+  <p>Since I had already worked with the piezo speaker last week, the labs this week for physical computing were a breeze. What was a little tougher was thinking of another creative application. Should I work with the piezo again? Should I just fix up my previous project? Instead, I decided to play a little more with the servo motor. It’s not as interesting as the Mario music, but a little more interesting than rote labs, which I’ll cover first.</p>
 
-<p>If you’re into rote labs, though, this is riviting stuff.</p>
+<p>Rote labs: riveting stuff.</p>
 
 <p>First up: wiring two photoresistors into an Arduino, and then translating the input into tones for the piezo. This was very annoying to listen to, so I’ll spare you the video for it and instead just play you a pleasant melody:</p>
 
@@ -134,7 +134,17 @@
 
 <iframe src="//giphy.com/embed/OShZOGqKpU6GI" width="480" height="270" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 
-<p>I’ll try to think of a creative application for this, but maybe this week I’m just burnt out.</p>
+<p>I caught a cold over the weekend, so my mind’s been a little temperature focused. I’ve been meaning to remove my air conditioner from the window, but I should probably wait until I’m feeling less feeble. Unfortunately, that also means that I have to endure the cold air that the air conditioner is letting through. Exactly how cold is my room? How can I know in a temperature system that isn’t backwards? All the thermometers around me are Fahrenheit. (Sorry, Fahrenheit, but it’s true. You only make sense when measuring people.) I decided to make a little temperature gauge with my Arduino.</p>
+
+<p>To set the high and low temperature of the gauge, I looked at the historical highs and lows of New York– it reached 38.6°C in 1966 and was -20°C in 1994. Consequentially, I decided on setting the range at -20 to 40°C.</p>
+
+<p><img src="/assets/temperaturecode.png" width="" height="" alt="temperaturecode.png" /></p>
+
+<p>To create the gauge, I used the Arduino to set the servo to 0, drew a notch, set the servo to 179, drew a notch, and then drew notches in between. It’s super jaggy, so I should probably consider using capacitors to smooth it out. It’s probably not the most accurate temperature gauge either, but it’s enough to confirm for me: my room is too cold.</p>
+
+<p><img src="/assets/temperaturegauge.jpg" width="" height="" alt="temperaturegauge.jpg" /></p>
+
+<p>Once I’m less sick, I’ll get that A/C out of the window. For now, jumper wires are as much as I’ll lift.</p>
 
 </article>
 
