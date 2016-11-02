@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2016-11-01T19:49:06-04:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>My First Fanfiction</title><link href="http://www.ceiling.cat/2016/11/01/fanfiction/" rel="alternate" type="text/html" title="My First Fanfiction" /><published>2016-11-01T06:01:35-04:00</published><updated>2016-11-01T06:01:35-04:00</updated><id>http://www.ceiling.cat/2016/11/01/fanfiction</id><content type="html" xml:base="http://www.ceiling.cat/2016/11/01/fanfiction/">&lt;h2 id=&quot;the-daily-prophet-special-report-harry-potter-and-the-muggle-biography&quot;&gt;THE DAILY PROPHET SPECIAL REPORT: HARRY POTTER AND THE MUGGLE BIOGRAPHY&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2016-11-02T13:42:43-04:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>Lab &amp;amp; Midterm</title><link href="http://www.ceiling.cat/2016/11/01/midterm/" rel="alternate" type="text/html" title="Lab &amp; Midterm" /><published>2016-11-01T14:01:35-04:00</published><updated>2016-11-01T14:01:35-04:00</updated><id>http://www.ceiling.cat/2016/11/01/midterm</id><content type="html" xml:base="http://www.ceiling.cat/2016/11/01/midterm/">&lt;p&gt;Last week was the first week in which I failed to get my pcomp blogs up on time; finishing the midterm took me down to the wire, and even though I had finished the labs earlier in the week, I neglected the blog post for them. As such, here are the blog posts for them combined.&lt;/p&gt;
+
+&lt;h3 id=&quot;labs&quot;&gt;Labs&lt;/h3&gt;
+
+&lt;p&gt;To my surprise, doing the labs was actually helpful to my understanding and completion of the midterm. Our project didn’t involve any serial output from p5, but I implemented handshaking by looking at the code for the labs– input from the keyboard and mouse get converted into a value for the LED.&lt;/p&gt;
+
+&lt;iframe src=&quot;//giphy.com/embed/l2JhwxqJ19Tq3iSas&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&quot;//giphy.com/embed/252wzgNyrZR9S&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&quot;//giphy.com/embed/8plRNFTYUHd3G&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&quot;//giphy.com/embed/araBpAl3KU9EI&quot; width=&quot;480&quot; height=&quot;853&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;What was most helpful was doing the Bluetooth lab, as the device is very finicky and particular about wiring. Thankfully the ER had some bluetooth ez-links– I wouldn’t have been able to do the lab nor our midterm without this supply!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/pc_midterm/bluetooth.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;pc_midterm/bluetooth.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;midterm&quot;&gt;Midterm&lt;/h3&gt;
+
+&lt;p&gt;For the midterm, I worked with Chloe to convert her existing ICM homework into a physical computing project. She had created an application based around the Little Prince– all about how when you grow older, you fail to see the depths of people and the important things in life. You can view the original project here.&lt;/p&gt;
+
+&lt;p&gt;I suggested that we carve out a book and use it as a controller, and perhaps add a touchscreen into the pages. After consulting Benedetta, we simplified the project to just using the book as a switch, and not a touchscreen– we didn’t need to overcomplicate. Later, though, our feedback from the class was largely commenting that they’d wished we did use a touchscreen. Everyone is very ambitious! It was hard enough getting what we had to work.&lt;/p&gt;
+
+&lt;p&gt;After a quick jaunt to the Strand for a book to control, we divided the work as follows: Chloe would handle the cutting of the book; I’d handle the wiring; and we’d split the programming work. It worked out, though, that when it came down to the wire, Chloe handled a lot more of the wiring and I did the programming– in a rush, it’s easiest to play to your strengths.&lt;/p&gt;
+
+&lt;p&gt;Here’s the work we brought into each other the next day. Since a lot of the materials had to be gotten at school, I just produced a Fritzing wiring diagram.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/pc_midterm/1.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;pc_midterm/1.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/pc_midterm/fritzing.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;pc_midterm/fritzing.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We then wired up a button to test our project out. We did everything in increments; it makes it easier to debug and understand what we introduced that went wrong.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/pc_midterm/2.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;pc_midterm/2.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;//giphy.com/embed/2LLBr04DATybC&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;After this test was successful, we tried it on bluetooth and battery– this was also a success, thanks in part to doing the labs earlier. The wiring turned out to be very similar to the fritzing diagram I had produced, after a few mishaps with broken parts.&lt;/p&gt;
+
+&lt;iframe src=&quot;//giphy.com/embed/SawSRnRIRVY5i&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;With this completed, we put everything in the book and changed the switch from a button to a photoresistor. We had originally intended to use conductive ribbon and create a concealed switch in the pages, but by the time we reached this point it was rather late and it seemed more prudent to work with the familiar. It worked relatively well– I just needed to be careful of the light values of each room.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/pc_midterm/5.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;pc_midterm/5.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, it was late, as I mentioned. The logic of the code was wrong, and the prince flickered when we closed the box. I was too tired, and could not figure it out.&lt;/p&gt;
+
+&lt;iframe src=&quot;//giphy.com/embed/ybQFRiMgrZpo4&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;After a good night’s rest, I figured out my simple logic peoblem– I needed to remember the previous state and only update the screen when it changed. I took this time to add a few different book illustrations that changed when you opened and closed the book– I don’t think Chloe liked this as much, but it impressed the class.&lt;/p&gt;
+
+&lt;iframe src=&quot;//giphy.com/embed/b51bx3x48MWk0&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Rather cute, isn’t it?&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="itp" /><category term="pcomp" /><category term="physical computing" /><summary>Last week was the first week in which I failed to get my pcomp blogs up on time; finishing the midterm took me down to the wire, and even though I had finished the labs earlier in the week, I neglected the blog post for them. As such, here are the blog posts for them combined.</summary></entry><entry><title>My First Fanfiction</title><link href="http://www.ceiling.cat/2016/11/01/fanfiction/" rel="alternate" type="text/html" title="My First Fanfiction" /><published>2016-11-01T06:01:35-04:00</published><updated>2016-11-01T06:01:35-04:00</updated><id>http://www.ceiling.cat/2016/11/01/fanfiction</id><content type="html" xml:base="http://www.ceiling.cat/2016/11/01/fanfiction/">&lt;h2 id=&quot;the-daily-prophet-special-report-harry-potter-and-the-muggle-biography&quot;&gt;THE DAILY PROPHET SPECIAL REPORT: HARRY POTTER AND THE MUGGLE BIOGRAPHY&lt;/h2&gt;
 
 &lt;p&gt;By Katie Park&lt;/p&gt;
 
@@ -182,58 +235,4 @@
 
 &lt;h3 id=&quot;commodification&quot;&gt;Commodification&lt;/h3&gt;
 
-&lt;p&gt;Finally, one last reason that this intersection is tolerated is commercial: everybody wants to make a living. Skateboarders need to make money somehow, so why would they begrudge the ones who manage to turn their counterculture into a career? If anything, that’s to be admired: doing something they love while making money. Disney profits from the social clubs via their annual memberships, as well as their buying food and merchandise. There’s no reason to turn this money down by shutting these clubs down. Overall, counterculture and commerce can intersect peacefully– so long as it stays in line with core values.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="itp" /><category term="fandom" /><summary>The intersection of counterculture and commercialism often provokes strong emotions. If you’re a counterculture figure and sign a deal with a corporation, you’ll be angrily branded a sellout. If your art presents a brand in a way the owners don’t like, you’re likely to be sued. (Chief examples of this are the films Escape from Tomorrow, which was illegally filmed at Disneyland, and Superstar, a biopic of Karen Carpenter which presented Richard Carpenter in an unflattering light.) In this week in fandom, however, we had two readings in which counterculture and commercialism are joined without too much controversy. In “Buying In: The Straw Man in the Gray Flannel Suit”, we examine the the commodification of skate culture of southern California. In “The Very Merry Un-Gangs of Disneyland”, we take a look at the social clubs of Disneyland that style themselves after gangs. But why don’t these provoke a stronger reaction?</summary></entry><entry><title>Let’s Get Down to Business</title><link href="http://www.ceiling.cat/2016/10/06/business/" rel="alternate" type="text/html" title="Let's Get Down to Business" /><published>2016-10-06T06:01:35-04:00</published><updated>2016-10-06T06:01:35-04:00</updated><id>http://www.ceiling.cat/2016/10/06/business</id><content type="html" xml:base="http://www.ceiling.cat/2016/10/06/business/">&lt;p&gt;I have three confessions to make, dear blog readers, about my Visual Language assignment. The first is that the night before it was assigned, I essentially finished it. I wasn’t aware it would be assigned the next day; I just thought that I should make myself business cards. The second is that I just made some quick edits to it to meet the assignment’s criteria for submission. I didn’t redo the assignment; it felt like a waste. The third confession: I don’t like the adjustments I made, and I wish I kept my original design before sending them to the printers.&lt;/p&gt;
-
-&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
-
-&lt;p&gt;One of the most important factors in the design of my business cards was the redesign of my portfolio and blog. When I started ITP, I knew I would have to redesign both: I failed to update them in years, and class after class emphasized to me that the blog was a central part of ITP. I also wanted to move my blog to the ceiling.cat domain, a novelty domain that I’d owned for years but had done nothing with.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/vl_business/ceilingcat.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;vl_business/ceilingcat.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If you were an internet nerd in the mid 2000s, you’d probably remember this meme.&lt;/p&gt;
-
-&lt;p&gt;Another thing I wanted was to have matching but separate identities for both websites. The portfolio was serious, and meant to showcase my best work; the blog was for works in progress and silly thoughts from ITP.&lt;/p&gt;
-
-&lt;p&gt;I also wanted the blog to have a logo with a cat. It didn’t make much sense to do otherwise.&lt;/p&gt;
-
-&lt;p&gt;To summarize: I wanted to have a logo template that would work for a serious portfolio as well as a cat. That’s a bit of a tough briefing, but it’s aided by how the original ceiling cat appears: he pops out of a square hole in the ceiling.&lt;/p&gt;
-
-&lt;p&gt;Consequentially, I can start with a square template for both logos– it’s clean and professional for my portfolio, and appropriate for ceiling cat.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/vl_business/template.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;vl_business/template.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I decided that I wanted to subtly evoke stamps and Chinese seals– it’d reflect my heritage and help give the logos a unified idea. I rounded the corners and decided that the logos would be single colour, as if they could be stamped on. Then, I could convert them to black and white, any colours, or even add an image to the logo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/vl_business/seals.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;vl_business/seals.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is getting a bit long-winded, so I’ll spare you more details about the logos. Suffice to say, I drew a bunch of cats, and tested a bunch of typefaces, and came out with the following two logos.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/vl_business/logos.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;vl_business/logos.png&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;the-original-design&quot;&gt;The Original Design&lt;/h3&gt;
-
-&lt;p&gt;With this starting point, I decided to make my business cards on Sunday. Given the ‘chinese seal’ design element, I decided to take scroll paintings as inspiration, and drew a digital watercolour painting of a bird on a cherry blossom tree. (My street in Vancouver was lined with cherry blossoms, as many are.)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/vl_business/flowers.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;vl_business/flowers.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The painting’s focal is from right to left, as most Chinese scrolls are, and I consequentially placed my seal and my information on the left of the card.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/vl_business/original.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;vl_business/original.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I finished at this point, and then the next day I went to class. I received the assignment, and changed things for the worse.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-redesign&quot;&gt;The Redesign&lt;/h3&gt;
-
-&lt;p&gt;The most consequential change was that the assignment stipulated that the card had to be double sided. I originally tried making the painting go across the two sides, but the image was too low-resolution to print at this point.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/vl_business/spread.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;vl_business/spread.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I then decided to stick with the image on one side, and just moved the information to the back. I also flipped the painting, because we discussed in class how the lower left corner was the weakest focal point of an image (which, in retrospect now, is less consequential in a landscape business card with its low height.)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/vl_business/double.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;vl_business/double.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I sent this image to the printers, which I terribly regret. In retrospect, landscape business cards are too short for that focus information to matter, and images always look better before they’re flipped (unless they are perfectly symmetrical.)&lt;/p&gt;
-
-&lt;p&gt;Additionally, it’s overall a stronger design on only one side. I also regret the serif font I chose on the back– I thought it would provide a nice contrast, but it just looks out of place.&lt;/p&gt;
-
-&lt;p&gt;Overall, I wish I kept my original card. But you can keep this analysis in the meanwhile.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="itp" /><category term="visuallang" /><category term="visual language" /><summary>I have three confessions to make, dear blog readers, about my Visual Language assignment. The first is that the night before it was assigned, I essentially finished it. I wasn’t aware it would be assigned the next day; I just thought that I should make myself business cards. The second is that I just made some quick edits to it to meet the assignment’s criteria for submission. I didn’t redo the assignment; it felt like a waste. The third confession: I don’t like the adjustments I made, and I wish I kept my original design before sending them to the printers.</summary></entry></feed>
+&lt;p&gt;Finally, one last reason that this intersection is tolerated is commercial: everybody wants to make a living. Skateboarders need to make money somehow, so why would they begrudge the ones who manage to turn their counterculture into a career? If anything, that’s to be admired: doing something they love while making money. Disney profits from the social clubs via their annual memberships, as well as their buying food and merchandise. There’s no reason to turn this money down by shutting these clubs down. Overall, counterculture and commerce can intersect peacefully– so long as it stays in line with core values.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="itp" /><category term="fandom" /><summary>The intersection of counterculture and commercialism often provokes strong emotions. If you’re a counterculture figure and sign a deal with a corporation, you’ll be angrily branded a sellout. If your art presents a brand in a way the owners don’t like, you’re likely to be sued. (Chief examples of this are the films Escape from Tomorrow, which was illegally filmed at Disneyland, and Superstar, a biopic of Karen Carpenter which presented Richard Carpenter in an unflattering light.) In this week in fandom, however, we had two readings in which counterculture and commercialism are joined without too much controversy. In “Buying In: The Straw Man in the Gray Flannel Suit”, we examine the the commodification of skate culture of southern California. In “The Very Merry Un-Gangs of Disneyland”, we take a look at the social clubs of Disneyland that style themselves after gangs. But why don’t these provoke a stronger reaction?</summary></entry></feed>
