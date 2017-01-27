@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Resolutions</title>
-  <meta name="description" content="It’s that time of year when everybody is making resolutions to improve themselves: the start of a new year, the thinking goes, is auspicious for new beginnin...">
+  <title>Everything is Spatial</title>
+  <meta name="description" content="It’s a new semester at ITP, and I have entirely new classes. My favourite so far is Everything is Spatial; long ago I had planned a web app to create travel ...">
   
 
   <!-- External libraries -->
@@ -36,10 +36,10 @@
 
   
   <!-- Facebook OGP cards -->
-  <meta property="og:description" content="It’s that time of year when everybody is making resolutions to improve themselves: the start of a new year, the thinking goes, is auspicious for new beginnin..." />
+  <meta property="og:description" content="It’s a new semester at ITP, and I have entirely new classes. My favourite so far is Everything is Spatial; long ago I had planned a web app to create travel ..." />
   <meta property="og:url" content="http://www.ceiling.cat" />
   <meta property="og:site_name" content="Ceiling.cat" />
-  <meta property="og:title" content="Resolutions" />
+  <meta property="og:title" content="Everything is Spatial" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="http://www.ceiling.cat/assets/logo.png" />
   <meta property="og:image:type" content="image/png" />
@@ -49,8 +49,8 @@
   
   <!-- Twitter: card tags -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Resolutions">
-  <meta name="twitter:description" content="It’s that time of year when everybody is making resolutions to improve themselves: the start of a new year, the thinking goes, is auspicious for new beginnin...">
+  <meta name="twitter:title" content="Everything is Spatial">
+  <meta name="twitter:description" content="It’s a new semester at ITP, and I have entirely new classes. My favourite so far is Everything is Spatial; long ago I had planned a web app to create travel ...">
   <meta name="twitter:image" content="http://www.ceiling.cat/assets/logo.png">
   <meta name="twitter:url" content="http://www.ceiling.cat">
   
@@ -60,7 +60,7 @@
   <!-- Site styles -->
   <link type="text/css" rel="stylesheet" href="/assets/main.css">
   
-  <link rel="canonical" href="http://www.ceiling.cat/2014/01/02/resolutions/">
+  <link rel="canonical" href="http://www.ceiling.cat/2017/01/27/maps/">
   <link rel="alternate" type="application/rss+xml" title="Ceiling.cat" href="http://www.ceiling.cat/feed.xml" />
 </head>
 
@@ -118,7 +118,7 @@
 <div class="post-header-container " >
   <div class="scrim ">
     <header class="post-header">
-      <h1 class="title">Resolutions</h1>
+      <h1 class="title">Everything is Spatial</h1>
     </header>
   </div>
 </div>
@@ -132,39 +132,74 @@
  
 
 <section class="post-meta">
-  <div class="post-date">January 2, 2014</div>
+  <div class="post-date">January 27, 2017</div>
   <div class="post-categories">
   in 
     
-    <a href="/category/personal">Personal</a>
+    <a href="/category/spatial">Everything is spatial</a>
     
   
   </div>
 </section>  
 
 <article class="post-content">
-  <p>It’s that time of year when everybody is making resolutions to improve themselves: the start of a new year, the thinking goes, is auspicious for new beginnings, and plus, everybody else is doing it. I’ve been asked a dozen times whether I had any New Year’s resolutions, and I usually answer with a poor joke: I resolve not to make New Year’s Resolutions. In all honesty, I’ll probably just continue with these resolutions I made at arbitrary times of last year:</p>
+  <p>It’s a new semester at ITP, and I have entirely new classes. My favourite so far is Everything is Spatial; long ago I had planned a web app to create travel guidebooks using web map data, so it’s totally up my alley.</p>
 
-<ol>
-  <li>Drink more water. I think a lot of people know I’m in a state of constant dehydration; my chapped lips don’t appreciate the snide comments, Certain Former Coworker Who Should Really Mind His Own Business. The thinking is that being properly hydrated will have a cascade of positive health benefits: I’ll feel better, have better skin, and have more energy. I’m not sure if it’s true, and I know I’ll miss the one positive benefit of not being hydrated: I never need bathroom breaks and am a champ at watching movie marathons in a single sitting.</li>
-  <li>I will not go see live shows of bands with four or more members who are <em>only</em> white dudes. Over the past year, I’ve been increasingly concerned with ideas of diversity and representation. I may not have very many options in TV and movies, (there are only so many quality shows out there),but I can at least try to encourage more diversity in my listening habits (since black people are at the root of most of the genres we listen to, this shouldn’t be as hard.) Moreover, you would think after your third member, you could at least find one person who isn’t male or exclusively white. It shouldn’t be a difficult proposition.</li>
-  <li>Exercise more regularly. Journal more regularly. Meditate more regularly. These are pretty usual resolutions that I began using Beeminder for last year.</li>
-</ol>
+<p>We were assigned two readings: an intro to web maps and a comparison between Apple and Google Maps. As I read the comparison, I was struck by one difference between the two maps: Google prioritized transit, but Apple prioritized landmarks. This was interesting to me because a friend of mine, Jaycee, prefers Apple maps, and she happened to depend less on transit than me. I have an Android phone, so Apple maps is not an option for me, but even if it were, I doubt I would consequentially choose Apple. With IOS, Jaycee can choose from either of the two, but transit is likely less of a priority. It’s fascinating stuff.</p>
 
-<p>With that said, I do have one new resolution for the new year:</p>
+<p>We were also assigned a little exercise we did in class, to use leaflet.js to create a quick map and apply different map tiles to it. I chose Stamen’s watercolor style, and also added a bunch of restaurants that I like to eat at near ITP.</p>
 
-<ol>
-  <li>Stop lying to Beeminder about all of the water drinking/working out/meditating I haven’t been doing.</li>
-</ol>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css" />
 
-<p>We’ll see how these resolutions work out. Since I started them at an arbitrary time, I can always start them later if I fail. With the advent of the year of the Horse (my astrological sign), if I believed in astrology, the whole year is an auspicious time to start a new resolution.</p>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.js"></script>
+
+<div id="map" style="width: 100%; height: 500px;"></div>
+
+<script>
+
+var layer = L.tileLayer('http://tile.stamen.com/watercolor/{z}/{x}/{y}.png', "terrain", {
+  attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
+}); 
+
+
+  var map = L.map('map', {
+    scrollWheelZoom: false,
+    center: [40.7295, -73.9938],
+    zoom: 15
+  });
+
+  map.addLayer(layer);
+  L.marker([40.7295, -73.9938]).addTo(map)
+  .bindTooltip('ITP', { permanent: true });
+
+
+  L.marker([40.7297, -73.9990], {opacity: 0.7}).addTo(map)
+  .bindTooltip('Legend West Village');
+  L.marker([40.7350, -73.9930], {opacity: 0.7}).addTo(map)
+  .bindTooltip('La Maison du Croque Monsieur');
+  L.marker([40.7297, -73.9990], {opacity: 0.7}).addTo(map)
+  .bindTooltip('Legend West Village');
+  L.marker([40.7309, -73.9903], {opacity: 0.7}).addTo(map)
+  .bindTooltip('Ippudo');
+  L.marker([40.7296, -73.9896], {opacity: 0.7}).addTo(map)
+  .bindTooltip('Korilla');
+  L.marker([40.7263, -73.9957], {opacity: 0.7}).addTo(map)
+  .bindTooltip('The Press Shop');
+  L.marker([40.7311, -73.9933], {opacity: 0.7}).addTo(map)
+  .bindTooltip('Maoz');
+  L.marker([40.7334, -73.9879], {opacity: 0.7}).addTo(map)
+  .bindTooltip('Trader Joe\'s');
+  L.marker([40.7295, -73.999026], {opacity: 0.7}).addTo(map)
+  .bindTooltip('Go Go Curry');
+</script>
+
 
 </article>
 
 
 
 <section class="tags">
-  <strong>Tags:</strong> <a href="/tag/personal">personal</a>, <a href="/tag/goals">goals</a>
+  <strong>Tags:</strong> <a href="/tag/everything-is-spatial">everything is spatial</a>, <a href="/tag/spatial">spatial</a>
 </section>
 
 
@@ -178,7 +213,7 @@
   
     
     
-      <a href="//twitter.com/share?text=Resolutions&url=http://www.ceiling.cat/2014/01/02/resolutions/&via=rtchng"
+      <a href="//twitter.com/share?text=Everything+is+Spatial&url=http://www.ceiling.cat/2017/01/27/maps/&via=rtchng"
         onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
         <i class="fa fa-twitter-square fa-lg"></i>
       </a>

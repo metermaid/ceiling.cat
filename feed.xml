@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2016-12-15T02:06:08-05:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>Putting Out Fires</title><link href="http://www.ceiling.cat/2016/12/14/fires/" rel="alternate" type="text/html" title="Putting Out Fires" /><published>2016-12-14T05:01:35-05:00</published><updated>2016-12-14T05:01:35-05:00</updated><id>http://www.ceiling.cat/2016/12/14/fires</id><content type="html" xml:base="http://www.ceiling.cat/2016/12/14/fires/">&lt;p&gt;There are some people at ITP who make beautiful, artistically fulfilling projects, and write deep and introspective blog posts to match. Their blog posts are gossiped about on the floor, “they make me want to cry. She’ll get a job through these.”&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2017-01-27T15:30:27-05:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>Everything is Spatial</title><link href="http://www.ceiling.cat/2017/01/27/maps/" rel="alternate" type="text/html" title="Everything is Spatial" /><published>2017-01-27T05:01:35-05:00</published><updated>2017-01-27T05:01:35-05:00</updated><id>http://www.ceiling.cat/2017/01/27/maps</id><content type="html" xml:base="http://www.ceiling.cat/2017/01/27/maps/">&lt;p&gt;It’s a new semester at ITP, and I have entirely new classes. My favourite so far is Everything is Spatial; long ago I had planned a web app to create travel guidebooks using web map data, so it’s totally up my alley.&lt;/p&gt;
+
+&lt;p&gt;We were assigned two readings: an intro to web maps and a comparison between Apple and Google Maps. As I read the comparison, I was struck by one difference between the two maps: Google prioritized transit, but Apple prioritized landmarks. This was interesting to me because a friend of mine, Jaycee, prefers Apple maps, and she happened to depend less on transit than me. I have an Android phone, so Apple maps is not an option for me, but even if it were, I doubt I would consequentially choose Apple. With IOS, Jaycee can choose from either of the two, but transit is likely less of a priority. It’s fascinating stuff.&lt;/p&gt;
+
+&lt;p&gt;We were also assigned a little exercise we did in class, to use leaflet.js to create a quick map and apply different map tiles to it. I chose Stamen’s watercolor style, and also added a bunch of restaurants that I like to eat at near ITP.&lt;/p&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css&quot; /&gt;
+
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.js&quot;&gt;&lt;/script&gt;
+
+&lt;div id=&quot;map&quot; style=&quot;width: 100%; height: 500px;&quot;&gt;&lt;/div&gt;
+
+&lt;script&gt;
+
+var layer = L.tileLayer('http://tile.stamen.com/watercolor/{z}/{x}/{y}.png', &quot;terrain&quot;, {
+  attribution: 'Map tiles by &lt;a href=&quot;http://stamen.com&quot;&gt;Stamen Design&lt;/a&gt;, under &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0&quot;&gt;CC BY 3.0&lt;/a&gt;. Data by &lt;a href=&quot;http://openstreetmap.org&quot;&gt;OpenStreetMap&lt;/a&gt;, under &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;ODbL&lt;/a&gt;.'
+}); 
+
+
+  var map = L.map('map', {
+    scrollWheelZoom: false,
+    center: [40.7295, -73.9938],
+    zoom: 15
+  });
+
+  map.addLayer(layer);
+  L.marker([40.7295, -73.9938]).addTo(map)
+  .bindTooltip('ITP', { permanent: true });
+
+
+  L.marker([40.7297, -73.9990], {opacity: 0.7}).addTo(map)
+  .bindTooltip('Legend West Village');
+  L.marker([40.7350, -73.9930], {opacity: 0.7}).addTo(map)
+  .bindTooltip('La Maison du Croque Monsieur');
+  L.marker([40.7297, -73.9990], {opacity: 0.7}).addTo(map)
+  .bindTooltip('Legend West Village');
+  L.marker([40.7309, -73.9903], {opacity: 0.7}).addTo(map)
+  .bindTooltip('Ippudo');
+  L.marker([40.7296, -73.9896], {opacity: 0.7}).addTo(map)
+  .bindTooltip('Korilla');
+  L.marker([40.7263, -73.9957], {opacity: 0.7}).addTo(map)
+  .bindTooltip('The Press Shop');
+  L.marker([40.7311, -73.9933], {opacity: 0.7}).addTo(map)
+  .bindTooltip('Maoz');
+  L.marker([40.7334, -73.9879], {opacity: 0.7}).addTo(map)
+  .bindTooltip('Trader Joe\'s');
+  L.marker([40.7295, -73.999026], {opacity: 0.7}).addTo(map)
+  .bindTooltip('Go Go Curry');
+&lt;/script&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="everything is spatial" /><category term="spatial" /><summary>It’s a new semester at ITP, and I have entirely new classes. My favourite so far is Everything is Spatial; long ago I had planned a web app to create travel guidebooks using web map data, so it’s totally up my alley.</summary></entry><entry><title>Putting Out Fires</title><link href="http://www.ceiling.cat/2016/12/14/fires/" rel="alternate" type="text/html" title="Putting Out Fires" /><published>2016-12-14T05:01:35-05:00</published><updated>2016-12-14T05:01:35-05:00</updated><id>http://www.ceiling.cat/2016/12/14/fires</id><content type="html" xml:base="http://www.ceiling.cat/2016/12/14/fires/">&lt;p&gt;There are some people at ITP who make beautiful, artistically fulfilling projects, and write deep and introspective blog posts to match. Their blog posts are gossiped about on the floor, “they make me want to cry. She’ll get a job through these.”&lt;/p&gt;
 
 &lt;p&gt;I am not one of those people. I prefer candid and ugly posts. This will be one of them.&lt;/p&gt;
 
@@ -236,57 +284,4 @@ Do you want your house announced to the world, like the books and movies, or sho
 
 &lt;p&gt;Since we clearly can’t read minds, we could get the hat to ask the users questions to sort them. We can either use microphones or an accelerometer to answer yes or no questions with a nod or a head shake. Then the hat would use speakers to announce the results.&lt;/p&gt;
 
-&lt;p&gt;It’s a pretty simple project, but if the production values are high it can be fairly impressive.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="itp" /><category term="pcomp" /><category term="physical computing" /><summary>If you could invent anything, what would you invent? It’s an easy question when you’re a kid, but as you get older, it gets increasingly hard. You become less imaginative, and you add more constraints on yourself. It should follow the laws of physics. It should be possible given my skill sets. It should be reasonably cost effective. The list goes on.</summary></entry><entry><title>Lab &amp;amp; Midterm</title><link href="http://www.ceiling.cat/2016/11/01/midterm/" rel="alternate" type="text/html" title="Lab &amp; Midterm" /><published>2016-11-01T14:01:35-04:00</published><updated>2016-11-01T14:01:35-04:00</updated><id>http://www.ceiling.cat/2016/11/01/midterm</id><content type="html" xml:base="http://www.ceiling.cat/2016/11/01/midterm/">&lt;p&gt;Last week was the first week in which I failed to get my pcomp blogs up on time; finishing the midterm took me down to the wire, and even though I had finished the labs earlier in the week, I neglected the blog post for them. As such, here are the blog posts for them combined.&lt;/p&gt;
-
-&lt;h3 id=&quot;labs&quot;&gt;Labs&lt;/h3&gt;
-
-&lt;p&gt;To my surprise, doing the labs was actually helpful to my understanding and completion of the midterm. Our project didn’t involve any serial output from p5, but I implemented handshaking by looking at the code for the labs– input from the keyboard and mouse get converted into a value for the LED.&lt;/p&gt;
-
-&lt;iframe src=&quot;//giphy.com/embed/l2JhwxqJ19Tq3iSas&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;iframe src=&quot;//giphy.com/embed/252wzgNyrZR9S&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;iframe src=&quot;//giphy.com/embed/8plRNFTYUHd3G&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;iframe src=&quot;//giphy.com/embed/araBpAl3KU9EI&quot; width=&quot;480&quot; height=&quot;853&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;What was most helpful was doing the Bluetooth lab, as the device is very finicky and particular about wiring. Thankfully the ER had some bluetooth ez-links– I wouldn’t have been able to do the lab nor our midterm without this supply!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/pc_midterm/bluetooth.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;pc_midterm/bluetooth.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;midterm&quot;&gt;Midterm&lt;/h3&gt;
-
-&lt;p&gt;For the midterm, I worked with Chloe to convert her existing ICM homework into a physical computing project. She had created an application based around the Little Prince– all about how when you grow older, you fail to see the depths of people and the important things in life. You can view the original project here.&lt;/p&gt;
-
-&lt;p&gt;I suggested that we carve out a book and use it as a controller, and perhaps add a touchscreen into the pages. After consulting Benedetta, we simplified the project to just using the book as a switch, and not a touchscreen– we didn’t need to overcomplicate. Later, though, our feedback from the class was largely commenting that they’d wished we did use a touchscreen. Everyone is very ambitious! It was hard enough getting what we had to work.&lt;/p&gt;
-
-&lt;p&gt;After a quick jaunt to the Strand for a book to control, we divided the work as follows: Chloe would handle the cutting of the book; I’d handle the wiring; and we’d split the programming work. It worked out, though, that when it came down to the wire, Chloe handled a lot more of the wiring and I did the programming– in a rush, it’s easiest to play to your strengths.&lt;/p&gt;
-
-&lt;p&gt;Here’s the work we brought into each other the next day. Since a lot of the materials had to be gotten at school, I just produced a Fritzing wiring diagram.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/pc_midterm/1.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;pc_midterm/1.jpg&quot; /&gt;
-&lt;img src=&quot;/assets/pc_midterm/fritzing.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;pc_midterm/fritzing.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We then wired up a button to test our project out. We did everything in increments; it makes it easier to debug and understand what we introduced that went wrong.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/pc_midterm/2.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;pc_midterm/2.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;iframe src=&quot;//giphy.com/embed/2LLBr04DATybC&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;After this test was successful, we tried it on bluetooth and battery– this was also a success, thanks in part to doing the labs earlier. The wiring turned out to be very similar to the fritzing diagram I had produced, after a few mishaps with broken parts.&lt;/p&gt;
-
-&lt;iframe src=&quot;//giphy.com/embed/SawSRnRIRVY5i&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;With this completed, we put everything in the book and changed the switch from a button to a photoresistor. We had originally intended to use conductive ribbon and create a concealed switch in the pages, but by the time we reached this point it was rather late and it seemed more prudent to work with the familiar. It worked relatively well– I just needed to be careful of the light values of each room.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/pc_midterm/5.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;pc_midterm/5.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, it was late, as I mentioned. The logic of the code was wrong, and the prince flickered when we closed the box. I was too tired, and could not figure it out.&lt;/p&gt;
-
-&lt;iframe src=&quot;//giphy.com/embed/ybQFRiMgrZpo4&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;After a good night’s rest, I figured out my simple logic peoblem– I needed to remember the previous state and only update the screen when it changed. I took this time to add a few different book illustrations that changed when you opened and closed the book– I don’t think Chloe liked this as much, but it impressed the class.&lt;/p&gt;
-
-&lt;iframe src=&quot;//giphy.com/embed/b51bx3x48MWk0&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Rather cute, isn’t it?&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="itp" /><category term="pcomp" /><category term="physical computing" /><summary>Last week was the first week in which I failed to get my pcomp blogs up on time; finishing the midterm took me down to the wire, and even though I had finished the labs earlier in the week, I neglected the blog post for them. As such, here are the blog posts for them combined.</summary></entry></feed>
+&lt;p&gt;It’s a pretty simple project, but if the production values are high it can be fairly impressive.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="itp" /><category term="pcomp" /><category term="physical computing" /><summary>If you could invent anything, what would you invent? It’s an easy question when you’re a kid, but as you get older, it gets increasingly hard. You become less imaginative, and you add more constraints on yourself. It should follow the laws of physics. It should be possible given my skill sets. It should be reasonably cost effective. The list goes on.</summary></entry></feed>
