@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2017-02-14T18:52:01-05:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>Connecting the Future</title><link href="http://www.ceiling.cat/2017/02/14/future/" rel="alternate" type="text/html" title="Connecting the Future" /><published>2017-02-14T06:01:35-05:00</published><updated>2017-02-14T06:01:35-05:00</updated><id>http://www.ceiling.cat/2017/02/14/future</id><content type="html" xml:base="http://www.ceiling.cat/2017/02/14/future/">&lt;p&gt;For a technologist, I’m awfully skeptical about technology, particularly when it’s from Silicon Valley. Every breathless press release I read about a startup just makes me wonder, “what’s the catch?” Consequently, I went into this week’s readings with doubt in my head, especially when the social good of a technology seems like an afterthought. This seemed to be the case for both the Uber and drone technology pieces: Uber started off, they admit, to “roll around San Francisco like ballers”, and drones are marketed for people already served by couriers. We’re envisioning the future of transportation when many places don’t have the present of transportation– and then retrofitting it into those places.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2017-02-19T11:43:31-05:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>Joinery</title><link href="http://www.ceiling.cat/2017/02/19/joinery/" rel="alternate" type="text/html" title="Joinery" /><published>2017-02-19T08:01:35-05:00</published><updated>2017-02-19T08:01:35-05:00</updated><id>http://www.ceiling.cat/2017/02/19/joinery</id><content type="html" xml:base="http://www.ceiling.cat/2017/02/19/joinery/">&lt;p&gt;For my midterm project for Subtraction, I wanted to construct the case for a desktop vending machine for the battery store that I run with Lindsey Daniels. I’ve seen pictures of this done before, but the creator doesn’t release his plans since he sells the parts on his website. Why not make my own?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_joinery/venduino.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_joinery/venduino.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Consequently, the joints I needed to study are tenons– I’ll be making use of a lot of right angles for the vending machine. It was a little tricky making the template in vector works, and I got frustrated more than a few times. I never really understood when and why the program would want to snap things, so I often had to manually adjust x and y coordinates.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_joinery/vectorworks.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_joinery/vectorworks.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After this, cutting was a bit of a cinch. I was working off the scraps of my MDF last week, so I was a bit concerned about the spacing, but it worked out fairly well.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_joinery/cutting.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_joinery/cutting.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;They’re very little, but they’re important for testing this joint out!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_joinery/final.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_joinery/final.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first version I tried was not quite flush. I had to adjust the spacing of my pocket on the right side.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_joinery/try1.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_joinery/try1.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This one was far more flush, but still had too much of a pocket. Let’s try it again!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_joinery/try2.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_joinery/try2.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I think this attempt worked out fairly well, and I had run out of my scrap of MDF so I had to stop. It’s pretty nice, though, but I’ll have to try out the joints again when I get my materials for my vending machine. I’ll be ordering ply instead of MDF– what if somebody spills things onto my vending machine– so the material change might make things a little different.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_joinery/try3.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_joinery/try3.jpg&quot; /&gt;&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="subtraction" /><category term="milling" /><category term="cnc" /><category term="joinery" /><summary>For my midterm project for Subtraction, I wanted to construct the case for a desktop vending machine for the battery store that I run with Lindsey Daniels. I’ve seen pictures of this done before, but the creator doesn’t release his plans since he sells the parts on his website. Why not make my own?</summary></entry><entry><title>Connecting the Future</title><link href="http://www.ceiling.cat/2017/02/14/future/" rel="alternate" type="text/html" title="Connecting the Future" /><published>2017-02-14T06:01:35-05:00</published><updated>2017-02-14T06:01:35-05:00</updated><id>http://www.ceiling.cat/2017/02/14/future</id><content type="html" xml:base="http://www.ceiling.cat/2017/02/14/future/">&lt;p&gt;For a technologist, I’m awfully skeptical about technology, particularly when it’s from Silicon Valley. Every breathless press release I read about a startup just makes me wonder, “what’s the catch?” Consequently, I went into this week’s readings with doubt in my head, especially when the social good of a technology seems like an afterthought. This seemed to be the case for both the Uber and drone technology pieces: Uber started off, they admit, to “roll around San Francisco like ballers”, and drones are marketed for people already served by couriers. We’re envisioning the future of transportation when many places don’t have the present of transportation– and then retrofitting it into those places.&lt;/p&gt;
 
 &lt;p&gt;In fairness, these technologies do have benefits in these places, though I’m skeptical that these locations wouldn’t be better served with traditional modes of transportation. Delivering vaccines is one thing, but what is the potential cost and social benefit of developing a road system in Lesotho compared to building a drone system? What’s the potential benefit of developing durable public transport versus Uber?&lt;/p&gt;
 
@@ -46,7 +72,13 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/sub_cnc/finished.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_cnc/finished.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;It’s still a pretty nice wooden pizza, though. Ceci est une belle maquette, même si ce n’est pas une pizza.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="subtraction" /><category term="milling" /><category term="cnc" /><summary>I had a lot less trouble with this week’s Subtraction exercise than last week’s. The primary trouble I had was with scheduling and other people– I waited three hours to see if someone would vacate the MasterCAM station on Friday, and found it constantly occupied. Consequently, my project isn’t quite where I wanted it to be, but I’m pretty content.</summary></entry><entry><title>Branches</title><link href="http://www.ceiling.cat/2017/02/12/branches/" rel="alternate" type="text/html" title="Branches" /><published>2017-02-12T07:01:35-05:00</published><updated>2017-02-12T07:01:35-05:00</updated><id>http://www.ceiling.cat/2017/02/12/branches</id><content type="html" xml:base="http://www.ceiling.cat/2017/02/12/branches/">&lt;p&gt;I’ve been thinking a lot about fate for my story of Cassandra. We’re meant to change critical actions in the story to see how they effect the narrative, but the idea of Cassandra is so tied up with the idea of ‘fate’ that it can be hard to find an action to change. To me, these are the key components of the Cassandra myth:&lt;/p&gt;
+&lt;p&gt;It’s still a pretty nice wooden pizza, though. Ceci est une belle maquette, même si ce n’est pas une pizza.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EDIT&lt;/strong&gt;: I later put the thing in a pizza box. It’s pretty cute, and worth a laugh.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_cnc/pizza1.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_cnc/pizza1.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_cnc/pizza2.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_cnc/pizza2.jpg&quot; /&gt;&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="subtraction" /><category term="milling" /><category term="cnc" /><summary>I had a lot less trouble with this week’s Subtraction exercise than last week’s. The primary trouble I had was with scheduling and other people– I waited three hours to see if someone would vacate the MasterCAM station on Friday, and found it constantly occupied. Consequently, my project isn’t quite where I wanted it to be, but I’m pretty content.</summary></entry><entry><title>Branches</title><link href="http://www.ceiling.cat/2017/02/12/branches/" rel="alternate" type="text/html" title="Branches" /><published>2017-02-12T07:01:35-05:00</published><updated>2017-02-12T07:01:35-05:00</updated><id>http://www.ceiling.cat/2017/02/12/branches</id><content type="html" xml:base="http://www.ceiling.cat/2017/02/12/branches/">&lt;p&gt;I’ve been thinking a lot about fate for my story of Cassandra. We’re meant to change critical actions in the story to see how they effect the narrative, but the idea of Cassandra is so tied up with the idea of ‘fate’ that it can be hard to find an action to change. To me, these are the key components of the Cassandra myth:&lt;/p&gt;
 
 &lt;p&gt;1) A curse to always tell the truth, but not be believed in some capacity.
 2) Repeated attempts to tell the truth despite the curse. Every attempt still results in not being believed.&lt;/p&gt;
@@ -316,46 +348,4 @@ Attachment theory is fine and good, though. Just none of this literal child with
 
 &lt;p&gt;&lt;img src=&quot;/assets/ft_linkedin/apollo.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;ft_linkedin/apollo.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/ft_linkedin/boss.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;ft_linkedin/boss.png&quot; /&gt;&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="fairy tales" /><category term="fables" /><category term="myths" /><category term="fairy tales for the 21st century" /><category term="cassandra" /><category term="greek mythology" /><category term="the fall of troy" /><summary>We had to develop our characters this week, and I didn’t feel like building 3D models felt right for my reinterpretation. Instead, I built these fake LinkedIn profiles: one for Cassandra, one for Apollo, and one for the boss who doesn’t listen to her.</summary></entry><entry><title>Router</title><link href="http://www.ceiling.cat/2017/01/30/router/" rel="alternate" type="text/html" title="Router" /><published>2017-01-30T07:01:35-05:00</published><updated>2017-01-30T07:01:35-05:00</updated><id>http://www.ceiling.cat/2017/01/30/router</id><content type="html" xml:base="http://www.ceiling.cat/2017/01/30/router/">&lt;p&gt;On the first day of Subtraction class, I was asked if I was afraid of using power tools. I was taken a bit aback; it hadn’t occured to me that I’d be afraid, and I would describe my feelings more like a deep-seated anxiety than fear. I wasn’t afraid I’d cut off my hand or injure myself, but I knew that my projects would likely go wrong– and my exercise did go wrong. Now that I’ve messed up, I do feel fine. It was the anticipation more than anything. Now I just feel that I’ve learned a lot.&lt;/p&gt;
-
-&lt;p&gt;The first step was straightforward– finding materials. I knew I didn’t want to spend any money, so I just salvaged some 0.5” plywood from the garbage.&lt;/p&gt;
-
-&lt;p&gt;I then measured out where I’ll stick in the pin, with a weird twist. The ruler I used had apparently been imprecise, the product of another itper on the laser cutter. My original measurements became this unhappy face.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_router/01.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_router/01.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I then loaded the circle jig and the router bit onto the router.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_router/02.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_router/02.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A long time ago, in high school shop class, I had used a drill press before, so using it wasn’t as intimidating as the other tasks.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_router/03.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_router/03.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The sad, imprecise face is still sad, though.&lt;/p&gt;
-
-&lt;p&gt;Then, it was time to actually use the router. I had a little trouble securing the plywood, as I didn’t realize I would want flat screws. The trickiest part, unexpectedly, was adjusting the depth of the head. It took a little finesse sometimes.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_router/04.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_router/04.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_router/05.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_router/05.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Then the circular cut was done! It was a little imprecise, but I was too content with my work to think to fix it. In future projects I will know better.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_router/06.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_router/06.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Then came time to measure out the straight edge of the cut. Because I had been imprecise earlier, I changed my mind about where I needed to cut. It’s less certain whether the piece would come out if I had followed my original plan.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_router/07.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_router/07.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_router/08.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_router/08.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Cutting this was very straightforward.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_router/09.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_router/09.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;But the piece is now done, despite the imperfections.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_router/10.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_router/10.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Special thanks to Lindsey Daniels, Chetan, and Shir for their help and guidance.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="subtraction" /><category term="router" /><summary>On the first day of Subtraction class, I was asked if I was afraid of using power tools. I was taken a bit aback; it hadn’t occured to me that I’d be afraid, and I would describe my feelings more like a deep-seated anxiety than fear. I wasn’t afraid I’d cut off my hand or injure myself, but I knew that my projects would likely go wrong– and my exercise did go wrong. Now that I’ve messed up, I do feel fine. It was the anticipation more than anything. Now I just feel that I’ve learned a lot.</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/ft_linkedin/boss.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;ft_linkedin/boss.png&quot; /&gt;&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="fairy tales" /><category term="fables" /><category term="myths" /><category term="fairy tales for the 21st century" /><category term="cassandra" /><category term="greek mythology" /><category term="the fall of troy" /><summary>We had to develop our characters this week, and I didn’t feel like building 3D models felt right for my reinterpretation. Instead, I built these fake LinkedIn profiles: one for Cassandra, one for Apollo, and one for the boss who doesn’t listen to her.</summary></entry></feed>
