@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2017-02-27T12:54:24-05:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>Prototyping a Vending Machine</title><link href="http://www.ceiling.cat/2017/02/27/vendingmachine1/" rel="alternate" type="text/html" title="Prototyping a Vending Machine" /><published>2017-02-27T08:01:35-05:00</published><updated>2017-02-27T08:01:35-05:00</updated><id>http://www.ceiling.cat/2017/02/27/vendingmachine1</id><content type="html" xml:base="http://www.ceiling.cat/2017/02/27/vendingmachine1/">&lt;p&gt;As I mentioned in my previous post about Subtraction, I wanted to prototype a Vending Machine housing for my midterm project. It’s a project born out of the Battery Store, a small business run by me and Lindsey Daniels (and a few other helpers!) If you’re at ITP and want cheap batteries, &lt;a href=&quot;https://wp.nyu.edu/batteries/&quot;&gt;check out the details&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2017-03-04T12:01:22-05:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>IDNYC &amp;amp; Final Project Ideas</title><link href="http://www.ceiling.cat/2017/03/04/nycid/" rel="alternate" type="text/html" title="IDNYC &amp; Final Project Ideas" /><published>2017-03-04T04:01:35-05:00</published><updated>2017-03-04T04:01:35-05:00</updated><id>http://www.ceiling.cat/2017/03/04/nycid</id><content type="html" xml:base="http://www.ceiling.cat/2017/03/04/nycid/">&lt;p&gt;Our midterm for doing good is good business was a research project on the IDNYC. It all started with the following prompt:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/gb_nycid/prompt.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;gb_nycid/prompt.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From there, I developed a list of questions about the program to ask Benedetta and also determine the answers to. At first, it was unclear whether we were supposed to research other ID programs for the last question or not, but it was clarified that the project centered around the IDNYC, and that at least one of us should go apply for the ID.&lt;/p&gt;
+
+&lt;p&gt;We played with the document calculator online and decided that Michael would apply for the card– he had already been planning to, and he had the pamphlets to prove it. Our first meeting was rather unfruitful– we had thought we could just walk-in and get an appointment, but apparently you had to book one in advance online or by calling 311.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/gb_nycid/nyc_id.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;gb_nycid/nyc_id.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our first appointment after this was also unsuccessful– we didn’t read the document calculator correctly and didn’t realize his residency documents needed to be dated within the last 60 days. The second appointment was successful, but Michael moved recently so it was a mixed success– he wouldn’t receive his ID at his new address.&lt;/p&gt;
+
+&lt;p&gt;We also created a slide deck to introduce the IDNYC and go through a few personas and the troubles they might face in getting the ID. The slide deck is included below.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://docs.google.com/presentation/d/13V7estj1a3sCrULcK4a-uh9htX3gM72g29RJKGVNQFs/embed?start=false&amp;amp;loop=false&amp;amp;delayms=10000&quot; frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;299&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Topics that are particularly interesting to me usually focus on women and girls and also apply to populations in richer countries. Things that are of particular interest to me:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;how do we ensure homeless and poorer populations have access to menstrual health products? Could we support small business at the same time? How do we educate young girls about menstrual health across cultures where it may be taboo?&lt;/li&gt;
+  &lt;li&gt;how do we protect homeless and poorer women from the threat of sexual assault, and encourage them to report cases of assault?&lt;/li&gt;
+  &lt;li&gt;similarly to my first query, how do we ensure that babies have access to clean diapers?&lt;/li&gt;
+  &lt;li&gt;how can we help people have privacy and a good night’s sleep in extremely close quarters? Does everyone have access to an effective mosquito net?&lt;/li&gt;
+  &lt;li&gt;From the challenge, how can ensure access to identification cards and other documents? How can we ensure these cards are portable and preservable in harsh conditions?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I think right now my favourite of these questions is the one about menstrual health, and I need to do more research on the topic. I think it’s a prime area for technology to assist in– although girls have access to their peers and teachers, they would want privacy and sensitivity that these groups might lack (many teachers are male, after all.) And homeless women might have difficulty asking for these products. Additionally, how are these products disposed of? Can we get clean underwear and sanitary products for everybody?&lt;/p&gt;
+
+&lt;p&gt;I need to do more research. Hopefully, someone else might be interested in the topic– it’s often a topic men shy away from.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="doing good is good business" /><category term="unicef" /><category term="good business" /><category term="nycid" /><summary>Our midterm for doing good is good business was a research project on the IDNYC. It all started with the following prompt:</summary></entry><entry><title>Prototyping a Vending Machine</title><link href="http://www.ceiling.cat/2017/02/27/vendingmachine1/" rel="alternate" type="text/html" title="Prototyping a Vending Machine" /><published>2017-02-27T08:01:35-05:00</published><updated>2017-02-27T08:01:35-05:00</updated><id>http://www.ceiling.cat/2017/02/27/vendingmachine1</id><content type="html" xml:base="http://www.ceiling.cat/2017/02/27/vendingmachine1/">&lt;p&gt;As I mentioned in my previous post about Subtraction, I wanted to prototype a Vending Machine housing for my midterm project. It’s a project born out of the Battery Store, a small business run by me and Lindsey Daniels (and a few other helpers!) If you’re at ITP and want cheap batteries, &lt;a href=&quot;https://wp.nyu.edu/batteries/&quot;&gt;check out the details&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;It’s also a part of &lt;a href=&quot;http://entrepreneur.nyu.edu/blog/2017/02/17/prototyping-fund-spring-17-awardees/&quot;&gt;NYU’s prototyping fund&lt;/a&gt;. Perhaps in the future, we’ll make a kitso other popel&lt;/p&gt;
 
@@ -169,164 +199,4 @@
 
 &lt;p&gt;This week’s reading was far more tolerable than last week’s for me, despite also giving fairy tales a Freudian treatment. The difference, to me, was substantial: instead of applying a Freudian reading to actual children who are in therapy, the reading is applied to cartoons and works of art. To imply a fictional cat is doing a phallic action is far more understandable than claiming a small girl has penis envy. Even unjustified claims about Walt Disney’s character seems fine to me, as he’s well documented as a megalomaniac and control freak by his employees, and his actions– after all, he did manipulate local Floridian governments to create Disneyworld. Plus, it is no exaggeration to claim he’s had far reaching effects on the idea of fairy tales in the public– you can simply look at how many treatments of fairy tales in our class are updates on the Disney version, and not any other version.&lt;/p&gt;
 
-&lt;p&gt;Additionally, you can look at what the public considers a fairy tale for further proof of Disney’s influence: ask a little girl what their favourite fairy tale is, and they might respond with “Pocahontas” or “Mulan”. Neither were fairy tales before Disney rewrote their stories.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="fairy tales" /><category term="fables" /><category term="myths" /><category term="fairy tales for the 21st century" /><summary>I’ve been thinking a lot about fate for my story of Cassandra. We’re meant to change critical actions in the story to see how they effect the narrative, but the idea of Cassandra is so tied up with the idea of ‘fate’ that it can be hard to find an action to change. To me, these are the key components of the Cassandra myth:</summary></entry><entry><title>All Roads Lead Back to ITP</title><link href="http://www.ceiling.cat/2017/02/12/allroads/" rel="alternate" type="text/html" title="All Roads Lead Back to ITP" /><published>2017-02-12T05:01:35-05:00</published><updated>2017-02-12T05:01:35-05:00</updated><id>http://www.ceiling.cat/2017/02/12/allroads</id><content type="html" xml:base="http://www.ceiling.cat/2017/02/12/allroads/">&lt;p&gt;For this week of Everything is Spatial, we used some geolocation data we generated over the last two weeks with the Moves application, and visualized the paths we took as well as the locations we visited.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/spatial_allroads/basic.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;spatial_allroads/basic.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is the base map of my last two weeks– all roads lead back to ITP… I’m here a lot. I changed the paths to be a thinner line for travelling with public transit, and a thicker line for just walks.&lt;/p&gt;
-
-&lt;p&gt;We were then meant to enhance this data with one of the following:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Distance&lt;/li&gt;
-  &lt;li&gt;Animations&lt;/li&gt;
-  &lt;li&gt;Time&lt;/li&gt;
-  &lt;li&gt;Details of the places we visited (it’s currently just coordinates)&lt;/li&gt;
-  &lt;li&gt;A key or legend&lt;/li&gt;
-  &lt;li&gt;Frequency of visits&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I decided to go for the fourth option, and find details about the places I visited. Some of the locations I visited are already annotated, since I did so via the Moves app earlier, but I failed to do most of them. The rest I decided to use Google Maps’ geocoder to annotate, because I had done so before and was vaguely familiar with the process. I generated an API key, and wrote the following code to annotate the places with tooltips:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;onEachFeature(feature, layer) {
-            if (feature.properties &amp;amp;&amp;amp;
-                feature.properties.place &amp;amp;&amp;amp;
-                feature.properties.place.name) {
-                layer.bindTooltip(feature.properties.place.name, {permanent: true}).addTo(map);
-            } else {
-                var latlng = feature.properties.place.location;
-
-                geocoder.geocode({'location': {lat: parseFloat(latlng.lat), lng: parseFloat(latlng.lon)}}, function(results, status) {
-                if (status === 'OK') {
-                  if (results[0]) {
-                    layer.bindTooltip(results[0].formatted_address, {permanent: true}).addTo(map);
-                  }
-                }
-                });
-            }
-        }
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;and this worked fairly well, as the following screenshot shows:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/spatial_allroads/annotations.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;spatial_allroads/annotations.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The problm with this code, however, is that Google Maps rate limits free accounts, and it fires the requests too rapidly. The majority of places go unlabeled. To solve this, we can slow down the labelling, but this is also not ideal: for a web application, you want to load as fast as possible.&lt;/p&gt;
-
-&lt;p&gt;Another problem with this code is that the API key is needed on the client side, leaving you exposed to potential abuse. Someone could use this code to ping Google with their own georequests, and waste your money or rates. To protect you from this, Google lets you restrict your key to usage by certain websites and IP addresses, which should help.&lt;/p&gt;
-
-&lt;p&gt;The practical solution for this would be to prepopulate the information, and do the Geomapping before on the server side. (Or else pay Google to no longer be rate limited.) This would solve both of these problems.&lt;/p&gt;
-
-&lt;p&gt;I’m very lazy though, so I decided to just restrict my key, and deal with the rate limit by just removing the addresses that failed to populate:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;        onEachFeature(feature, layer) {
-            if (feature.properties &amp;amp;&amp;amp;
-                feature.properties.place &amp;amp;&amp;amp;
-                feature.properties.place.name) {
-                layer.bindTooltip(feature.properties.place.name, {permanent: true}).addTo(map);
-            } else {
-                var latlng = feature.properties.place.location;
-
-                geocoder.geocode({'location': {lat: parseFloat(latlng.lat), lng: parseFloat(latlng.lon)}}, function(results, status) {
-                if (status === 'OK') {
-                  if (results[0]) {
-                    layer.bindTooltip(results[0].formatted_address, {permanent: true}).addTo(map);
-                  } else {
-                    placesLayer.removeLayer(layer);
-                  }
-                } else {
-                    placesLayer.removeLayer(layer);
-                }
-                });
-            }
-        }
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Done! Here’s the map below:&lt;/p&gt;
-
-&lt;script src=&quot;https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js&quot;&gt;&lt;/script&gt;
-
-&lt;link href=&quot;https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css&quot; rel=&quot;stylesheet&quot; /&gt;
-
-&lt;script src=&quot;https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js&quot;&gt;&lt;/script&gt;
-
-&lt;script src=&quot;https://maps.googleapis.com/maps/api/js?key=AIzaSyCnH8dPy1Q156b4G5667i-LxOrhnIGC1hA&quot;&gt;&lt;/script&gt;
-
-&lt;div id=&quot;map&quot; style=&quot;width: 100%; height: 500px;&quot;&gt;&lt;/div&gt;
-&lt;script&gt;
-// BaseMap
-var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png');
-var map = L.map('map').setView([40.7246342, -73.9427715], 13);
-map.addLayer(layer);
-
-
-var walkingLayer = L.geoJson(null, {
-filter: function(feature) {
-    // my custom filter function
-    return feature.properties.activities.map(function(x){ return x.activity }) == &quot;walking&quot;;
-},
-style: function(feature) {
-    // my custom filter function
-    return {
-        color: &quot;#9e9&quot;,
-        weight: 5
-    };
-
-}
-});
-var transportLayer = L.geoJson(null, {
-filter: function(feature) {
-    // my custom filter function
-    return feature.properties.activities.map(function(x){ return x.activity }).includes(&quot;transport&quot;);
-},
-style: function(feature) {
-    // my custom filter function
-    return {
-        color: &quot;#4a4&quot;,
-        weight: 1,
-        opacity: 0.5
-    };
-
-}
-});
-var dataLayer = omnivore.geojson(&quot;/assets/spatial_allroads/activities.json&quot;, null, walkingLayer).addTo(map);
-var dataLayer = omnivore.geojson(&quot;/assets/spatial_allroads/activities.json&quot;, null, transportLayer).addTo(map);
-var geocoder = new google.maps.Geocoder;
-
-var placesLayer =  L.geoJson(null, {
-    // filter: function(feature) {
-    //     return feature.properties.place.name;
-    // },
-    pointToLayer: function (feature, latlng) {
-        return new L.CircleMarker(latlng, {
-            radius:7,
-            color: &quot;white&quot;,
-            fillOpacity: 0.5
-        })},
-    onEachFeature(feature, layer) {
-        if (feature.properties &amp;&amp;
-            feature.properties.place &amp;&amp;
-            feature.properties.place.name) {
-            layer.bindTooltip(feature.properties.place.name, {permanent: true}).addTo(map);
-        } else {
-            var latlng = feature.properties.place.location;
-
-            geocoder.geocode({'location': {lat: parseFloat(latlng.lat), lng: parseFloat(latlng.lon)}}, function(results, status) {
-            if (status === 'OK') {
-              if (results[0]) {
-                layer.bindTooltip(results[0].formatted_address, {permanent: true}).addTo(map);
-              } else {
-                placesLayer.removeLayer(layer);
-              }
-            } else {
-                placesLayer.removeLayer(layer);
-            }
-            });
-        }
-    }
-});
-
-var pdataLayer = omnivore.geojson(&quot;/assets/spatial_allroads/places.json&quot;, null, placesLayer).addTo(map);
-
-&lt;/script&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="everything is spatial" /><category term="spatial" /><summary>For this week of Everything is Spatial, we used some geolocation data we generated over the last two weeks with the Moves application, and visualized the paths we took as well as the locations we visited.</summary></entry></feed>
+&lt;p&gt;Additionally, you can look at what the public considers a fairy tale for further proof of Disney’s influence: ask a little girl what their favourite fairy tale is, and they might respond with “Pocahontas” or “Mulan”. Neither were fairy tales before Disney rewrote their stories.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="fairy tales" /><category term="fables" /><category term="myths" /><category term="fairy tales for the 21st century" /><summary>I’ve been thinking a lot about fate for my story of Cassandra. We’re meant to change critical actions in the story to see how they effect the narrative, but the idea of Cassandra is so tied up with the idea of ‘fate’ that it can be hard to find an action to change. To me, these are the key components of the Cassandra myth:</summary></entry></feed>
