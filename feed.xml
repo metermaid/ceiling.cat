@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2017-03-04T15:59:30-05:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>Satellites</title><link href="http://www.ceiling.cat/2017/03/04/satellites/" rel="alternate" type="text/html" title="Satellites" /><published>2017-03-04T05:01:35-05:00</published><updated>2017-03-04T05:01:35-05:00</updated><id>http://www.ceiling.cat/2017/03/04/satellites</id><content type="html" xml:base="http://www.ceiling.cat/2017/03/04/satellites/">&lt;p&gt;I’ve been looking at landsat data for Everything is Spatial, and it’s fascinating. I wish it had more zoomed-in data so I can look at building and cities more closely, but it’s interesting to look at larger bodies and seeing how things change. It’s nice to be able to access direct satellite data with exact times– one thing that frustrates me about Google is its copyright data that notes everything as Copyright 2017 Google. Who knows when this data is from, consequentially?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2017-03-10T21:02:54-05:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>Turning</title><link href="http://www.ceiling.cat/2017/03/10/turning/" rel="alternate" type="text/html" title="Turning" /><published>2017-03-10T04:01:35-05:00</published><updated>2017-03-10T04:01:35-05:00</updated><id>http://www.ceiling.cat/2017/03/10/turning</id><content type="html" xml:base="http://www.ceiling.cat/2017/03/10/turning/">&lt;p&gt;Spring Break has arrived, along with a snowstorm in New York. Knowing that I’ll be leaving for London tomorrow, I wanted to finish my lathe exercise before my trip– lest I be stuck competing with everyone else to finish in the last weekend before class begins again. I had no idea what to make with it, though, and thought hard before concluding that I’d just turn until I felt content with my work. I didn’t see much point in making a handle if I had nothing to which I’d attach it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_lathe/1.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_lathe/1.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I decided to turn a simple wooden dowel, and save my piece of firewood for when I felt more confident with the lathe. In all honesty, I hadn’t realized we’d be given material, and hoarded this earlier in the week. After we got material, I decided to use it anyways. Putting it on the lathe was exceedingly simple, and almost suspiciously so. I kept feeling like I was missing a step.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_lathe/2.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_lathe/2.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When I started turning the piece, I discovered that I had accidentally put it on at an angle. Woops. I had to take the piece a bit down so it’d be a consistent cylinder, and then just lathed as I saw fit. It was surprisingly soothing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_lathe/3.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_lathe/3.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sanding on the lathe is a bit of a pleasure, but it can be hard to sand down little grooves perfectly. I sanded down my randomly turned dowel, and then rubbed boiled linseed oil on it. My brother advocated it, as it is cheaper than tung oil and dries faster. (I didn’t apply enough for a professional finish, though, since this is just an exercise.) I thought I should listen to a man who literally did his Masters’ thesis on wood finishes (albeit on outdoor deck finishes. I imagine he has reasonable expertise about other finishes.)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_lathe/4.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_lathe/4.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After a quick coat of BLO, I sanded it down and tried to get the rough edges out of the grooves again. This could be a stair baluster, theoretically.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="subtraction" /><category term="turning" /><category term="lathe" /><summary>Spring Break has arrived, along with a snowstorm in New York. Knowing that I’ll be leaving for London tomorrow, I wanted to finish my lathe exercise before my trip– lest I be stuck competing with everyone else to finish in the last weekend before class begins again. I had no idea what to make with it, though, and thought hard before concluding that I’d just turn until I felt content with my work. I didn’t see much point in making a handle if I had nothing to which I’d attach it.</summary></entry><entry><title>Satellites</title><link href="http://www.ceiling.cat/2017/03/04/satellites/" rel="alternate" type="text/html" title="Satellites" /><published>2017-03-04T05:01:35-05:00</published><updated>2017-03-04T05:01:35-05:00</updated><id>http://www.ceiling.cat/2017/03/04/satellites</id><content type="html" xml:base="http://www.ceiling.cat/2017/03/04/satellites/">&lt;p&gt;I’ve been looking at landsat data for Everything is Spatial, and it’s fascinating. I wish it had more zoomed-in data so I can look at building and cities more closely, but it’s interesting to look at larger bodies and seeing how things change. It’s nice to be able to access direct satellite data with exact times– one thing that frustrates me about Google is its copyright data that notes everything as Copyright 2017 Google. Who knows when this data is from, consequentially?&lt;/p&gt;
 
 &lt;p&gt;Here’s some map data from BC. Our slogan is Beautiful British Columbia, and it’s lovely covered in snow.&lt;/p&gt;
 
@@ -170,40 +186,4 @@
   &lt;li&gt;(sub) What are the most interesting changes have you had to make to localize a product versus the global implementation?&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;The questions are mostly Uber oriented.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="doing good is good business" /><category term="unicef" /><category term="good business" /><summary>For a technologist, I’m awfully skeptical about technology, particularly when it’s from Silicon Valley. Every breathless press release I read about a startup just makes me wonder, “what’s the catch?” Consequently, I went into this week’s readings with doubt in my head, especially when the social good of a technology seems like an afterthought. This seemed to be the case for both the Uber and drone technology pieces: Uber started off, they admit, to “roll around San Francisco like ballers”, and drones are marketed for people already served by couriers. We’re envisioning the future of transportation when many places don’t have the present of transportation– and then retrofitting it into those places.</summary></entry><entry><title>Ceci n’est pas une pizza</title><link href="http://www.ceiling.cat/2017/02/13/cnc/" rel="alternate" type="text/html" title="Ceci n'est pas une pizza" /><published>2017-02-13T08:01:35-05:00</published><updated>2017-02-13T08:01:35-05:00</updated><id>http://www.ceiling.cat/2017/02/13/cnc</id><content type="html" xml:base="http://www.ceiling.cat/2017/02/13/cnc/">&lt;p&gt;I had a lot less trouble with this week’s Subtraction exercise than last week’s. The primary trouble I had was with scheduling and other people– I waited three hours to see if someone would vacate the MasterCAM station on Friday, and found it constantly occupied. Consequently, my project isn’t quite where I wanted it to be, but I’m pretty content.&lt;/p&gt;
-
-&lt;p&gt;The first thing I had to do was get materials and come up with a concept. I found some unlabeled MDF, and was brainstorming on Wednesday when a website told me that it was national pizza day on February 9th– so I decided to cut out a pizza. Why not?&lt;/p&gt;
-
-&lt;p&gt;(In truth, I wanted to cut out vending machine housing, but I didn’t have enough material. Pizza it is!)&lt;/p&gt;
-
-&lt;p&gt;I made a template in Vectorworks.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_cnc/pizza1.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_cnc/pizza1.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;And then modified it so the cut lines were clearer.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_cnc/pizza2.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_cnc/pizza2.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is what I wanted to bring to the MasterCAM on Friday, but the station was busy. Consequently, I couldn’t get it set up until during my CNC reservation on Sunday, at which point I discovered that the slice lines were too thin for the bit that I had. I had to quickly discard the slice lines and keep only the original sauce concept, which was fine! I just wish I discovered it on Friday, but the MasterCAM was busy.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_cnc/mastercam.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_cnc/mastercam.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I set up the CNC, which was simple enough. Honestly, I had more trouble using enough pressure with a hand drill to keep my material on then anything else.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_cnc/cnc.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_cnc/cnc.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Here’s the CNC in action. I spent most of the time vacuuming, just to pass the time.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_cnc/action.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_cnc/action.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The cutting finished without hiccups, though it ended up a little close to the edge of the material for my liking. I should double check my origin in relation to the cuts before I take it to the CAM.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_cnc/finished.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_cnc/finished.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s still a pretty nice wooden pizza, though. Ceci est une belle maquette, même si ce n’est pas une pizza.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;EDIT&lt;/strong&gt;: I later put the thing in a pizza box. It’s pretty cute, and worth a laugh.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_cnc/pizza1.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_cnc/pizza1.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/sub_cnc/pizza2.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_cnc/pizza2.jpg&quot; /&gt;&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="subtraction" /><category term="milling" /><category term="cnc" /><summary>I had a lot less trouble with this week’s Subtraction exercise than last week’s. The primary trouble I had was with scheduling and other people– I waited three hours to see if someone would vacate the MasterCAM station on Friday, and found it constantly occupied. Consequently, my project isn’t quite where I wanted it to be, but I’m pretty content.</summary></entry></feed>
+&lt;p&gt;The questions are mostly Uber oriented.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="doing good is good business" /><category term="unicef" /><category term="good business" /><summary>For a technologist, I’m awfully skeptical about technology, particularly when it’s from Silicon Valley. Every breathless press release I read about a startup just makes me wonder, “what’s the catch?” Consequently, I went into this week’s readings with doubt in my head, especially when the social good of a technology seems like an afterthought. This seemed to be the case for both the Uber and drone technology pieces: Uber started off, they admit, to “roll around San Francisco like ballers”, and drones are marketed for people already served by couriers. We’re envisioning the future of transportation when many places don’t have the present of transportation– and then retrofitting it into those places.</summary></entry></feed>
