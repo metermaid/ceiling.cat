@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+	<title>Myers-Briggs Type Finder</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Megrim|Muli" rel="stylesheet">
+
+	<style type="text/css">
+  html {
+    background: #171e26 url('bg.jpg') no-repeat top center;
+    font: 18px 'Muli', sans-serif;
+    color: #a2a5a8;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    color: #cc992c;
+    font-family: 'Megrim', sans-serif;
+    margin: 20px 0 5px 0;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  h1 {
+    font: 50px/50px;
+    margin: 0;
+  }
+  h2 {
+    font: 40px/40px;
+  }
+  h3 {
+    font: 30px/30px;
+  }
+  #container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  #logo {
+    width: 100%;
+    max-width: 200px;
+    margin: 50px auto 0;
+  }
+  #logo img { width: 100%; }
+
+  </style>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+
+</head>
+
+<body>
+<div id="container">
+  <div id="logo"><img src="finder-icon.png" /></div>
+  <h1>Myers-Briggs Type Finder</h1>
+  <p>In our highly-complex society, there isn't enough time to accomplish everything you would like to accomplish: difficult jobs, fulfilling relationships, keeping up with the media, not to mention workouts and everything else that is good for you. Let alone completing a personality test: who has time to answer 100 questions and figure out their Myers-Briggs typing?</p>
+  <p>If this predicament is familiar to you, this utility is the solution to your problem. Select a folder that represents you. We recommend your 'Downloads' or 'Documents' folder. The utility will automatically determine your typing from it. You can return to your day, successfully categorized.</p>
+  <p>This test incorporates content from Wikipedia, licensed as Creative Commons Attribution - ShareAlike.</p>
+	<input type="file" webkitdirectory>
+  <div id="results">
+  </div>
+</div>
+
+<script type="text/javascript">//<![CDATA[
+  var numImages = 0;
+  var numFiles = 0;
+  var numFolders = 0;
+  var careers;
+
+  var description = {
+    "INTP": "INTPs are quiet, thoughtful, analytical individuals who tend to spend long periods of time on their own, working through problems and forming solutions. They are curious about systems and how things work. Consequently, they are frequently found in careers such as science, philosophy, law, and architecture. INTPs tend to be less at ease in social situations or in the \"caring professions\", although they enjoy the company of those who share their interests. They prize autonomy in themselves and others. They generally balk at attempts by others to convince them to change. They also tend to be impatient with the bureaucracy, rigid hierarchies, and the politics prevalent in many professions. INTPs have little regard for titles and badges, which they often consider to be unjustified. INTPs usually come to distrust authority as hindering the uptake of novel ideas and the search for knowledge. INTPs accept ideas based on merit, rather than tradition or authority. They have little patience for social customs that seem illogical or that serve as obstacles for pursuing ideas and knowledge. This may place them at odds with people who have an SJ preference, since SJs tend to defer to authority, tradition, and what the rest of the group is doing.[2] INTPs prefer to work informally with others as equals.",
+    "ISTJ": "ISTJs are faithful, logical, organized, sensible, and earnest traditionalists who enjoy keeping their lives and environments well-regulated. Typically reserved and serious individuals, they earn success through their thoroughness and extraordinary dependability. They are capable of shutting out distractions in order to take a practical, logical approach to their endeavors, and are able to make the tough decisions that other types avoid. Realistic and responsible, ISTJs are often seen as worker bees striving steadily toward their goals. They take special joy in maintaining institutions and are often highly religious. Despite their dependability and good intentions, however, ISTJs can experience difficulty in understanding and responding to the emotional needs of others.",
+    "ISTP": "According to Myers-Briggs, ISTPs excel at analyzing situations to reach the heart of a problem so that they can swiftly implement a functional repair, making them ideally suited to the field of engineering. Naturally quiet people, they are interested in understanding how systems operate, focusing on efficient operation and structure. They are open to new information and approaches. But contrary to their seemingly detached natures, ISTPs are often capable of humorously insightful observations about the world around them. They can also be closet daredevils who gravitate toward fast-moving or risky hobbies (such as bungee jumping, hang gliding, racing, motorcycling, and parachuting), recreational sports (such as downhill skiing, paintball, ice hockey, and scuba diving), and careers (such as aviation and firefighting).",
+    "ESTP": "According to Myers-Briggs, ESTPs are hands-on learners who live in the moment, seeking the best in life, wanting to share it with their friends. The ESTP is open to situations, able to improvise to bring about desired results. They are active people who want to solve their problems rather than simply discuss them.",
+    "ESTJ": "ESTJs are practical, realistic, and matter-of-fact, with a natural head for business or mechanics. Though they are not interested in subjects they see no use for, they can apply themselves when necessary. They like to organize and run activities. ESTJs make good administrators, especially if they remember to consider others' feelings and points of view, which they often miss.",
+    "ISFJ": "According to Myers-Briggs, ISFJs are interested in maintaining order and harmony in every aspect of their lives. They are steadfast and meticulous in handling their responsibilities. Although quiet, they are people-oriented and very observant. Not only do they remember details about others, but they observe and respect others’ feelings. Friends and family are likely to describe them as thoughtful and trustworthy.",
+    "ISFP": "According to Myers-Briggs, ISFPs are peaceful, easygoing people who adopt a \"live and let live\" approach to life. They enjoy taking things at their own pace and tend to live in the moment. Although quiet, they are pleasant, considerate, caring, and devoted to the people in their lives. Though not inclined to debate or necessarily even air their views, their values are important to them.",
+    "ESFP": "ESFPs live in the moment, experiencing life to the fullest. They enjoy people, as well as material comforts. Rarely allowing conventions to interfere with their lives, they find creative ways to meet human needs. ESFPs are excellent team players, focused on completing the task at hand with maximum fun and minimum discord. Active types, they find pleasure in new experiences.",
+    "ESFJ": "ESFJs focus on the outside world and assess their experiences subjectively. They largely base their judgments on their belief system and on the effects of actions on people. ESFJs are literal and concrete, trusting the specific, factual information gathered through their physiological senses.",
+    "INFJ": "INFJs are conscientious and value-driven. They seek meaning in relationships, ideas, and events, with an eye toward better understanding themselves and others. Using their intuitive skills, they develop a clear and confident vision, which they then set out to execute, aiming to better the lives of others. Like their INTJ counterparts, INFJs regard problems as opportunities to design and implement creative solutions.",
+    "INFP": "INFPs focus much of their energy on an inner world dominated by intense feeling and deeply held ethics. They seek an external life that is in keeping with these values. Loyal to the people and causes important to them, INFPs can quickly spot opportunities to implement their ideals. They are curious to understand those around them, and so are accepting and flexible except when their values are threatened.",
+    "ENFP": "ENFPs are initiators of change, keenly perceptive of possibilities. They energize and stimulate others through their contagious enthusiasm. They prefer the start-up phase of a project or relationship, and are tireless in the pursuit of new-found interests. ENFPs are able to anticipate the needs of others and to offer them needed help and appreciation. They bring zest, joy, liveliness, and fun to all aspects of their lives. They are at their best in fluid situations that allow them to express their creativity and use their charisma. They tend to idealize people, and can be disappointed when reality fails to fulfill their expectations. They are easily frustrated if a project requires a great deal of follow-up or attention to detail.",
+    "ENFJ": "Extraverted feeling types seek continuity through harmonious relationships and collective values. They excel at picking up on the tone of a situation and acting accordingly, adding warmth to a cool setting or turning sour into sweet. They naturally seek to know what people do well, what they enjoy, and where and how they work. They seem to have an infinite number of acquaintances from all walks of life and are always on the lookout for people in need and those who can help out. ENFJs weave and strengthen the collective fabric of social conventions and interactions. Inclusiveness is important and they are particularly sensitive to those who are excluded.",
+    "INTJ": "INTJs are analytical. Like INTPs, they are most comfortable working alone and tend to be less sociable than other types. Nevertheless, INTJs are prepared to lead if no one else seems up to the task, or if they see a major weakness in the current leadership. They tend to be pragmatic, logical, and creative. They have a low tolerance for spin or rampant emotionalism. They are not generally susceptible to catchphrases and do not readily accept authority based on tradition, rank, or title.",
+    "ENTP": "Using their primary function-attitude of extraverted intuition (Ne), ENTPs are quick to see complex interrelationships between people, things, and ideas. These interrelationships are analyzed in profound detail through the ENTPs auxiliary function, introverted thinking (Ti). The result is an in-depth understanding of the way things and relationships work, and how they can be improved. To the ENTP, competence and intelligence are particularly prized, both in themselves and in other people.",
+    "ENTJ": "ENTJs focus on the most efficient and organized means of performing a task. This quality, along with their goal orientation, often makes ENTJs superior leaders, both realistic and visionary in implementing a long-term plan. ENTJs tend to be fiercely independent in their decision making, having a strong will that insulates them against external influence. Generally highly competent, ENTJs analyze and structure the world around them in a logical and rational way. Due to this straightforward way of thinking, ENTJs tend to have the greatest difficulty of all the types in applying subjective considerations and emotional values into the decision-making process."
+  }
+
+$(window).load(function(){
+  $.getJSON( "https://raw.githubusercontent.com/dariusk/corpora/master/data/humans/occupations.json", function( data ) {
+    $.each( data, function( key, val ) {
+      if (key == "occupations")
+        careers = val;
+    });
+  });
+  document.querySelector("input").onchange = function() {
+    $("input").hide();
+
+    var sorted = [].slice.call(this.files).sort(function(a,b) {
+      return b.lastModified-a.lastModified;
+    });
+    sorted.forEach( function(v) {
+      var fileType = v.name.split('.').pop();
+      if (fileType == 'png' || fileType == 'jpg' || fileType == 'jpeg' || fileType == 'gif' || fileType == 'bmp' || fileType == 'tiff')
+        numImages++;
+      if (v.name.split('.').length == 1)
+        numFolders++;
+      numFiles++;
+    });
+
+    var intro = (numFolders / numFiles) < 0.2;
+    var sensing = (numImages / numFiles) > 0.4;
+    var thinking = numFiles > 200;
+    var judging = Math.abs(new Date() - new Date(sorted[0].lastModified)) > 7 * 24 * 60 * 60 * 1000;
+    var type = intro ? "I" : "E";
+    type += sensing ? "S" : "N";
+    type += thinking ? "T" : "F";
+    type += judging ? "J" : "P";
+
+
+    $("#results").append("<h2>Your type: "+ type +"</h2>" );
+    $("#results").append("<p>" + description[type] + "</p>");
+
+    if (intro) {
+      $("#results").append("<h3>Introversion</h3>" );
+      $("#results").append("<p>You generally prefer interacting with a few close friends rather than a wide circle of acquaintances, and you expend energy in social situations (whereas extraverts gain energy).</p>" );
+    } else {
+      $("#results").append("<h3>Extraversion</h3>" );
+      $("#results").append("<p>You tend to enjoy a wide circle of acquaintances, and you gain energy in social situations (whereas introverts expend energy).</p>" );
+    }
+    if (sensing) {
+      $("#results").append("<h3>Sensing</h3>" );
+      $("#results").append("<p>You tend to be more concrete than abstract. You focus your attention on the details rather than the big picture, and on immediate realities rather than future possibilities.</p>" );
+    } else {
+      $("#results").append("<h3>Intuition</h3>" );
+      $("#results").append("<p>You tend to be more abstract than concrete. You focus their attention on the big picture rather than the details, and on future possibilities rather than immediate realities.</p>" );
+    }
+    if (thinking) {
+      $("#results").append("<h3>Thinking</h3>" );
+      $("#results").append("<p>You tend to value objective criteria above personal preference. When making decisions, you generally give more weight to logic than to social considerations.</p>" );
+    } else {
+      $("#results").append("<h3>Feeling</h3>" );
+      $("#results").append("<p>You tend to value personal considerations above objective criteria. When making decisions, you often give more weight to social implications than to logic.</p>" );
+    }
+    if (judging) {
+      $("#results").append("<h3>Judging</h3>" );
+      $("#results").append("<p>You tend to plan your activities and make decisions early. You derive a sense of control through predictabilit</p>" );
+    } else {
+      $("#results").append("<h3>Perceiving</h3>" );
+      $("#results").append("<p>You tend to withhold judgment and delay important decisions, preferring to 'keep their options open' should circumstances change.</p>" );
+    }
+    };
+});//]]> 
+
+</script>
+</body>
+
+</html>
