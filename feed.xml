@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2017-04-04T15:28:12-04:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>Money Transfers</title><link href="http://www.ceiling.cat/2017/04/04/moneytransfers/" rel="alternate" type="text/html" title="Money Transfers" /><published>2017-04-04T00:02:35-04:00</published><updated>2017-04-04T00:02:35-04:00</updated><id>http://www.ceiling.cat/2017/04/04/moneytransfers</id><content type="html" xml:base="http://www.ceiling.cat/2017/04/04/moneytransfers/">&lt;h3 id=&quot;problem-statement&quot;&gt;Problem Statement&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2017-04-09T17:06:16-04:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>4-Axis Mill</title><link href="http://www.ceiling.cat/2017/04/09/4axis/" rel="alternate" type="text/html" title="4-Axis Mill" /><published>2017-04-09T05:01:35-04:00</published><updated>2017-04-09T05:01:35-04:00</updated><id>http://www.ceiling.cat/2017/04/09/4axis</id><content type="html" xml:base="http://www.ceiling.cat/2017/04/09/4axis/">&lt;p&gt;The lathe was out of service last week, so I had a week off from blogging about Subtraction. The metal lathe was admittedly a bit intimidating, but I had wanted to try it. Oh well! This week, we tackled the 4-Axis mill.&lt;/p&gt;
+
+&lt;p&gt;The hardest part of this week’s exercise was working with Vectorworks– my background in no way involves 3D modelling so I had no idea how to work with this software. Photoshop and Illustrator? Fine. But add another dimension and I’m lost. I had to try hard not to compare myself to other people in the class– they have backgrounds in industrial design, I tell myself, so they knew how to model already.&lt;/p&gt;
+
+&lt;p&gt;I decided that I wanted to make myself a simple, geometric necklace. It took a while to figure out Vectorworks’ interpretation of “extruding”, but I eventually settled on the folowing shape.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_4axis/vectorworks.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_4axis/vectorworks.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Honestly, I couldn’t quite remember all the steps for setting up the mill, and had to ask Eric for help. He was a great help, but admittedly all I didn’t remember was that I needed an allen key to move the tail stock.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_4axis/setup.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_4axis/setup.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The cut out job took a bit under an hour. Eric had advised me to use a lot of tabs (because he hadn’t, and his project snapped) so it’s a bit bulky and needs to be sanded down.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_4axis/cutout.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_4axis/cutout.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To my immense regret, though, I cut the thing out without first drilling the hole– so I had to clamp it to drill the hole. After I did so, though, the bottom part snapped off– which isn’t too regrettable, since it still looks more or less like I did so intentionally.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_4axis/sanding.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_4axis/sanding.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/sub_4axis/hole.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_4axis/hole.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After I finished sanding it down, I took some yarn from the soft lab and threaded it through. It’s alright for a first try at the mill!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sub_4axis/necklace.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_4axis/necklace.jpg&quot; /&gt;&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="subtraction" /><category term="milling" /><summary>The lathe was out of service last week, so I had a week off from blogging about Subtraction. The metal lathe was admittedly a bit intimidating, but I had wanted to try it. Oh well! This week, we tackled the 4-Axis mill.</summary></entry><entry><title>Money Transfers</title><link href="http://www.ceiling.cat/2017/04/04/moneytransfers/" rel="alternate" type="text/html" title="Money Transfers" /><published>2017-04-04T00:02:35-04:00</published><updated>2017-04-04T00:02:35-04:00</updated><id>http://www.ceiling.cat/2017/04/04/moneytransfers</id><content type="html" xml:base="http://www.ceiling.cat/2017/04/04/moneytransfers/">&lt;h3 id=&quot;problem-statement&quot;&gt;Problem Statement&lt;/h3&gt;
 
 &lt;p&gt;The problem of being unbanked affects 2 billion people in the world, the impact of which is that they have no access to credit, insurance, savings, and payments.&lt;/p&gt;
 
@@ -272,34 +295,4 @@ type += judging ? &quot;J&quot; : &quot;P&quot;;
 
 &lt;p&gt;But the topic I think I’ve settled on is simpler, and inspired by the place where I’m from. Vancouver is the third most common filming location in North America for many films and TV shows, but hardly ever stars as itself. There’s a &lt;a href=&quot;https://www.youtube.com/watch?v=ojm74VGsZBU&quot;&gt;great video about this topic by Tony Zhou&lt;/a&gt;. It stars as Seattle, New York, and countless other metropolises. This has got me thinking about all the towns that have pretended to be New York in film besides my city. Toronto is a very common New York stand-in, for instance, starring as the city for American Psycho. So for my final, I think I’ll map all the places that’ve been New York, and let the user explore the movies with false New Yorks.&lt;/p&gt;
 
-&lt;p&gt;Neue New Yorks. Or something like that.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="everything is spatial" /><category term="spatial" /><summary>I’ve been looking at landsat data for Everything is Spatial, and it’s fascinating. I wish it had more zoomed-in data so I can look at building and cities more closely, but it’s interesting to look at larger bodies and seeing how things change. It’s nice to be able to access direct satellite data with exact times– one thing that frustrates me about Google is its copyright data that notes everything as Copyright 2017 Google. Who knows when this data is from, consequentially?</summary></entry><entry><title>IDNYC &amp;amp; Final Project Ideas</title><link href="http://www.ceiling.cat/2017/03/04/nycid/" rel="alternate" type="text/html" title="IDNYC &amp; Final Project Ideas" /><published>2017-03-04T04:01:35-05:00</published><updated>2017-03-04T04:01:35-05:00</updated><id>http://www.ceiling.cat/2017/03/04/nycid</id><content type="html" xml:base="http://www.ceiling.cat/2017/03/04/nycid/">&lt;p&gt;Our midterm for doing good is good business was a research project on the IDNYC. It all started with the following prompt:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/gb_nycid/prompt.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;gb_nycid/prompt.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;From there, I developed a list of questions about the program to ask Benedetta and also determine the answers to. At first, it was unclear whether we were supposed to research other ID programs for the last question or not, but it was clarified that the project centered around the IDNYC, and that at least one of us should go apply for the ID.&lt;/p&gt;
-
-&lt;p&gt;We played with the document calculator online and decided that Michael would apply for the card– he had already been planning to, and he had the pamphlets to prove it. Our first meeting was rather unfruitful– we had thought we could just walk-in and get an appointment, but apparently you had to book one in advance online or by calling 311.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/gb_nycid/nyc_id.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;gb_nycid/nyc_id.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Our first appointment after this was also unsuccessful– we didn’t read the document calculator correctly and didn’t realize his residency documents needed to be dated within the last 60 days. The second appointment was successful, but Michael moved recently so it was a mixed success– he wouldn’t receive his ID at his new address.&lt;/p&gt;
-
-&lt;p&gt;We also created a slide deck to introduce the IDNYC and go through a few personas and the troubles they might face in getting the ID. The slide deck is included below.&lt;/p&gt;
-
-&lt;iframe src=&quot;https://docs.google.com/presentation/d/13V7estj1a3sCrULcK4a-uh9htX3gM72g29RJKGVNQFs/embed?start=false&amp;amp;loop=false&amp;amp;delayms=10000&quot; frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;299&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Topics that are particularly interesting to me usually focus on women and girls and also apply to populations in richer countries. Things that are of particular interest to me:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;how do we ensure homeless and poorer populations have access to menstrual health products? Could we support small business at the same time? How do we educate young girls about menstrual health across cultures where it may be taboo?&lt;/li&gt;
-  &lt;li&gt;how do we protect homeless and poorer women from the threat of sexual assault, and encourage them to report cases of assault?&lt;/li&gt;
-  &lt;li&gt;similarly to my first query, how do we ensure that babies have access to clean diapers?&lt;/li&gt;
-  &lt;li&gt;how can we help people have privacy and a good night’s sleep in extremely close quarters? Does everyone have access to an effective mosquito net?&lt;/li&gt;
-  &lt;li&gt;From the challenge, how can ensure access to identification cards and other documents? How can we ensure these cards are portable and preservable in harsh conditions?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I think right now my favourite of these questions is the one about menstrual health, and I need to do more research on the topic. I think it’s a prime area for technology to assist in– although girls have access to their peers and teachers, they would want privacy and sensitivity that these groups might lack (many teachers are male, after all.) And homeless women might have difficulty asking for these products. Additionally, how are these products disposed of? Can we get clean underwear and sanitary products for everybody?&lt;/p&gt;
-
-&lt;p&gt;I need to do more research. Hopefully, someone else might be interested in the topic– it’s often a topic men shy away from.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="doing good is good business" /><category term="unicef" /><category term="good business" /><category term="nycid" /><summary>Our midterm for doing good is good business was a research project on the IDNYC. It all started with the following prompt:</summary></entry></feed>
+&lt;p&gt;Neue New Yorks. Or something like that.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="everything is spatial" /><category term="spatial" /><summary>I’ve been looking at landsat data for Everything is Spatial, and it’s fascinating. I wish it had more zoomed-in data so I can look at building and cities more closely, but it’s interesting to look at larger bodies and seeing how things change. It’s nice to be able to access direct satellite data with exact times– one thing that frustrates me about Google is its copyright data that notes everything as Copyright 2017 Google. Who knows when this data is from, consequentially?</summary></entry></feed>
