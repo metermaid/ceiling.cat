@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Female Script Intro Generator</title>
+    <script src="rita-full.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Nixie+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Female Script Intro Generator</h1>
+    <p id="quote">
+    </p>
+    <div>
+    <button id="reloader">
+    New Quote
+    </button>
+    <p id="credit">Inspired by <a href="https://twitter.com/femscriptintros?lang=en">@femscriptintros</a></p>
+    </div>
+  <script type="text/javascript">//<![CDATA[
+var markov = new RiMarkov(2);
+
+markov.loadFrom("corpus/attractivecorpus.txt");
+markov.loadFrom("corpus/nakedcorpus.txt");
+markov.loadFrom("corpus/nudecorpus.txt");
+markov.loadFrom("corpus/sexycorpus.txt");
+
+window.onload = function () {
+  var reloader = document.getElementById("reloader");
+  reloader.onclick = function() {
+    newQuote();
+  };
+  var checkExist = setInterval(function() {
+    if (markov.ready()) {
+      newQuote();
+      clearInterval(checkExist);
+    }
+  }, 100);
+};
+
+function newQuote(){
+  var output = markov.generateSentences(1)[0];
+  //var m = markov.generateUntil(/sexy/, 3,99);
+  //var output = m.join(' ') + ".";
+
+  var quote = document.getElementById("quote");
+  quote.innerHTML = output;
+}
+  //]]> 
+  </script>
+  </body>
+</html>

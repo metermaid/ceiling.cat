@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #4e081b;
+  color: #fff;
+  font: 48px 'Libre Baskerville', 'Times New Roman', Times, serif;
+  line-height: 1.75em;
+}
+p, div {
+  margin-bottom: 1.75em;
+  text-align: center;
+  width: 75%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+a {
+  color: #aae6d9;
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Nixie One', 'Times New Roman', Times, serif;
+  color: #e5ca9d;
+  font-weight: normal;
+}
+#credit {
+  font-size: 9pt;
+}
+#reloader {
+  font: 18px 'Libre Baskerville', 'Times New Roman', Times, serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #aae6d9;
+  border: 0;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 18px 0;
+}
+
+#reloader:hover {
+  text-decoration: none;
+}

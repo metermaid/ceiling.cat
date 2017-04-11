@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2017-04-09T17:06:16-04:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>4-Axis Mill</title><link href="http://www.ceiling.cat/2017/04/09/4axis/" rel="alternate" type="text/html" title="4-Axis Mill" /><published>2017-04-09T05:01:35-04:00</published><updated>2017-04-09T05:01:35-04:00</updated><id>http://www.ceiling.cat/2017/04/09/4axis</id><content type="html" xml:base="http://www.ceiling.cat/2017/04/09/4axis/">&lt;p&gt;The lathe was out of service last week, so I had a week off from blogging about Subtraction. The metal lathe was admittedly a bit intimidating, but I had wanted to try it. Oh well! This week, we tackled the 4-Axis mill.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2017-04-11T14:55:25-04:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>Female Script Intros</title><link href="http://www.ceiling.cat/2017/04/11/generator/" rel="alternate" type="text/html" title="Female Script Intros" /><published>2017-04-11T00:01:35-04:00</published><updated>2017-04-11T00:01:35-04:00</updated><id>http://www.ceiling.cat/2017/04/11/generator</id><content type="html" xml:base="http://www.ceiling.cat/2017/04/11/generator/">&lt;p&gt;For my meditation this week, I decided to take a look at sexism in movie scripts. I came to this topic after a long deliberation. When I read that we were to tap into unconscious, subconscious, and the collective, my thoughts turned immediately to the latent biases everyone has. But there are many datasets I could’ve used, and many biases that could be examined– I eventually settled on movies because it’s a topic I know very well, and whose history of sexism has been well documented. It’s also a topic that’s been studied before: &lt;a href=&quot;https://pudding.cool/2017/03/film-dialogue/index.html&quot;&gt;this study&lt;/a&gt; looked at how much dialogue different genders have on screen, and Russ Putman maintains a fantastic twitter with female script intros &lt;a href=&quot;https://twitter.com/femscriptintros?lang=en&quot;&gt;here&lt;/a&gt;. I wanted to see if I could generate the sexist introductions of the kind that Mr. Putman has documented thoroughly, using a dataset culled from famous movies.&lt;/p&gt;
+
+&lt;p&gt;I started by downloading a &lt;a href=&quot;https://nlds.soe.ucsc.edu/fc2&quot;&gt;dataset I found from UC Santa Cruz&lt;/a&gt;, which is culled from the Internet Movie Script Database (imsdb.com). I then wrote a ruby script to find every sentence that surrounded certian keywords. Here, I look for sentences that contain the word ‘sexy’:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;File.open('corpus.txt', 'w') do |writer| 
+  Dir.glob('imsdb_scenes_dialogs_nov_2015/scenes/**/*').each do |file|
+    next unless File.file?(file)
+    content = File.read(file)
+    content.scan(/.*sexy .*/) do |match|
+      writer.write match
+      writer.write &quot;\n&quot;
+    end
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I could’ve saved all of my keywords in one file, but I wanted to inspect each keyword individually to see if I should use it. Some words were more fruitful than others. For instance, I started looking at ‘pretty’, ‘beautiful’, and other variations on that word:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;She looks up. She is beautiful and terrified.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Points to a gorgeous dead woman with the word GRIFTER on her stomach.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But besides examples like those, I also turned up a lot of uses to describe environments and scenery. That wouldn’t do.&lt;/p&gt;
+
+&lt;p&gt;I then looked at hair colours, noticing a pattern in which women were consistently described by their hair. (For anybody who’s taken a screenwriting class, this is apparently a terrible practice, but it’s been very successful with these produced and famous scripts.)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;TAMARA, 28, blonde, wears the shortest mini one can imagine,&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We barely notice the redhead kneeling between his legs, face buried in his crotch.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I noticed that too many instances of ‘blonde’, despite being gendered, were for men; same goes for redheads. The corpus can include false positives, but not nearly as many as there were for these words.&lt;/p&gt;
+
+&lt;p&gt;I then switched to looking at ‘sexy’ and ‘naked’ and ‘nude’. These were generally great– even when they described men, they were typically sexualized. These were part of the corpus that I eventually settled on.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;She’s naked but for the tiny silver crucifix she wears around her neck.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;MODEL, lying nude in a pool of blue paint.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Go boards, pachinko machines, sexy little MANGA WAIFS in schoolgirl outfits doling out drinks.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Finally, here are a few of my favourite quotes that my little website has generated. It’s only a Markov chain– it would’ve likely worked out better if I created a ruleset. I like the unpredictability of it, though, and creating a ruleset for sexism would’ve been emotionally exhausting.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/eroft_generator/2.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;eroft_generator/2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/eroft_generator/3.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;eroft_generator/3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/eroft_generator/4.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;eroft_generator/4.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/generator/&quot;&gt;Click here for the finished product !&lt;/a&gt;&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="eroft" /><category term="electronic rituals" /><category term="electronic rituals oracles and fortune telling" /><category term="hollywood" /><category term="feminism" /><summary>For my meditation this week, I decided to take a look at sexism in movie scripts. I came to this topic after a long deliberation. When I read that we were to tap into unconscious, subconscious, and the collective, my thoughts turned immediately to the latent biases everyone has. But there are many datasets I could’ve used, and many biases that could be examined– I eventually settled on movies because it’s a topic I know very well, and whose history of sexism has been well documented. It’s also a topic that’s been studied before: this study looked at how much dialogue different genders have on screen, and Russ Putman maintains a fantastic twitter with female script intros here. I wanted to see if I could generate the sexist introductions of the kind that Mr. Putman has documented thoroughly, using a dataset culled from famous movies.</summary></entry><entry><title>4-Axis Mill</title><link href="http://www.ceiling.cat/2017/04/09/4axis/" rel="alternate" type="text/html" title="4-Axis Mill" /><published>2017-04-09T05:01:35-04:00</published><updated>2017-04-09T05:01:35-04:00</updated><id>http://www.ceiling.cat/2017/04/09/4axis</id><content type="html" xml:base="http://www.ceiling.cat/2017/04/09/4axis/">&lt;p&gt;The lathe was out of service last week, so I had a week off from blogging about Subtraction. The metal lathe was admittedly a bit intimidating, but I had wanted to try it. Oh well! This week, we tackled the 4-Axis mill.&lt;/p&gt;
 
 &lt;p&gt;The hardest part of this week’s exercise was working with Vectorworks– my background in no way involves 3D modelling so I had no idea how to work with this software. Photoshop and Illustrator? Fine. But add another dimension and I’m lost. I had to try hard not to compare myself to other people in the class– they have backgrounds in industrial design, I tell myself, so they knew how to model already.&lt;/p&gt;
 
@@ -267,32 +330,4 @@ type += judging ? &quot;J&quot; : &quot;P&quot;;
 
 &lt;p&gt;&lt;img src=&quot;/assets/sub_lathe/4.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_lathe/4.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;After a quick coat of BLO, I sanded it down and tried to get the rough edges out of the grooves again. This could be a stair baluster, theoretically.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="subtraction" /><category term="turning" /><category term="lathe" /><summary>Spring Break has arrived, along with a snowstorm in New York. Knowing that I’ll be leaving for London tomorrow, I wanted to finish my lathe exercise before my trip– lest I be stuck competing with everyone else to finish in the last weekend before class begins again. I had no idea what to make with it, though, and thought hard before concluding that I’d just turn until I felt content with my work. I didn’t see much point in making a handle if I had nothing to which I’d attach it.</summary></entry><entry><title>Satellites</title><link href="http://www.ceiling.cat/2017/03/04/satellites/" rel="alternate" type="text/html" title="Satellites" /><published>2017-03-04T05:01:35-05:00</published><updated>2017-03-04T05:01:35-05:00</updated><id>http://www.ceiling.cat/2017/03/04/satellites</id><content type="html" xml:base="http://www.ceiling.cat/2017/03/04/satellites/">&lt;p&gt;I’ve been looking at landsat data for Everything is Spatial, and it’s fascinating. I wish it had more zoomed-in data so I can look at building and cities more closely, but it’s interesting to look at larger bodies and seeing how things change. It’s nice to be able to access direct satellite data with exact times– one thing that frustrates me about Google is its copyright data that notes everything as Copyright 2017 Google. Who knows when this data is from, consequentially?&lt;/p&gt;
-
-&lt;p&gt;Here’s some map data from BC. Our slogan is Beautiful British Columbia, and it’s lovely covered in snow.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/spatial_sat/bc.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;spatial_sat/bc.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I tracked the development of Rio de Janeiro since 2013– I thought it’d be interesting to see how it has changed for the Olympics. A lot of development happened, as you might imagine!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/spatial_sat/2013.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;spatial_sat/2013.jpg&quot; /&gt;
-&lt;img src=&quot;/assets/spatial_sat/2014.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;spatial_sat/2014.jpg&quot; /&gt;
-&lt;img src=&quot;/assets/spatial_sat/2015.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;spatial_sat/2015.jpg&quot; /&gt;
-&lt;img src=&quot;/assets/spatial_sat/2016.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;spatial_sat/2016.jpg&quot; /&gt;
-&lt;img src=&quot;/assets/spatial_sat/2017.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;spatial_sat/2017.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Or, in gif form:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/spatial_sat/rio.gif&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;spatial_sat/rio.gif&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The most striking change is likely the construction of the Arco Metropolitano highway, which was done through 2014, and its later integration into the landscape. You can also see how buildings start to develop the places at the edges, though the city itself isn’t all that changed.&lt;/p&gt;
-
-&lt;p&gt;(All these photos weren’t taken at the same time of year– I was prioritizing clearness of cloud cover over preserving the same timeframe.)&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;For my final, I was originally thinking of doing a political idea (I considered things like tracking and mapping the prices of menstrual products around the world, similar to the Big Mac Index), but occasionally you need a break from activist topics. Consequentially, I considered sillier things: stuff like mapping copycat buildings and landmarks (China famously copies landmarks from around the world) and comparing them to the original.&lt;/p&gt;
-
-&lt;p&gt;But the topic I think I’ve settled on is simpler, and inspired by the place where I’m from. Vancouver is the third most common filming location in North America for many films and TV shows, but hardly ever stars as itself. There’s a &lt;a href=&quot;https://www.youtube.com/watch?v=ojm74VGsZBU&quot;&gt;great video about this topic by Tony Zhou&lt;/a&gt;. It stars as Seattle, New York, and countless other metropolises. This has got me thinking about all the towns that have pretended to be New York in film besides my city. Toronto is a very common New York stand-in, for instance, starring as the city for American Psycho. So for my final, I think I’ll map all the places that’ve been New York, and let the user explore the movies with false New Yorks.&lt;/p&gt;
-
-&lt;p&gt;Neue New Yorks. Or something like that.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="everything is spatial" /><category term="spatial" /><summary>I’ve been looking at landsat data for Everything is Spatial, and it’s fascinating. I wish it had more zoomed-in data so I can look at building and cities more closely, but it’s interesting to look at larger bodies and seeing how things change. It’s nice to be able to access direct satellite data with exact times– one thing that frustrates me about Google is its copyright data that notes everything as Copyright 2017 Google. Who knows when this data is from, consequentially?</summary></entry></feed>
+&lt;p&gt;After a quick coat of BLO, I sanded it down and tried to get the rough edges out of the grooves again. This could be a stair baluster, theoretically.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="subtraction" /><category term="turning" /><category term="lathe" /><summary>Spring Break has arrived, along with a snowstorm in New York. Knowing that I’ll be leaving for London tomorrow, I wanted to finish my lathe exercise before my trip– lest I be stuck competing with everyone else to finish in the last weekend before class begins again. I had no idea what to make with it, though, and thought hard before concluding that I’d just turn until I felt content with my work. I didn’t see much point in making a handle if I had nothing to which I’d attach it.</summary></entry></feed>
