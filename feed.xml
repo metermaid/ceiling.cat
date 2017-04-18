@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2017-04-15T22:25:16-04:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>4-Axis Columns</title><link href="http://www.ceiling.cat/2017/04/15/4axis2/" rel="alternate" type="text/html" title="4-Axis Columns" /><published>2017-04-15T05:01:35-04:00</published><updated>2017-04-15T05:01:35-04:00</updated><id>http://www.ceiling.cat/2017/04/15/4axis2</id><content type="html" xml:base="http://www.ceiling.cat/2017/04/15/4axis2/">&lt;p&gt;One skill that I’ve yet to acquire at ITP is 3D modelling. I’ve acquired much of the skills that ITP teaches– programming, physical computing, graphics, and video editing– but 3D continues to be beyond me. Consequently, my attempt at this week’s Subtraction assignment will probably be less impressive than those of my classmates’.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2017-04-18T00:00:41-04:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>Transparency</title><link href="http://www.ceiling.cat/2017/04/17/transparency/" rel="alternate" type="text/html" title="Transparency" /><published>2017-04-17T00:02:35-04:00</published><updated>2017-04-17T00:02:35-04:00</updated><id>http://www.ceiling.cat/2017/04/17/transparency</id><content type="html" xml:base="http://www.ceiling.cat/2017/04/17/transparency/">&lt;p&gt;Sometimes I suspect that Doing Good is Good Business is an elaborate simulation to discourage ITP students from working at NGOs. Endless meetings? Check. Intractable problems? Check. Stakeholders who won’t accept a solution until they add two words to it? Well, that one is very specific, but it happened to me. We had three group meetings this week, perhaps to compensate for the last week, but they were largely arguments over trivial things. Sometimes I would lose focus and my group members’ words would become gibberish to me. “Local community”, they’d say. “Smart contracts.” “NGOs.” “Transparency.” On some level I understood what they meant, but on another, I wondered, “do they know what they mean? Do I understand what they mean and not what they’re saying?”&lt;/p&gt;
+
+&lt;p&gt;But this is all a digression. We decided this was the week we would nail down a final topic. Jaycee, Shivanku, and I all wrote proposals, and presented them to Ariana and discussed what topic we should choose. In the end, we may have pleased everybody, at the expense of a little of my understanding. Perhaps my interpretation of what they said differs from what they meant. Here is my understanding:&lt;/p&gt;
+
+&lt;h3 id=&quot;problem-statement&quot;&gt;Problem statement&lt;/h3&gt;
+
+&lt;p&gt;How do we encourage transparency in non-governmental organizations based in New York?&lt;/p&gt;
+
+&lt;p&gt;(I think they said “in their local community”, but transparency is transparent– it is for all of the stakeholders. Jaycee also added local “government”, but I have no idea why she’s insistent on it. We need to scope on some level.)&lt;/p&gt;
+
+&lt;h3 id=&quot;systems-map&quot;&gt;Systems Map&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/gb_map.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;gb_map.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This systems map was made for international organizations, but excepting the foreign government portion would make it applicable to local organizations. The line is a potential point of intervention.&lt;/p&gt;
+
+&lt;h3 id=&quot;research-plan&quot;&gt;Research Plan&lt;/h3&gt;
+
+&lt;p&gt;I would generally like to stick to 1-1 interviews, because the scope of the projects we would like to intervene with is larger than an ethnographic study would be appropriate for (I.e. we would require more than one day’s worth of study.) A group interview would also be inappropriate because the users we would like to look at are so different, and we would like their viewpoints properly represented. Surveys may be appropriate for contacting donors, but we would like more details than those generally provide. We may still do one, however.&lt;/p&gt;
+
+&lt;h4 id=&quot;us-foreign-aid-workers-and-un-accountants&quot;&gt;US Foreign Aid workers and UN accountants&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;how do countries currently report back after the aid they receive?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;charityaid-organization-report-writers&quot;&gt;Charity/aid organization report writers&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;how is information generally collected?&lt;/li&gt;
+  &lt;li&gt;How do you produce the facts and figures for your reports?&lt;/li&gt;
+  &lt;li&gt;In-house information or outside sources?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;reporting-agencies&quot;&gt;Reporting agencies&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;how is information generally collected?&lt;/li&gt;
+  &lt;li&gt;How do you produce the facts and figures for your reports?&lt;/li&gt;
+  &lt;li&gt;In-house information or outside sources?&lt;/li&gt;
+  &lt;li&gt;How do you collect information on how effective aid is?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;beneficiaries--supply-chain&quot;&gt;Beneficiaries / Supply Chain&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;how do you receive money or goods?&lt;/li&gt;
+  &lt;li&gt;How do you spend money or goods?&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="doing good is good business" /><category term="unicef" /><category term="good business" /><category term="finance" /><summary>Sometimes I suspect that Doing Good is Good Business is an elaborate simulation to discourage ITP students from working at NGOs. Endless meetings? Check. Intractable problems? Check. Stakeholders who won’t accept a solution until they add two words to it? Well, that one is very specific, but it happened to me. We had three group meetings this week, perhaps to compensate for the last week, but they were largely arguments over trivial things. Sometimes I would lose focus and my group members’ words would become gibberish to me. “Local community”, they’d say. “Smart contracts.” “NGOs.” “Transparency.” On some level I understood what they meant, but on another, I wondered, “do they know what they mean? Do I understand what they mean and not what they’re saying?”</summary></entry><entry><title>4-Axis Columns</title><link href="http://www.ceiling.cat/2017/04/15/4axis2/" rel="alternate" type="text/html" title="4-Axis Columns" /><published>2017-04-15T05:01:35-04:00</published><updated>2017-04-15T05:01:35-04:00</updated><id>http://www.ceiling.cat/2017/04/15/4axis2</id><content type="html" xml:base="http://www.ceiling.cat/2017/04/15/4axis2/">&lt;p&gt;One skill that I’ve yet to acquire at ITP is 3D modelling. I’ve acquired much of the skills that ITP teaches– programming, physical computing, graphics, and video editing– but 3D continues to be beyond me. Consequently, my attempt at this week’s Subtraction assignment will probably be less impressive than those of my classmates’.&lt;/p&gt;
 
 &lt;p&gt;I started off intending to make a panda bear. A simple enough project, and one that worked well enough for me in 2D space.&lt;/p&gt;
 
@@ -21,8 +69,6 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/sub_mill2/mill3.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_mill2/mill3.jpg&quot; /&gt;
 &lt;img src=&quot;/assets/sub_mill2/mill4.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_mill2/mill4.jpg&quot; /&gt;&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="subtraction" /><category term="milling" /><summary>One skill that I’ve yet to acquire at ITP is 3D modelling. I’ve acquired much of the skills that ITP teaches– programming, physical computing, graphics, and video editing– but 3D continues to be beyond me. Consequently, my attempt at this week’s Subtraction assignment will probably be less impressive than those of my classmates’.</summary></entry><entry><title>Another Fail Story</title><link href="http://www.ceiling.cat/2017/04/11/anotherfailstory/" rel="alternate" type="text/html" title="Another Fail Story" /><published>2017-04-11T00:02:35-04:00</published><updated>2017-04-11T00:02:35-04:00</updated><id>http://www.ceiling.cat/2017/04/11/anotherfailstory</id><content type="html" xml:base="http://www.ceiling.cat/2017/04/11/anotherfailstory/">&lt;p&gt;I am uncomfortable with the idea of using smart contracts with the underprivileged in the US; one of the virtues of them is that they are not strongly regulated by the government, but that is also problematic when they are not guaranteed to be secure. Ethereum can be forked when the wealthy investors of the DAO are scammed, but would it be forked to protect smaller smart contracts? That seems unlikely. A smart contract protects their rights to be paid when it works, but if it is attacked by a hacker nobody is protected unless they are rich. Consequentially, I wanted to work with smart contracts with people who had disposable incomes– for whom an attack would not mean loss of livelihood.&lt;/p&gt;
-
-&lt;p&gt;But this is the fail story: the Finance group failed to meet up this week– we couldn’t coordinate all four schedules, but we were able to meet for a few different (four of them!) meetings with subsets of the group. Unfortunately, we never came to an idea, but since I don’t like to fail to blog, here’s an idea that I had on my own-ish:&lt;/p&gt;
 
 &lt;p&gt;Problem: a number of fundraising events ask for a donation contingent on reaching some kind of goal. This includes things like marathons and donation matching. These events ask for a commitment, but they may not reach their goals. This can result in wasted resources like investment in running vests for runners who never run.&lt;/p&gt;
 
@@ -270,58 +316,4 @@ type += judging ? &quot;J&quot; : &quot;P&quot;;
 
 &lt;p&gt;&lt;img src=&quot;/assets/sub_foosball/final.jpg&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;sub_foosball/final.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;With a little more drilling and deburring, it fits! Now I can let Monday come with no worries– my piece will fit into spot #12.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="subtraction" /><category term="turning" /><category term="lathe" /><summary>This week in Subtraction, we’re making foosball players on the wood lathe. Supposedly, we’re going to play an actual game with our players, but hopefully I will not play. I’m terrible and don’t particularly like the game– in terms of tabletop fictional sports, I prefer air hockey. (So Canadian of me!)</summary></entry><entry><title>Bleeding Out of Her Wherever</title><link href="http://www.ceiling.cat/2017/03/22/periods/" rel="alternate" type="text/html" title="Bleeding Out of Her Wherever" /><published>2017-03-22T04:01:35-04:00</published><updated>2017-03-22T04:01:35-04:00</updated><id>http://www.ceiling.cat/2017/03/22/periods</id><content type="html" xml:base="http://www.ceiling.cat/2017/03/22/periods/">&lt;p&gt;Periods are a big problem. It’s facile, but that’s the conclusion I drew after a break in which I did a lot of readings on the subject. I knew that I wanted to work on a project that affected both where we live and more developing countries, and I knew that periods caused big problems for girls around the world– some girls will not go to school when it happens, and it’s incredibly hard for many to purchase and access menstruation products. That’s not to mention anyone with PCOS and other debilitating symptoms!&lt;/p&gt;
-
-&lt;p&gt;Here are some readings from UNICEF:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.unicef.org/wash/schools/files/WASH_in_Schools_Empowers_Girls_Education_Proceedings_of_Virtual_MHM_conference.pdf&quot;&gt;Proceedings of the Menstrual Hygiene Management in Schools Virtual Conference 2012&lt;/a&gt; (This one is great!)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.unicef.org/wash/schools/files/MHM_study_report_Burkina_Faso_and_Niger_English_Final.pdf&quot;&gt;case study of menstrual hygiene - Unicef&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://unesdoc.unesco.org/images/0022/002267/226792e.pdf&quot;&gt;Puberty education &amp;amp; menstrual hygiene - Unesco&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here are some articles that might be illuminating:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;[Fears and concerns related to menstruation: a qualitative study from the perspective of gender]&lt;a href=&quot;http://www.scielo.br/scielo.php?script=sci_arttext&amp;amp;pid=S0104-07072015000100013&quot;&gt;http://www.scielo.br/scielo.php?script=sci_arttext&amp;amp;pid=S0104-07072015000100013&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[Menstruation 101 For Boys: A Comic Book Is Their Guide]&lt;a href=&quot;http://www.npr.org/sections/goatsandsoda/2017/03/04/516628738/menstruation-101-for-boys-a-comic-book-is-their-guide&quot;&gt;http://www.npr.org/sections/goatsandsoda/2017/03/04/516628738/menstruation-101-for-boys-a-comic-book-is-their-guide&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://qz.com/611774/period-pain-can-be-as-bad-as-a-heart-attack-so-why-arent-we-researching-how-to-treat-it/&quot;&gt;Period pain can be “almost as bad as a heart attack.” Why aren’t we researching how to treat it?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://mashable.com/2015/08/10/london-marathoner-period/&quot;&gt;A woman ran the London Marathon without a tampon to protest period-shaming&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.bbc.com/news/magazine-26260978&quot;&gt;The Indian sanitary pad revolutionary&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;On homeless periods:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.thestar.com/news/gta/2017/01/23/periods-an-extra-hardship-for-homeless-women.html&quot;&gt;Periods an extra hardship for homeless women&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.bustle.com/articles/190092-this-is-how-homeless-women-cope-with-their-periods&quot;&gt;This Is How Homeless Women Cope With Their Periods&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://soapboxie.com/social-issues/Homeless-Periods-Suck&quot;&gt;Homeless Periods: A Problem of Poverty, Dignity, and Feminine Hygiene&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I also took a look at Whisper and Tumblr to see how actual teens and younger women talk about their periods, and it wasn’t actually too different from how people my age talk about it. There was certainly more embarrassment involved, but a lot of it was complaints about cramps, just like any woman.&lt;/p&gt;
-
-&lt;p&gt;It is easy for me to endlessly research, but coming up with a project concept was significantly tougher. There are three main avenues that I can approach this problem from:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Education. Although puberty and Menstrual Hygiene Management (MHM) is taught in most schools around the world, many women do not get taught about menstruation until after they get their first periods. How do we educate younger girls about this? How do we educate boys to be sensitive about this? And how do we correct misconceptions, or handle any other questions (like PCOS) that might not be addressed in their formal education?&lt;/li&gt;
-  &lt;li&gt;Access to MHM and hygiene. In many countries, pads are incredibly expensive and are not accessible to many girls and women. Additionally, it may be difficult to wash yourself of any stains and accidents, as well as get new clothes and underwear. Fresh water is not always accessible, and many places do not have bathrooms. Even in the US, it is difficult for poorer women and the homeless to get pads and tampons– you might have to choose between eating and MHM. How can we help the most vulnerable get access and feel clean and safe?&lt;/li&gt;
-  &lt;li&gt;Access to the above in emergency situations. If what I described wasn’t bad enough, imagine dealing with these things during a civil war or a natural disaster. How can you learn about periods if you live in a refugee camp? How can we keep hygiene a priority when you do not have clean water to access?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;It’s​ difficult, but after giving it a lot of thought, I think it all cycles back to education. If we don’t educate people on the importance of MHM, then we will never create the circumstances in which access for all will be created, and in which MHM is given thought during emergency situations. It’s particularly important that we both keep in mind cultural sensitivities, and also educate all genders about the subject: many girls don’t go to school during their periods because they face ridicule from the boys.&lt;/p&gt;
-
-&lt;p&gt;This project will take a three pronged approach:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Advertising and educating the general public. It’s very taboo in most cultures to discuss periods, so it’s important that the discussion is brought to the open and the more general public. Periods are not a dirty word, and it shouldn’t be a secret that men don’t understand.&lt;/li&gt;
-  &lt;li&gt;Private chat to answer particular questions about periods that might not be addressed in the usual education system. It’s an extremely popular misconception around the world that using tampons would mean you are no longer a virgin. Asking a male teacher about this, or even a female one, would be incredibly awkward. Mothers and friends might tell you the wrong information. We need a trusted resource that is accessible and respectful of girls’ questions.&lt;/li&gt;
-  &lt;li&gt;RapidSMS/UReport to identify information impoverished areas to correct MSM misconceptions.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/unicef_final/bom.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;unicef_final/bom.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/unicef_final/timeline.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;unicef_final/timeline.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s not a revolutionary approach, and may not be a “provocation” per se, but I think a devoted resource to the topic worldwide would be incredibly powerful. It’s also within the scope of accomplishment– no fantasy pad making devices or laws are needed. It can be done in partnership with governments and corporations. It’s within our grasp.&lt;/p&gt;
-
-&lt;p&gt;(System diagram is forthcoming! Apologies.)&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="doing good is good business" /><category term="unicef" /><category term="good business" /><category term="menstruation" /><category term="periods" /><summary>Periods are a big problem. It’s facile, but that’s the conclusion I drew after a break in which I did a lot of readings on the subject. I knew that I wanted to work on a project that affected both where we live and more developing countries, and I knew that periods caused big problems for girls around the world– some girls will not go to school when it happens, and it’s incredibly hard for many to purchase and access menstruation products. That’s not to mention anyone with PCOS and other debilitating symptoms!</summary></entry></feed>
+&lt;p&gt;With a little more drilling and deburring, it fits! Now I can let Monday come with no worries– my piece will fit into spot #12.&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="subtraction" /><category term="turning" /><category term="lathe" /><summary>This week in Subtraction, we’re making foosball players on the wood lathe. Supposedly, we’re going to play an actual game with our players, but hopefully I will not play. I’m terrible and don’t particularly like the game– in terms of tabletop fictional sports, I prefer air hockey. (So Canadian of me!)</summary></entry></feed>
