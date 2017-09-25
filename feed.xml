@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2017-08-11T05:01:43-04:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>Final Presentation</title><link href="http://www.ceiling.cat/2017/05/07/presentation/" rel="alternate" type="text/html" title="Final Presentation" /><published>2017-05-07T00:02:35-04:00</published><updated>2017-05-07T00:02:35-04:00</updated><id>http://www.ceiling.cat/2017/05/07/presentation</id><content type="html" xml:base="http://www.ceiling.cat/2017/05/07/presentation/">&lt;p&gt;After many weeks of arguments and meetings, this is our final presentation. Not really anything to do with Finance or Transparency, but it’s good enough.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.ceiling.cat/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.ceiling.cat/" rel="alternate" type="text/html" /><updated>2017-09-25T08:05:57-04:00</updated><id>http://www.ceiling.cat/</id><title>Ceiling.cat</title><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><entry><title>A Three Minute Pop Quiz</title><link href="http://www.ceiling.cat/2017/09/25/threeminutes/" rel="alternate" type="text/html" title="A Three Minute Pop Quiz" /><published>2017-09-25T04:01:35-04:00</published><updated>2017-09-25T04:01:35-04:00</updated><id>http://www.ceiling.cat/2017/09/25/threeminutes</id><content type="html" xml:base="http://www.ceiling.cat/2017/09/25/threeminutes/">&lt;p&gt;“If you had 3 minutes to communicate your truth to 100,000 people what would you say, show, and or play?”&lt;/p&gt;
+
+&lt;p&gt;I might be cheating a little with my response– the 100,000 people would seem to necessitate a broadcast, and I’m giving everyone a pop quiz. But it’s part of something I’ve been mulling over– how can you change people’s minds on contentious topics?&lt;/p&gt;
+
+&lt;p&gt;One way to do so is by testing people’s knowledge. Consequently, I’m using our classroom and the context of the classroom for this assignment, but in practice to 100,000 people it’d be more likely to be a website or targeted facebook ads.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/e/2PACX-1vQxbJe1P_k3W3vQrOCpQjOSh5Zpu1FtX5HXdyl33z0mOL8e9RZHTjnRno5TUmSLUnuAQ3xbiQET0dpt/pub&quot;&gt;Click here for the quiz&lt;/a&gt;&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="itp" /><category term="canvas for public discourse" /><summary>“If you had 3 minutes to communicate your truth to 100,000 people what would you say, show, and or play?”</summary></entry><entry><title>Final Presentation</title><link href="http://www.ceiling.cat/2017/05/07/presentation/" rel="alternate" type="text/html" title="Final Presentation" /><published>2017-05-07T00:02:35-04:00</published><updated>2017-05-07T00:02:35-04:00</updated><id>http://www.ceiling.cat/2017/05/07/presentation</id><content type="html" xml:base="http://www.ceiling.cat/2017/05/07/presentation/">&lt;p&gt;After many weeks of arguments and meetings, this is our final presentation. Not really anything to do with Finance or Transparency, but it’s good enough.&lt;/p&gt;
 
 &lt;iframe src=&quot;https://docs.google.com/presentation/d/1ubWtVgvgcNjc5Fmpqs-LBRS7cg5exFqQYVV2dzQMKB8/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;960&quot; height=&quot;569&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
 
@@ -250,40 +256,4 @@ end
 
 &lt;h3 id=&quot;timeline&quot;&gt;Timeline&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/gb_transfers/timeline.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;gb_transfers/timeline.png&quot; /&gt;&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="doing good is good business" /><category term="unicef" /><category term="good business" /><category term="finance" /><summary>Problem Statement</summary></entry><entry><title>Personality Finders</title><link href="http://www.ceiling.cat/2017/04/04/mbtifinder/" rel="alternate" type="text/html" title="Personality Finders" /><published>2017-04-04T00:01:35-04:00</published><updated>2017-04-04T00:01:35-04:00</updated><id>http://www.ceiling.cat/2017/04/04/mbtifinder</id><content type="html" xml:base="http://www.ceiling.cat/2017/04/04/mbtifinder/">&lt;p&gt;It’s always weird using other people’s computers, especially when they look so similar to your own. Whenever I have to help anybody with programming, or look up something on their Macbook, it’s always bewildering: will they scroll in the same direction as I do? Did they set up hot corners? Are their desktops and docks messes, with programs littered throughout them?&lt;/p&gt;
-
-&lt;p&gt;It’s made me think that the way people keep their computers may be reflective of their personalities in some way. I anal-retentatively keep my desktop and folders emptied and organized. My dock only has three items on it at any given time. So for this week’s EROFT assignment, to divine based on some ‘natural’ digital event, I decided to read a person’s personality based on how they’ve kept their Downloads folder.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/futurefinder1.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;futurefinder1.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;At first, I wanted to divine a person’s future, MASH-style. It’s one of my favourite childhood interpretations of -omancy, but after I implemented it, it didn’t feel quite right. I decided that the key element of MASH was actually the interpersonal connection, making the lists of homes with your friends, listing out people you know to marry. Consequentially, I backed off of MASH.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/futurefinder2.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;futurefinder2.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I then iterated around various facets of personality, but settled on determining a person’s MBTI type from a folder you can give it. I’m not a big fan of MBTI– I think that it’s largely been discounted by personality psychologists, and that the Big 5 types are more intuitive and less changeable. Additionally, most people don’t take the official MBTI test, so the results that they get are quite suspect.&lt;/p&gt;
-
-&lt;p&gt;Consequentially, my extremely inaccurate type test is probably as accurate as the typical MBTI test that someone would take online. It’s entirely based on the number of files in the given folder: if someone has many folders, maybe they’re more extroverted. If they have more images, they’re more sensing than intuitive. If they have a lot of files, perhaps they’re more thinking than feeling. If their oldest file is quite old, maybe they’re more judging.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sorted.forEach( function(v) {
-  var fileType = v.name.split('.').pop();
-  if (fileType == 'png' || fileType == 'jpg' || fileType == 'jpeg' || fileType == 'gif' || fileType == 'bmp' || fileType == 'tiff')
-    numImages++;
-  if (v.name.split('.').length == 1)
-    numFolders++;
-  numFiles++;
-});
-
-var intro = (numFolders / numFiles) &amp;lt; 0.2;
-var sensing = (numImages / numFiles) &amp;gt; 0.4;
-var thinking = numFiles &amp;gt; 200;
-var judging = Math.abs(new Date() - new Date(sorted[0].lastModified)) &amp;gt; 7 * 24 * 60 * 60 * 1000;
-var type = intro ? &quot;I&quot; : &quot;E&quot;;
-type += sensing ? &quot;S&quot; : &quot;N&quot;;
-type += thinking ? &quot;T&quot; : &quot;F&quot;;
-type += judging ? &quot;J&quot; : &quot;P&quot;;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This is, quite clearly, all nonsense. But isn’t it all nonsense anyways?&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/mbtifinder/&quot;&gt;Click here for the finished product !&lt;/a&gt;&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="eroft" /><category term="electronic rituals" /><category term="electronic rituals oracles and fortune telling" /><category term="personality tests" /><category term="mbti" /><summary>It’s always weird using other people’s computers, especially when they look so similar to your own. Whenever I have to help anybody with programming, or look up something on their Macbook, it’s always bewildering: will they scroll in the same direction as I do? Did they set up hot corners? Are their desktops and docks messes, with programs littered throughout them?</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/gb_transfers/timeline.png&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;gb_transfers/timeline.png&quot; /&gt;&lt;/p&gt;</content><author><name>Rita Cheng</name><email>rita@ritacheng.com</email></author><category term="doing good is good business" /><category term="unicef" /><category term="good business" /><category term="finance" /><summary>Problem Statement</summary></entry></feed>
